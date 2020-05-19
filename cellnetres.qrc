@@ -1,0 +1,54 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>logo/17 - 3.jpg</file>
+    <file>logo/4264B6CF-A805-4B77-96169CE614F2FAA8.jpg</file>
+    <file>logo/background-appromoters-advertisers.png</file>
+    <file>logo/Coronavirus-Covid-19-DNA.png</file>
+    <file>logo/dt_200221_covid_19_coronavirus_800x450.jpg</file>
+    <file>logo/ethlogo.jpg</file>
+    <file>logo/ethlogo.png</file>
+    <file>logo/ethlogow.png</file>
+    <file>logo/gettyimages-1206774789.jpg</file>
+    <file>logo/icons8_athlete.ico</file>
+    <file>logo/icons8_athlete_16.png</file>
+    <file>logo/icons8_athlete_32.png</file>
+    <file>logo/icons8_centre_of_gravity.ico</file>
+    <file>logo/icons8_centre_of_gravity_16.png</file>
+    <file>logo/icons8_centre_of_gravity_32.png</file>
+    <file>logo/icons8_chromatography.ico</file>
+    <file>logo/icons8_chromatography_16.png</file>
+    <file>logo/icons8_chromatography_32.png</file>
+    <file>logo/icons8_classroom.ico</file>
+    <file>logo/icons8_classroom_16.png</file>
+    <file>logo/icons8_classroom_32.png</file>
+    <file>logo/icons8_edit_image.ico</file>
+    <file>logo/icons8_edit_image_16.png</file>
+    <file>logo/icons8_edit_image_32.png</file>
+    <file>logo/icons8_multiply.ico</file>
+    <file>logo/icons8_multiply_16.png</file>
+    <file>logo/icons8_multiply_32.png</file>
+    <file>logo/icons8_picture.ico</file>
+    <file>logo/icons8_picture_16.png</file>
+    <file>logo/icons8_picture_32.png</file>
+    <file>logo/icons8_search.ico</file>
+    <file>logo/icons8_search_16.png</file>
+    <file>logo/icons8_search_32.png</file>
+    <file>logo/icons8_stack_of_photos.ico</file>
+    <file>logo/icons8_stack_of_photos_16.png</file>
+    <file>logo/icons8_stack_of_photos_32.png</file>
+    <file>logo/icons8_system_task.ico</file>
+    <file>logo/icons8_system_task_16.png</file>
+    <file>logo/icons8_system_task_32.png</file>
+    <file>logo/icons8_upload_to_the_cloud.ico</file>
+    <file>logo/icons8_upload_to_the_cloud_16.png</file>
+    <file>logo/icons8_upload_to_the_cloud_32.png</file>
+    <file>logo/icons8_visible.ico</file>
+    <file>logo/icons8_visible_16.png</file>
+    <file>logo/icons8_visible_32.png</file>
+    <file>logo/image.jpg</file>
+    <file>logo/Siemens-logo.png</file>
+    <file>logo/Star Wallpaper Galaxy S6 Edge Plus.png</file>
+    <file>logo/starry_sky_galaxy_light_night_118524_1440x2560.jpg</file>
+    <file>logo/stars_starry_sky_night_117616_1440x2560.jpg</file>
+  </qresource>
+</RCC>
