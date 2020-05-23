@@ -10,7 +10,7 @@ This is the official implementation with *training* code for Cell Morphology Bas
 These are the reproduction results from this repository. All results can be downloaded from our gihub.
 
 ### Evaluate performance on [CiFar10](https://www.cs.toronto.edu/~kriz/cifar.html)
-This is the Boxplot of resnet18 , Ournet, ghostnet on cifar without Cellyolo. Due to the fact that every image from this dataset is 32*32 pixel image, it's getting hard to train a well segmentor by cellyolo to filter out the other artifacts in the image. As it illustrated that, even without Cellyolo preprocessing, our net already achieved the best performance. 
+This is the Boxplot of resnet18, Ournet, ghostnet on cifar without Cellyolo. Due to the fact that every image from this dataset is 32*32 pixel image, it's getting hard to train a well segmentor by cellyolo to filter out the other artifacts in the image. As it illustrated that, even without Cellyolo preprocessing, our net already achieved the best performance. 
 
 |<sub>Model</sub>|<sub>Weights(million)</sub>|<sub>Top-1 Val Acc.(%)</sub>|<sub>FLops(million)</sub>|   
 | :---: | :---: | :---: | :---: |
@@ -31,7 +31,7 @@ CIFAR-10  dataset  consists of 60,000 32 × 32 color images in 10 classes, with 
 
 ### Evaluate performance on [Pneumonia Dataset](https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5?code=cell-site)
 
-On  benchmark  pneumonia  dataset,  the  Pneumonia/Normal classification val accuracy of our Net converges intonearly 91.785% better than Ghost Net and ResNet18, In addition, after around 80 epochs the accuracy of our Net converges into  nearly  91.785%, comparing to     [Inception  V3](https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5?code=cell-site)  after 7000 epochs reaches 88.0%.
+On  benchmark  pneumonia  dataset,  the  Pneumonia/Normal classification val accuracy of our Net converges into nearly 91.785% better than Ghost Net and ResNet18, In addition, after around 80 epochs the accuracy of our Net converged, comparing to  [Inception  V3](https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5?code=cell-site)  after 7000 epochs reaches 88.0%.
 ![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/Time%20Series%20Plot%20of%20ghost%20net%20on%2C%20resnet18%20on%20%2C%20our%20net%20on%20pneumonia%20dataset%20without%20cellyolo.png)
 
 
