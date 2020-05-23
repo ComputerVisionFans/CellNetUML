@@ -1,0 +1,1040 @@
+Sender: LSF System <lsfadmin@lo-g2-010>
+Subject: Job 5455989: <python main.py -a squeezenet1_0 -data COVID19/ --epochs 200> in cluster <leonhard> Exited
+
+Job <python main.py -a squeezenet1_0 -data COVID19/ --epochs 200> was submitted from host <lo-login-02> by user <qianli> in cluster <leonhard> at Thu Mar 26 23:08:37 2020
+Job was executed on host(s) <20*lo-g2-010>, in queue <gpu.24h>, as user <qianli> in cluster <leonhard> at Thu Mar 26 23:08:41 2020
+</cluster/home/qianli> was used as the home directory.
+</nfs/nas22.ethz.ch/fs2202/biol_imsb_claassen_1/qiangli/content/cellyolov3> was used as the working directory.
+Started at Thu Mar 26 23:08:41 2020
+Terminated at Fri Mar 27 00:16:45 2020
+Results reported at Fri Mar 27 00:16:45 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python main.py -a squeezenet1_0 -data COVID19/ --epochs 200
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   9370.97 sec.
+    Max Memory :                                 14216 MB
+    Average Memory :                             13029.43 MB
+    Total Requested Memory :                     90000.00 MB
+    Delta Memory :                               75784.00 MB
+    Max Swap :                                   -
+    Max Processes :                              7
+    Max Threads :                                44
+    Run time :                                   4104 sec.
+    Turnaround time :                            4088 sec.
+
+The output (if any) follows:
+
+=> creating model 'squeezenet1_0'
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+Epoch: [0][0/6]	Time 21.006 (21.006)	Data  6.910 ( 6.910)	Loss 6.8254e+00 (6.8254e+00)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  7.301 ( 7.301)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [1][0/6]	Time  7.141 ( 7.141)	Data  6.936 ( 6.936)	Loss nan (nan)	Acc@1   0.78 (  0.78)	Acc@2   1.95 (  1.95)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.675 ( 6.675)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 5.611 Acc@5 10.561
+Epoch: [2][0/6]	Time  6.856 ( 6.856)	Data  6.662 ( 6.662)	Loss nan (nan)	Acc@1   5.86 (  5.86)	Acc@2  11.72 ( 11.72)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.569 ( 6.569)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 5.611 Acc@5 10.561
+Epoch: [3][0/6]	Time  7.150 ( 7.150)	Data  6.960 ( 6.960)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.664 ( 6.664)	Loss nan (nan)	Acc@1   4.69 (  4.69)	Acc@2   7.42 (  7.42)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 3.960 Acc@5 6.271
+Epoch: [4][0/6]	Time  6.776 ( 6.776)	Data  6.599 ( 6.599)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.632 ( 6.632)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [5][0/6]	Time  6.688 ( 6.688)	Data  6.489 ( 6.489)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.766 ( 6.766)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [6][0/6]	Time  6.881 ( 6.881)	Data  6.677 ( 6.677)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.644 ( 6.644)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [7][0/6]	Time  6.471 ( 6.471)	Data  6.282 ( 6.282)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.712 ( 6.712)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [8][0/6]	Time  7.143 ( 7.143)	Data  6.953 ( 6.953)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.593 ( 6.593)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [9][0/6]	Time  6.716 ( 6.716)	Data  6.505 ( 6.505)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.818 ( 6.818)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 5.611 Acc@5 10.561
+Epoch: [10][0/6]	Time  6.523 ( 6.523)	Data  6.329 ( 6.329)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.455 ( 6.455)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 5.611 Acc@5 10.561
+Epoch: [11][0/6]	Time  6.703 ( 6.703)	Data  6.524 ( 6.524)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.602 ( 6.602)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 5.611 Acc@5 10.561
+Epoch: [12][0/6]	Time  9.644 ( 9.644)	Data  9.462 ( 9.462)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.480 ( 6.480)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 5.611 Acc@5 10.561
+Epoch: [13][0/6]	Time  7.079 ( 7.079)	Data  6.891 ( 6.891)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.673 ( 6.673)	Loss nan (nan)	Acc@1   4.69 (  4.69)	Acc@2   7.42 (  7.42)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 19.142 Acc@5 36.304
+Epoch: [14][0/6]	Time  7.046 ( 7.046)	Data  6.842 ( 6.842)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.530 ( 6.530)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [15][0/6]	Time  6.832 ( 6.832)	Data  6.604 ( 6.604)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.696 ( 6.696)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [16][0/6]	Time  6.647 ( 6.647)	Data  6.446 ( 6.446)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.582 ( 6.582)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [17][0/6]	Time  6.717 ( 6.717)	Data  6.515 ( 6.515)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.758 ( 6.758)	Loss nan (nan)	Acc@1  12.11 ( 12.11)	Acc@2  24.61 ( 24.61)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 10.231 Acc@5 20.792
+Epoch: [18][0/6]	Time  6.803 ( 6.803)	Data  6.608 ( 6.608)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.482 ( 6.482)	Loss nan (nan)	Acc@1  13.28 ( 13.28)	Acc@2  26.56 ( 26.56)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 11.221 Acc@5 22.442
+Epoch: [19][0/6]	Time  6.934 ( 6.934)	Data  6.750 ( 6.750)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.768 ( 6.768)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [20][0/6]	Time  6.934 ( 6.934)	Data  6.756 ( 6.756)	Loss nan (nan)	Acc@1   0.39 (  0.39)	Acc@2   0.78 (  0.78)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.517 ( 6.517)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [21][0/6]	Time  6.307 ( 6.307)	Data  6.113 ( 6.113)	Loss nan (nan)	Acc@1   6.25 (  6.25)	Acc@2  11.72 ( 11.72)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.699 ( 6.699)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [22][0/6]	Time  6.765 ( 6.765)	Data  6.544 ( 6.544)	Loss nan (nan)	Acc@1   7.42 (  7.42)	Acc@2  13.67 ( 13.67)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.448 ( 6.448)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [23][0/6]	Time  6.733 ( 6.733)	Data  6.513 ( 6.513)	Loss nan (nan)	Acc@1   8.59 (  8.59)	Acc@2  15.62 ( 15.62)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.805 ( 6.805)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [24][0/6]	Time  6.494 ( 6.494)	Data  6.311 ( 6.311)	Loss nan (nan)	Acc@1   4.69 (  4.69)	Acc@2   9.38 (  9.38)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.426 ( 6.426)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [25][0/6]	Time  6.615 ( 6.615)	Data  6.430 ( 6.430)	Loss nan (nan)	Acc@1   5.86 (  5.86)	Acc@2  12.89 ( 12.89)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.594 ( 6.594)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [26][0/6]	Time  6.937 ( 6.937)	Data  6.753 ( 6.753)	Loss nan (nan)	Acc@1   7.03 (  7.03)	Acc@2  13.28 ( 13.28)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.471 ( 6.471)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [27][0/6]	Time  6.346 ( 6.346)	Data  6.149 ( 6.149)	Loss nan (nan)	Acc@1   4.69 (  4.69)	Acc@2   8.98 (  8.98)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.587 ( 6.587)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [28][0/6]	Time  7.150 ( 7.150)	Data  6.959 ( 6.959)	Loss nan (nan)	Acc@1   4.69 (  4.69)	Acc@2   8.59 (  8.59)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.525 ( 6.525)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [29][0/6]	Time  6.656 ( 6.656)	Data  6.449 ( 6.449)	Loss nan (nan)	Acc@1   1.95 (  1.95)	Acc@2   3.52 (  3.52)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.777 ( 6.777)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [30][0/6]	Time  7.044 ( 7.044)	Data  6.862 ( 6.862)	Loss nan (nan)	Acc@1   6.64 (  6.64)	Acc@2  10.55 ( 10.55)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.504 ( 6.504)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [31][0/6]	Time  6.576 ( 6.576)	Data  6.378 ( 6.378)	Loss nan (nan)	Acc@1   8.20 (  8.20)	Acc@2  15.23 ( 15.23)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.767 ( 6.767)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [32][0/6]	Time  6.698 ( 6.698)	Data  6.504 ( 6.504)	Loss nan (nan)	Acc@1   4.30 (  4.30)	Acc@2   8.59 (  8.59)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.447 ( 6.447)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [33][0/6]	Time  6.540 ( 6.540)	Data  6.321 ( 6.321)	Loss nan (nan)	Acc@1   5.08 (  5.08)	Acc@2  11.72 ( 11.72)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.734 ( 6.734)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [34][0/6]	Time  6.818 ( 6.818)	Data  6.629 ( 6.629)	Loss nan (nan)	Acc@1   4.30 (  4.30)	Acc@2   8.98 (  8.98)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.559 ( 6.559)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [35][0/6]	Time  6.784 ( 6.784)	Data  6.586 ( 6.586)	Loss nan (nan)	Acc@1   5.47 (  5.47)	Acc@2   9.77 (  9.77)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.768 ( 6.768)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [36][0/6]	Time  6.704 ( 6.704)	Data  6.518 ( 6.518)	Loss nan (nan)	Acc@1   6.25 (  6.25)	Acc@2  12.50 ( 12.50)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.401 ( 6.401)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [37][0/6]	Time  6.904 ( 6.904)	Data  6.715 ( 6.715)	Loss nan (nan)	Acc@1   4.69 (  4.69)	Acc@2  10.16 ( 10.16)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.756 ( 6.756)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [38][0/6]	Time  6.707 ( 6.707)	Data  6.497 ( 6.497)	Loss nan (nan)	Acc@1   3.12 (  3.12)	Acc@2   6.25 (  6.25)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.562 ( 6.562)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [39][0/6]	Time  6.483 ( 6.483)	Data  6.270 ( 6.270)	Loss nan (nan)	Acc@1   2.73 (  2.73)	Acc@2   7.03 (  7.03)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.713 ( 6.713)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [40][0/6]	Time  6.791 ( 6.791)	Data  6.605 ( 6.605)	Loss nan (nan)	Acc@1   6.25 (  6.25)	Acc@2  12.89 ( 12.89)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.403 ( 6.403)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [41][0/6]	Time  6.495 ( 6.495)	Data  6.305 ( 6.305)	Loss nan (nan)	Acc@1   4.69 (  4.69)	Acc@2   9.38 (  9.38)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.618 ( 6.618)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [42][0/6]	Time  6.949 ( 6.949)	Data  6.752 ( 6.752)	Loss nan (nan)	Acc@1   7.03 (  7.03)	Acc@2  14.06 ( 14.06)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.499 ( 6.499)	Loss nan (nan)	Acc@1   1.95 (  1.95)	Acc@2   6.25 (  6.25)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 1.650 Acc@5 5.281
+Epoch: [43][0/6]	Time  6.778 ( 6.778)	Data  6.597 ( 6.597)	Loss nan (nan)	Acc@1   3.12 (  3.12)	Acc@2   6.64 (  6.64)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.735 ( 6.735)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [44][0/6]	Time  6.606 ( 6.606)	Data  6.402 ( 6.402)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.459 ( 6.459)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 5.611 Acc@5 10.891
+Epoch: [45][0/6]	Time  6.820 ( 6.820)	Data  6.635 ( 6.635)	Loss nan (nan)	Acc@1   3.52 (  3.52)	Acc@2   7.03 (  7.03)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.718 ( 6.718)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 5.611 Acc@5 10.561
+Epoch: [46][0/6]	Time  6.914 ( 6.914)	Data  6.728 ( 6.728)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.563 ( 6.563)	Loss nan (nan)	Acc@1   0.39 (  0.39)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 5.941 Acc@5 10.891
+Epoch: [47][0/6]	Time  6.582 ( 6.582)	Data  6.375 ( 6.375)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.687 ( 6.687)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 5.611 Acc@5 10.561
+Epoch: [48][0/6]	Time  6.851 ( 6.851)	Data  6.669 ( 6.669)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.489 ( 6.489)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.363
+Epoch: [49][0/6]	Time  6.389 ( 6.389)	Data  6.209 ( 6.209)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.754 ( 6.754)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [50][0/6]	Time  6.305 ( 6.305)	Data  6.104 ( 6.104)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.661 ( 6.661)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.330
+Epoch: [51][0/6]	Time  6.330 ( 6.330)	Data  6.135 ( 6.135)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.681 ( 6.681)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [52][0/6]	Time  6.660 ( 6.660)	Data  6.434 ( 6.434)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.477 ( 6.477)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.363
+Epoch: [53][0/6]	Time  6.501 ( 6.501)	Data  6.284 ( 6.284)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.777 ( 6.777)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [54][0/6]	Time  6.779 ( 6.779)	Data  6.586 ( 6.586)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.383 ( 6.383)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.330
+Epoch: [55][0/6]	Time  6.890 ( 6.890)	Data  6.661 ( 6.661)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.783 ( 6.783)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [56][0/6]	Time  6.812 ( 6.812)	Data  6.629 ( 6.629)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.332 ( 6.332)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.363
+Epoch: [57][0/6]	Time  6.321 ( 6.321)	Data  6.121 ( 6.121)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.664 ( 6.664)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [58][0/6]	Time  6.955 ( 6.955)	Data  6.772 ( 6.772)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.488 ( 6.488)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.330
+Epoch: [59][0/6]	Time  6.658 ( 6.658)	Data  6.436 ( 6.436)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.654 ( 6.654)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [60][0/6]	Time  6.668 ( 6.668)	Data  6.453 ( 6.453)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.339 ( 6.339)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.363
+Epoch: [61][0/6]	Time  6.657 ( 6.657)	Data  6.452 ( 6.452)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.501 ( 6.501)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [62][0/6]	Time  6.833 ( 6.833)	Data  6.650 ( 6.650)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.584 ( 6.584)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.330
+Epoch: [63][0/6]	Time  6.758 ( 6.758)	Data  6.544 ( 6.544)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.610 ( 6.610)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [64][0/6]	Time  7.156 ( 7.156)	Data  6.964 ( 6.964)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.553 ( 6.553)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.363
+Epoch: [65][0/6]	Time  6.273 ( 6.273)	Data  6.065 ( 6.065)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.701 ( 6.701)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [66][0/6]	Time  6.704 ( 6.704)	Data  6.511 ( 6.511)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.780 ( 6.780)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.330
+Epoch: [67][0/6]	Time  6.758 ( 6.758)	Data  6.568 ( 6.568)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.623 ( 6.623)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [68][0/6]	Time  6.072 ( 6.072)	Data  5.891 ( 5.891)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.400 ( 6.400)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.363
+Epoch: [69][0/6]	Time  7.068 ( 7.068)	Data  6.883 ( 6.883)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.680 ( 6.680)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [70][0/6]	Time  6.549 ( 6.549)	Data  6.321 ( 6.321)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.480 ( 6.480)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.330
+Epoch: [71][0/6]	Time  6.596 ( 6.596)	Data  6.370 ( 6.370)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.694 ( 6.694)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [72][0/6]	Time  6.766 ( 6.766)	Data  6.553 ( 6.553)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.790 ( 6.790)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [73][0/6]	Time  7.055 ( 7.055)	Data  6.854 ( 6.854)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.799 ( 6.799)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [74][0/6]	Time  6.949 ( 6.949)	Data  6.759 ( 6.759)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.491 ( 6.491)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [75][0/6]	Time  6.505 ( 6.505)	Data  6.305 ( 6.305)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.711 ( 6.711)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [76][0/6]	Time  6.572 ( 6.572)	Data  6.385 ( 6.385)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.439 ( 6.439)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [77][0/6]	Time  6.644 ( 6.644)	Data  6.420 ( 6.420)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.570 ( 6.570)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [78][0/6]	Time  6.805 ( 6.805)	Data  6.616 ( 6.616)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.534 ( 6.534)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [79][0/6]	Time  6.845 ( 6.845)	Data  6.658 ( 6.658)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.664 ( 6.664)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [80][0/6]	Time  6.983 ( 6.983)	Data  6.796 ( 6.796)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.723 ( 6.723)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [81][0/6]	Time  6.957 ( 6.957)	Data  6.765 ( 6.765)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.613 ( 6.613)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [82][0/6]	Time  6.764 ( 6.764)	Data  6.559 ( 6.559)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.467 ( 6.467)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [83][0/6]	Time  6.909 ( 6.909)	Data  6.713 ( 6.713)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.606 ( 6.606)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [84][0/6]	Time  7.122 ( 7.122)	Data  6.917 ( 6.917)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.445 ( 6.445)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [85][0/6]	Time  6.312 ( 6.312)	Data  6.121 ( 6.121)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.590 ( 6.590)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [86][0/6]	Time  6.486 ( 6.486)	Data  6.275 ( 6.275)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.619 ( 6.619)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [87][0/6]	Time  7.263 ( 7.263)	Data  7.070 ( 7.070)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.697 ( 6.697)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [88][0/6]	Time  6.664 ( 6.664)	Data  6.439 ( 6.439)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.371 ( 6.371)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [89][0/6]	Time  6.549 ( 6.549)	Data  6.353 ( 6.353)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.545 ( 6.545)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [90][0/6]	Time  6.983 ( 6.983)	Data  6.796 ( 6.796)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.499 ( 6.499)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [91][0/6]	Time  6.510 ( 6.510)	Data  6.324 ( 6.324)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.619 ( 6.619)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [92][0/6]	Time  6.851 ( 6.851)	Data  6.657 ( 6.657)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.452 ( 6.452)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [93][0/6]	Time  6.796 ( 6.796)	Data  6.606 ( 6.606)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.566 ( 6.566)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [94][0/6]	Time  6.421 ( 6.421)	Data  6.189 ( 6.189)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.501 ( 6.501)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [95][0/6]	Time  6.974 ( 6.974)	Data  6.787 ( 6.787)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.631 ( 6.631)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [96][0/6]	Time  6.589 ( 6.589)	Data  6.403 ( 6.403)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.404 ( 6.404)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [97][0/6]	Time  6.843 ( 6.843)	Data  6.667 ( 6.667)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.572 ( 6.572)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [98][0/6]	Time  6.397 ( 6.397)	Data  6.195 ( 6.195)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.394 ( 6.394)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [99][0/6]	Time  6.798 ( 6.798)	Data  6.605 ( 6.605)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.712 ( 6.712)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [100][0/6]	Time  6.521 ( 6.521)	Data  6.330 ( 6.330)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.539 ( 6.539)	Loss nan (nan)	Acc@1   4.69 (  4.69)	Acc@2   7.42 (  7.42)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 19.142 Acc@5 36.304
+Epoch: [101][0/6]	Time  6.491 ( 6.491)	Data  6.305 ( 6.305)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.573 ( 6.573)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [102][0/6]	Time  6.723 ( 6.723)	Data  6.537 ( 6.537)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.517 ( 6.517)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [103][0/6]	Time  6.775 ( 6.775)	Data  6.545 ( 6.545)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.660 ( 6.660)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 4.620 Acc@5 9.241
+Epoch: [104][0/6]	Time  6.872 ( 6.872)	Data  6.680 ( 6.680)	Loss nan (nan)	Acc@1   0.78 (  0.78)	Acc@2   1.17 (  1.17)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.403 ( 6.403)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 10.231 Acc@5 20.462
+Epoch: [105][0/6]	Time  6.950 ( 6.950)	Data  6.769 ( 6.769)	Loss nan (nan)	Acc@1   0.78 (  0.78)	Acc@2   2.73 (  2.73)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.642 ( 6.642)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [106][0/6]	Time  7.273 ( 7.273)	Data  7.076 ( 7.076)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.462 ( 6.462)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [107][0/6]	Time  6.970 ( 6.970)	Data  6.778 ( 6.778)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.608 ( 6.608)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [108][0/6]	Time  6.373 ( 6.373)	Data  6.181 ( 6.181)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.483 ( 6.483)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [109][0/6]	Time  6.624 ( 6.624)	Data  6.404 ( 6.404)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.596 ( 6.596)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [110][0/6]	Time  6.390 ( 6.390)	Data  6.198 ( 6.198)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.409 ( 6.409)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [111][0/6]	Time  6.430 ( 6.430)	Data  6.193 ( 6.193)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.659 ( 6.659)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [112][0/6]	Time  6.406 ( 6.406)	Data  6.213 ( 6.213)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.483 ( 6.483)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [113][0/6]	Time  6.863 ( 6.863)	Data  6.665 ( 6.665)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.616 ( 6.616)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [114][0/6]	Time  6.265 ( 6.265)	Data  6.076 ( 6.076)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.486 ( 6.486)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [115][0/6]	Time  6.332 ( 6.332)	Data  6.156 ( 6.156)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.744 ( 6.744)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [116][0/6]	Time  6.592 ( 6.592)	Data  6.411 ( 6.411)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.603 ( 6.603)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [117][0/6]	Time  6.285 ( 6.285)	Data  6.094 ( 6.094)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.732 ( 6.732)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [118][0/6]	Time  6.638 ( 6.638)	Data  6.457 ( 6.457)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.566 ( 6.566)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [119][0/6]	Time  6.861 ( 6.861)	Data  6.664 ( 6.664)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.832 ( 6.832)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [120][0/6]	Time  6.273 ( 6.273)	Data  6.093 ( 6.093)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.573 ( 6.573)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [121][0/6]	Time  6.764 ( 6.764)	Data  6.576 ( 6.576)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.876 ( 6.876)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [122][0/6]	Time  6.846 ( 6.846)	Data  6.651 ( 6.651)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.589 ( 6.589)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [123][0/6]	Time  6.518 ( 6.518)	Data  6.327 ( 6.327)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.556 ( 6.556)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [124][0/6]	Time  6.056 ( 6.056)	Data  5.877 ( 5.877)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.466 ( 6.466)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [125][0/6]	Time  6.463 ( 6.463)	Data  6.263 ( 6.263)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.745 ( 6.745)	Loss nan (nan)	Acc@1   4.69 (  4.69)	Acc@2   7.42 (  7.42)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 19.142 Acc@5 36.304
+Epoch: [126][0/6]	Time  6.824 ( 6.824)	Data  6.639 ( 6.639)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.525 ( 6.525)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 5.611 Acc@5 10.561
+Epoch: [127][0/6]	Time  6.437 ( 6.437)	Data  6.233 ( 6.233)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.646 ( 6.646)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 5.611 Acc@5 10.561
+Epoch: [128][0/6]	Time  6.853 ( 6.853)	Data  6.660 ( 6.660)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.477 ( 6.477)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 5.611 Acc@5 10.561
+Epoch: [129][0/6]	Time  6.620 ( 6.620)	Data  6.392 ( 6.392)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.683 ( 6.683)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.330
+Epoch: [130][0/6]	Time  6.708 ( 6.708)	Data  6.490 ( 6.490)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.570 ( 6.570)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 5.611 Acc@5 10.561
+Epoch: [131][0/6]	Time  6.576 ( 6.576)	Data  6.365 ( 6.365)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.605 ( 6.605)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 5.611 Acc@5 10.561
+Epoch: [132][0/6]	Time  7.019 ( 7.019)	Data  6.825 ( 6.825)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  7.147 ( 7.147)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.330
+Epoch: [133][0/6]	Time  6.115 ( 6.115)	Data  5.933 ( 5.933)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.765 ( 6.765)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [134][0/6]	Time  6.232 ( 6.232)	Data  6.017 ( 6.017)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.405 ( 6.405)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.363
+Epoch: [135][0/6]	Time  6.655 ( 6.655)	Data  6.434 ( 6.434)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.597 ( 6.597)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [136][0/6]	Time  6.643 ( 6.643)	Data  6.450 ( 6.450)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.466 ( 6.466)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.330
+Epoch: [137][0/6]	Time  6.611 ( 6.611)	Data  6.415 ( 6.415)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.636 ( 6.636)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [138][0/6]	Time  6.646 ( 6.646)	Data  6.459 ( 6.459)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.454 ( 6.454)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.363
+Epoch: [139][0/6]	Time  6.495 ( 6.495)	Data  6.274 ( 6.274)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.687 ( 6.687)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [140][0/6]	Time  6.303 ( 6.303)	Data  6.107 ( 6.107)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.384 ( 6.384)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.330
+Epoch: [141][0/6]	Time  6.917 ( 6.917)	Data  6.728 ( 6.728)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.632 ( 6.632)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [142][0/6]	Time  6.615 ( 6.615)	Data  6.409 ( 6.409)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.458 ( 6.458)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.363
+Epoch: [143][0/6]	Time  6.720 ( 6.720)	Data  6.522 ( 6.522)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.628 ( 6.628)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [144][0/6]	Time  6.595 ( 6.595)	Data  6.381 ( 6.381)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.374 ( 6.374)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.330
+Epoch: [145][0/6]	Time  6.504 ( 6.504)	Data  6.313 ( 6.313)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.687 ( 6.687)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [146][0/6]	Time  6.658 ( 6.658)	Data  6.454 ( 6.454)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.410 ( 6.410)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.363
+Epoch: [147][0/6]	Time  6.320 ( 6.320)	Data  6.099 ( 6.099)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.630 ( 6.630)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [148][0/6]	Time  6.948 ( 6.948)	Data  6.754 ( 6.754)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.310 ( 6.310)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.330
+Epoch: [149][0/6]	Time  6.474 ( 6.474)	Data  6.268 ( 6.268)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.501 ( 6.501)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [150][0/6]	Time  6.869 ( 6.869)	Data  6.687 ( 6.687)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.414 ( 6.414)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.363
+Epoch: [151][0/6]	Time  6.560 ( 6.560)	Data  6.356 ( 6.356)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.659 ( 6.659)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [152][0/6]	Time  6.906 ( 6.906)	Data  6.705 ( 6.705)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.449 ( 6.449)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.330
+Epoch: [153][0/6]	Time  6.820 ( 6.820)	Data  6.598 ( 6.598)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.690 ( 6.690)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [154][0/6]	Time  6.864 ( 6.864)	Data  6.661 ( 6.661)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.579 ( 6.579)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.363
+Epoch: [155][0/6]	Time  6.714 ( 6.714)	Data  6.497 ( 6.497)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.554 ( 6.554)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [156][0/6]	Time  6.888 ( 6.888)	Data  6.696 ( 6.696)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.428 ( 6.428)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.330
+Epoch: [157][0/6]	Time  6.526 ( 6.526)	Data  6.336 ( 6.336)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.678 ( 6.678)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [158][0/6]	Time  6.929 ( 6.929)	Data  6.743 ( 6.743)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.451 ( 6.451)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.363
+Epoch: [159][0/6]	Time  6.753 ( 6.753)	Data  6.544 ( 6.544)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.648 ( 6.648)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [160][0/6]	Time  7.108 ( 7.108)	Data  6.914 ( 6.914)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.394 ( 6.394)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.330
+Epoch: [161][0/6]	Time  6.459 ( 6.459)	Data  6.228 ( 6.228)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.746 ( 6.746)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [162][0/6]	Time  6.684 ( 6.684)	Data  6.459 ( 6.459)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.416 ( 6.416)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.363
+Epoch: [163][0/6]	Time  7.024 ( 7.024)	Data  6.830 ( 6.830)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  8.391 ( 8.391)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [164][0/6]	Time  7.071 ( 7.071)	Data  6.865 ( 6.865)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.546 ( 6.546)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.330
+Epoch: [165][0/6]	Time  7.171 ( 7.171)	Data  6.964 ( 6.964)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.624 ( 6.624)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [166][0/6]	Time  6.900 ( 6.900)	Data  6.711 ( 6.711)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.406 ( 6.406)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.363
+Epoch: [167][0/6]	Time  6.551 ( 6.551)	Data  6.332 ( 6.332)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.573 ( 6.573)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [168][0/6]	Time  6.523 ( 6.523)	Data  6.331 ( 6.331)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.637 ( 6.637)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.330
+Epoch: [169][0/6]	Time  6.138 ( 6.138)	Data  5.948 ( 5.948)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.728 ( 6.728)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [170][0/6]	Time  6.516 ( 6.516)	Data  6.331 ( 6.331)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.382 ( 6.382)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.363
+Epoch: [171][0/6]	Time  6.470 ( 6.470)	Data  6.245 ( 6.245)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.684 ( 6.684)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [172][0/6]	Time  6.496 ( 6.496)	Data  6.302 ( 6.302)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.459 ( 6.459)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.330
+Epoch: [173][0/6]	Time  6.160 ( 6.160)	Data  5.961 ( 5.961)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.765 ( 6.765)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [174][0/6]	Time  7.311 ( 7.311)	Data  7.122 ( 7.122)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.394 ( 6.394)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.363
+Epoch: [175][0/6]	Time  6.727 ( 6.727)	Data  6.531 ( 6.531)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.796 ( 6.796)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [176][0/6]	Time  6.992 ( 6.992)	Data  6.807 ( 6.807)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.599 ( 6.599)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.330
+Epoch: [177][0/6]	Time  6.941 ( 6.941)	Data  6.755 ( 6.755)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.765 ( 6.765)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [178][0/6]	Time  6.834 ( 6.834)	Data  6.647 ( 6.647)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.511 ( 6.511)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.363
+Epoch: [179][0/6]	Time  6.965 ( 6.965)	Data  6.778 ( 6.778)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.646 ( 6.646)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [180][0/6]	Time  6.369 ( 6.369)	Data  6.173 ( 6.173)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.447 ( 6.447)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.330
+Epoch: [181][0/6]	Time  6.830 ( 6.830)	Data  6.602 ( 6.602)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.674 ( 6.674)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [182][0/6]	Time  6.964 ( 6.964)	Data  6.778 ( 6.778)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.552 ( 6.552)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.363
+Epoch: [183][0/6]	Time  6.528 ( 6.528)	Data  6.337 ( 6.337)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.635 ( 6.635)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [184][0/6]	Time  6.230 ( 6.230)	Data  6.044 ( 6.044)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.514 ( 6.514)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.330
+Epoch: [185][0/6]	Time  6.619 ( 6.619)	Data  6.426 ( 6.426)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.800 ( 6.800)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [186][0/6]	Time  6.612 ( 6.612)	Data  6.394 ( 6.394)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.549 ( 6.549)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.363
+Epoch: [187][0/6]	Time  6.522 ( 6.522)	Data  6.309 ( 6.309)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.612 ( 6.612)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [188][0/6]	Time  7.094 ( 7.094)	Data  6.903 ( 6.903)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.549 ( 6.549)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.330
+Epoch: [189][0/6]	Time  6.515 ( 6.515)	Data  6.310 ( 6.310)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.608 ( 6.608)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [190][0/6]	Time  6.714 ( 6.714)	Data  6.509 ( 6.509)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.486 ( 6.486)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.363
+Epoch: [191][0/6]	Time  6.822 ( 6.822)	Data  6.638 ( 6.638)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.621 ( 6.621)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [192][0/6]	Time  6.440 ( 6.440)	Data  6.238 ( 6.238)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.540 ( 6.540)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.330
+Epoch: [193][0/6]	Time  6.456 ( 6.456)	Data  6.274 ( 6.274)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.703 ( 6.703)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [194][0/6]	Time  6.872 ( 6.872)	Data  6.683 ( 6.683)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.389 ( 6.389)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.363
+Epoch: [195][0/6]	Time  6.240 ( 6.240)	Data  6.040 ( 6.040)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.541 ( 6.541)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Epoch: [196][0/6]	Time  6.392 ( 6.392)	Data  6.159 ( 6.159)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.477 ( 6.477)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.330
+Epoch: [197][0/6]	Time  6.407 ( 6.407)	Data  6.217 ( 6.217)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.551 ( 6.551)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 0.000 Acc@5 0.000
+Epoch: [198][0/6]	Time  6.610 ( 6.610)	Data  6.418 ( 6.418)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.516 ( 6.516)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.39 (  0.39)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.363
+Epoch: [199][0/6]	Time  6.580 ( 6.580)	Data  6.368 ( 6.368)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+Test: [0/2]	Time  6.582 ( 6.582)	Loss nan (nan)	Acc@1   0.00 (  0.00)	Acc@2   0.00 (  0.00)
+output[0]:  tensor([nan, 0.], device='cuda:0')
+ * Acc@1 15.182 Acc@5 30.033
+Traceback (most recent call last):
