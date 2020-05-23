@@ -14,7 +14,10 @@ This is the Boxplot of resnet18 , Ournet, ghostnet on cifar without cellyolo, as
     <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/cifar10/train/airplane/0003.png">
 </figure>
 
+<center>
+    <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/I%20Chart%20of%20ournet%20on%2C%20resnet%2018%2C%20shufflenet%20withoutellyolo-%20Summary%20Report.png">
+</center>
 
-![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/I%20Chart%20of%20ournet%20on%2C%20resnet%2018%2C%20shufflenet%20withoutellyolo-%20Summary%20Report.png)
+![描述]()
 
 ![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/Time%20Series%20Plot%20of%20Shufflenet%20V%2C%20ResNet18%20Val%2C%20GhostNet18%20V%2C%20on%20Sezary%20with%20cellyolo.png)
