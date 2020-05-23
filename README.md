@@ -35,23 +35,34 @@ On  benchmark  pneumonia  dataset,  the  Pneumonia/Normal classification val acc
 
 |<sub>Model</sub>|<sub>Weights(million)</sub>|<sub>Top-1 Val Acc.(%)</sub>|<sub>FLops(million)</sub>|   
 | :---: | :---: | :---: | :---: |
+| <sub>[InceptionV3](https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5?code=cell-site)</sub> | <sub>23.81</sub> | <sub>88</sub> | <sub>540</sub>|  
+| <sub>[ResNet-18](https://arxiv.org/abs/1512.03385)</sub> | <sub>11</sub> | <sub>87.50</sub> | <sub>180</sub> | 
+| <sub>[GhostNet](https://arxiv.org/abs/1911.11907)</sub> | <sub>5.18</sub> | <sub>88.69</sub> | <sub>141</sub> | 
+| <sub>[OurNet](https://github.com/Johnny-liqiang/CellNetUML)</sub> | <sub>2.91</sub> | <sub>91.78</sub> | <sub>41.7</sub> |
+ 
+
+![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/Time%20Series%20Plot%20of%20ghost%20net%20on%2C%20resnet18%20on%20%2C%20our%20net%20on%20pneumonia%20dataset%20without%20cellyolo.png)
+
+### Evaluate performance on [Sezary Syndrome Dataset](https://github.com/Johnny-liqiang/CellNetUML/tree/master/HDSS)
+
+ResNet18  [17]  and  shuffleNetv2  [25]  were  verified  so  farthe most representative best performance on Sezary SyndromeDataset. But Our* Net can achieve higher classification perfor-mance  (e.g.  95.638%  top-1  accuracy  )  than  ResNet  18  [17],ShuffleNet V2 [25] and GhostNet [16], while less weights andcomputational cost.
+
+
+|<sub>Model</sub>|<sub>Weights(million)</sub>|<sub>Top-1 Val Acc.(%)</sub>|<sub>FLops(million)</sub>|   
+| :---: | :---: | :---: | :---: |
 | <sub>[ResNet-18](https://arxiv.org/abs/1512.03385)</sub> | <sub>11</sub> | <sub>95.28</sub> | <sub>180</sub> | 
 | <sub>[GhostNet](https://arxiv.org/abs/1911.11907)</sub> | <sub>5.18</sub> | <sub>93.411</sub> | <sub>141</sub> | 
 | <sub>[OurNet](https://github.com/Johnny-liqiang/CellNetUML)</sub> | <sub>2.91</sub> | <sub>95.638</sub> | <sub>41.7</sub> |
 | <sub>[ShuffleNet V2](https://arxiv.org/abs/1807.11164)</sub> | <sub>1.4</sub> | <sub>83.868</sub> | <sub>41</sub>|   
 
-![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/Time%20Series%20Plot%20of%20ghost%20net%20on%2C%20resnet18%20on%20%2C%20our%20net%20on%20pneumonia%20dataset%20without%20cellyolo.png)
-
-
-
-
+-This is I Chart of ournet on, resnet 18, shufflenet without Cellyolo- Summary Report
 <center>
     <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/I%20Chart%20of%20ournet%20on%2C%20resnet%2018%2C%20shufflenet%20withoutellyolo-%20Summary%20Report.png">
 </center>
 
 
 
-
+-This is I Chart of ournet on, resnet 18, shufflenet with Cellyolo- Summary Report
 
 ![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/Time%20Series%20Plot%20of%20Shufflenet%20V%2C%20ResNet18%20Val%2C%20GhostNet18%20V%2C%20on%20Sezary%20with%20cellyolo.png)
 
