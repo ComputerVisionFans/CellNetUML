@@ -54,6 +54,10 @@ ResNet18  [17]  and  shuffleNetv2  [25]  were  verified  so  farthe most represe
 | <sub>[GhostNet](https://arxiv.org/abs/1911.11907)</sub> | <sub>5.18</sub> | <sub>93.411</sub> | <sub>141</sub> | 
 | <sub>[OurNet](https://github.com/Johnny-liqiang/CellNetUML)</sub> | <sub>2.91</sub> | <sub>95.638</sub> | <sub>41.7</sub> |
 | <sub>[ShuffleNet V2](https://arxiv.org/abs/1807.11164)</sub> | <sub>1.4</sub> | <sub>83.868</sub> | <sub>41</sub>|   
+**Note:** 
+- Speed are tested on a ETH Zurich Leonhard Cluster. 
+- performance are tested with Cellyolo preprocessing.
+
 
 - This is I Chart of ournet on, resnet 18, shufflenet without Cellyolo- Summary Report
 <center>
