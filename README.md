@@ -6,9 +6,10 @@ This is the official implementation with *training* code for Cell Morphology Bas
 **Paper In preparation for ICPR2020** <br />
 **[[Software Report](https://drive.google.com/file/d/1_lVADVGAhkRG2qvzbhACQ5JqrCPpYRwM/view?usp=sharing)] [[CellNetSoftware Video](https://drive.google.com/open?id=1V-VDtiOJv1WI5jVSQZqpj-6AKPFUBexX)] [[Research Grant Page](https://ethz.ch/en/studies/non-degree-courses/exchange-and-visiting-studies/programmes/exchange-programmes/idea-league.html)]** <br />
 
-### Results
+# Results
 These are the reproduction results from this repository. All results can be downloaded from our gihub.
-- Evaluate performance on [CiFar10](https://www.cs.toronto.edu/~kriz/cifar.html)
+
+## Evaluate performance on [CiFar10](https://www.cs.toronto.edu/~kriz/cifar.html)
 This is the Boxplot of resnet18 , Ournet, ghostnet on cifar without Cellyolo. Due to the fact that every image from this dataset is 32*32 pixel image, it's getting hard to train a well segmentor by cellyolo to filter out the other artifacts in the image. As it illustrated that, even without Cellyolo preprocessing, our net already achieved the best performance. 
 
 |<sub>Model</sub>|<sub>Weights(million)</sub>|<sub>Top-1 Val Acc.(%)</sub>|<sub>FLops(million)</sub>|   
