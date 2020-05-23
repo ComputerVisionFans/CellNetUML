@@ -55,14 +55,14 @@ ResNet18  [17]  and  shuffleNetv2  [25]  were  verified  so  farthe most represe
 | <sub>[OurNet](https://github.com/Johnny-liqiang/CellNetUML)</sub> | <sub>2.91</sub> | <sub>95.638</sub> | <sub>41.7</sub> |
 | <sub>[ShuffleNet V2](https://arxiv.org/abs/1807.11164)</sub> | <sub>1.4</sub> | <sub>83.868</sub> | <sub>41</sub>|   
 
--This is I Chart of ournet on, resnet 18, shufflenet without Cellyolo- Summary Report
+- This is I Chart of ournet on, resnet 18, shufflenet without Cellyolo- Summary Report
 <center>
     <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/I%20Chart%20of%20ournet%20on%2C%20resnet%2018%2C%20shufflenet%20withoutellyolo-%20Summary%20Report.png">
 </center>
 
 
 
--This is I Chart of ournet on, resnet 18, shufflenet with Cellyolo- Summary Report
+- This is I Chart of ournet on, resnet 18, shufflenet with Cellyolo- Summary Report
 
 ![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/Time%20Series%20Plot%20of%20Shufflenet%20V%2C%20ResNet18%20Val%2C%20GhostNet18%20V%2C%20on%20Sezary%20with%20cellyolo.png)
 
