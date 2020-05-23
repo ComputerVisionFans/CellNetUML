@@ -20,3 +20,6 @@ This is the Boxplot of resnet18 , Ournet, ghostnet on cifar without cellyolo, as
 
 
 ![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/Time%20Series%20Plot%20of%20Shufflenet%20V%2C%20ResNet18%20Val%2C%20GhostNet18%20V%2C%20on%20Sezary%20with%20cellyolo.png)
+
+
+![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/Time%20Series%20Plot%20of%20ghost%20net%20on%2C%20resnet18%20on%20%2C%20our%20net%20on%20pneumonia%20dataset%20without%20cellyolo.png)
