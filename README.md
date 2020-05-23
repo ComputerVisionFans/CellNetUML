@@ -13,7 +13,7 @@ This is the Boxplot of resnet18 , Ournet, ghostnet on cifar without Cellyolo. Du
 
 |<sub>Model</sub>|<sub>Weights(million)</sub>|<sub>Top-1 Val Acc.(%)</sub>|<sub>FLops(million)</sub>|   
 | :---: | :---: | :---: | :---: |
-| <sub>[VGG-16](https://arxiv.org/abs/1409.1556)</sub> | <sub>15</sub> | <sub><span style="color: green"> 93.6 </span></sub> | <sub>313</sub>|        
+| <sub>[VGG-16](https://arxiv.org/abs/1409.1556)</sub> | <sub>15</sub> | <sub>93.6</sub> | <sub>313</sub>|        
 | <sub>[ResNet-18](https://arxiv.org/abs/1512.03385)</sub> | <sub>11</sub> | <sub>88.779</sub> | <sub>180</sub> | 
 | <sub>[GhostNet](https://arxiv.org/abs/1911.11907)</sub> | <sub>5.18</sub> | <sub>88.238</sub> | <sub>141</sub> | 
 | <sub>[OurNet](https://github.com/Johnny-liqiang/CellNetUML)</sub> | <sub>2.91</sub> | <sub>92.45</sub> | <sub>41.7</sub> |
