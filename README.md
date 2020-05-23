@@ -56,14 +56,11 @@ ResNet18  [17]  and  shuffleNetv2  [25]  were  verified  so  farthe most represe
 | <sub>[ShuffleNet V2](https://arxiv.org/abs/1807.11164)</sub> | <sub>1.4</sub> | <sub>83.868</sub> | <sub>41</sub>|   
 **Note:** 
 - Speed are tested on a ETH Zurich Leonhard Cluster. 
-- performance are tested with Cellyolo preprocessing.
-
-
+- Performance are tested with Cellyolo preprocessing.
 - This is I Chart of ournet on, resnet 18, shufflenet without Cellyolo- Summary Report
 <center>
     <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/I%20Chart%20of%20ournet%20on%2C%20resnet%2018%2C%20shufflenet%20withoutellyolo-%20Summary%20Report.png">
 </center>
-
 
 
 - This is Time Series Plot of Shufflenet V, ResNet18 Val, GhostNet18 V, on Sezary syndrome with cellyolo
