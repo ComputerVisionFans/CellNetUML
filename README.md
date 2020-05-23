@@ -9,15 +9,17 @@ This is the official implementation with *training* code for Cell Morphology Bas
 ### Results
 These are the reproduction results from this repository. All results can be downloaded from our gihub.
 
-This is the Boxplot of resnet18 , Ournet, ghostnet on cifar without cellyolo, as it illustrated that, even without Cellyolo preprocessing, our net already achieved the best performance. Due to the fact, every image from this dataset is 32*32 pixel image, it's getting hard to train a well segmentor by cellyolo to filter out the other artifacts in the image.
+This is the Boxplot of resnet18 , Ournet, ghostnet on cifar without Cellyolo. Due to the fact that every image from this dataset is 32*32 pixel image, it's getting hard to train a well segmentor by cellyolo to filter out the other artifacts in the image. As it illustrated that, even without Cellyolo preprocessing, our net already achieved the best performance. 
 
-|                           <sub>Tracker</sub>                           |      <sub>VOT2016</br>EAO /  A / R</sub>     |      <sub>VOT2018</br>EAO / A / R</sub>      |  <sub>DAVIS2016</br>J / F</sub>  |  <sub>DAVIS2017</br>J / F</sub>  |     <sub>Youtube-VOS</br>J_s / J_u / F_s / F_u</sub>     |     <sub>Speed</sub>     |
-|:----------------------------------------------------------------------:|:--------------------------------------------:|:--------------------------------------------:|:--------------------------------:|:--------------------------------:|:--------------------------------------------------------:|:------------------------:|
-| <sub>[SiamMask-box](http://www.robots.ox.ac.uk/~qwang/SiamMask/)</sub> |       <sub>0.412/0.623/0.233</sub>       |       <sub>0.363/0.584/0.300</sub>       |               - / -              |               - / -              |                      - / - / - / -                       | <sub>**77** FPS</sub> |
-| <sub>[SiamMask](http://www.robots.ox.ac.uk/~qwang/SiamMask/)</sub> | <sub>**0.433**/**0.639**/**0.214**</sub> | <sub>**0.380**/**0.609**/**0.276**</sub> | <sub>**0.713**/**0.674**</sub> | <sub>**0.543**/**0.585**</sub> | <sub>**0.602**/**0.451**/**0.582**/**0.477**</sub> |   <sub>56 FPS</sub>   |
-| <sub>[SiamMask-LD](http://www.robots.ox.ac.uk/~qwang/SiamMask/)</sub> | <sub>**0.455**/**0.634**/**0.219**</sub> | <sub>**0.423**/**0.615**/**0.248**</sub> | - / - | - / - | - / - / - / - | <sub>56 FPS</sub> |
+|                           <sub>Model</sub>                           |      <sub>Weights</br>million </sub>     |      <sub>Top-1 Val Acc.</br>%</sub>      |  <sub>FLops</br>million</sub>  |   
+|:----------------------------------------------------------------------:|:--------------------------------------------:|:--------------------------------------------:|:--------------------------------:|:--------------------------------:|
+| <sub>[VGG-16](https://arxiv.org/abs/1409.1556)</sub> | <sub>15</sub>|<sub>93.6</sub>| <sub>313</sub>|        
+| <sub>[ResNet-18](https://arxiv.org/abs/1512.03385)</sub> | <sub>11</sub> | <sub>88.779</sub> | <sub>180</sub> | 
+| <sub>[GhostNet](https://arxiv.org/abs/1911.11907)</sub> | <sub>5.18</sub> | <sub>88.238</sub> | <sub>141</sub> | 
+| <sub>[OurNet](https://github.com/Johnny-liqiang/CellNetUML)</sub> | <sub>2.91</sub> | <sub>92.45</sub> | <sub>41.7</sub> |
 
 
+CIFAR-10  dataset  consists of 60,000 32 × 32 color images in 10 classes, with 50,000 training images and 10,000 test images.  A common  data  augmentation  scheme  including random crop and mirroring is adopted as well.
 
 **Note:** 
 - Speed are tested on a NVIDIA RTX 2080. 
