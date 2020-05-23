@@ -11,8 +11,9 @@ These are the reproduction results from this repository. All results can be down
 
 This is the Boxplot of resnet18 , Ournet, ghostnet on cifar without Cellyolo. Due to the fact that every image from this dataset is 32*32 pixel image, it's getting hard to train a well segmentor by cellyolo to filter out the other artifacts in the image. As it illustrated that, even without Cellyolo preprocessing, our net already achieved the best performance. 
 
-|<sub>Model</sub>|<sub>Weights</br>million </sub>|<sub>Top-1 Val Acc.</br>%</sub>|<sub>FLops</br>million</sub>|   
-| <sub>[VGG-16](https://arxiv.org/abs/1409.1556)</sub> | <sub>15</sub>|<sub>93.6</sub>| <sub>313</sub>|        
+|<sub>Model</sub>|<sub>Weights(million)</sub>|<sub>Top-1 Val Acc.(%)</sub>|<sub>FLops(million)</sub>|   
+| :---: | :---: | :---: | :---: |
+| <sub>[VGG-16](https://arxiv.org/abs/1409.1556)</sub> | <sub>15</sub> | <sub>93.6</sub> | <sub>313</sub>|        
 | <sub>[ResNet-18](https://arxiv.org/abs/1512.03385)</sub> | <sub>11</sub> | <sub>88.779</sub> | <sub>180</sub> | 
 | <sub>[GhostNet](https://arxiv.org/abs/1911.11907)</sub> | <sub>5.18</sub> | <sub>88.238</sub> | <sub>141</sub> | 
 | <sub>[OurNet](https://github.com/Johnny-liqiang/CellNetUML)</sub> | <sub>2.91</sub> | <sub>92.45</sub> | <sub>41.7</sub> |
