@@ -10,12 +10,7 @@ This is the Boxplot of resnet18 , Ournet, ghostnet on cifar without cellyolo, as
 
 ![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/Time%20Series%20Plot%20of%20ghost%20net%20on%2C%20resnet18%20on%20%2C%20our%20net%20on%20pneumonia%20dataset%20without%20cellyolo.png)
 
-![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/Time%20Series%20Plot%20of%20ghost%20net%20on%2C%20resnet18%20on%20%2C%20our%20net%20on%20pneumonia%20dataset%20without%20cellyolo.png)![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/Time%20Series%20Plot%20of%20ghost%20net%20on%2C%20resnet18%20on%20%2C%20our%20net%20on%20pneumonia%20dataset%20without%20cellyolo.png)![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/Time%20Series%20Plot%20of%20ghost%20net%20on%2C%20resnet18%20on%20%2C%20our%20net%20on%20pneumonia%20dataset%20without%20cellyolo.png)![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/Time%20Series%20Plot%20of%20ghost%20net%20on%2C%20resnet18%20on%20%2C%20our%20net%20on%20pneumonia%20dataset%20without%20cellyolo.png)
-<figure class="third">
-    <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/cifar10/train/airplane/0001.png">
-    <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/cifar10/train/airplane/0002.png">
-    <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/cifar10/train/airplane/0003.png">
-</figure>
+![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/cifar10/train/airplane/0001.png)![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/cifar10/train/airplane/0002.png)![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/cifar10/train/airplane/0003.png)![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/cifar10/train/airplane/0004.png)
 
 <center>
     <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/I%20Chart%20of%20ournet%20on%2C%20resnet%2018%2C%20shufflenet%20withoutellyolo-%20Summary%20Report.png">
