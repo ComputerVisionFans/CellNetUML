@@ -29,8 +29,9 @@ CIFAR-10  dataset  consists of 60,000 32 × 32 color images in 10 classes, with 
     <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/Boxplot%20of%20resnet18%20%2C%20OurGhostRe%2C%20ghostnet%20on%20cifar%20without%20cellyolo%20-%20Summary%20Report.png">
 </center>
 
+### Evaluate performance on [Pneumonia Dataset](https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5?code=cell-site)
 
-
+On  benchmark  pneumonia  dataset,  the  Pneumonia/Normal classification val accuracy of our Net converges intonearly 91.785% better than Ghost Net and ResNet18, In addition, after around 80 epochs the accuracy of our Net converges into  nearly  91.785%, comparing to     [Inception  V3](https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5?code=cell-site)  after 7000 epochs reaches 88.0%.
 ![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/Time%20Series%20Plot%20of%20ghost%20net%20on%2C%20resnet18%20on%20%2C%20our%20net%20on%20pneumonia%20dataset%20without%20cellyolo.png)
 
 
