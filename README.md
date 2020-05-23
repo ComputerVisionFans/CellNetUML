@@ -22,9 +22,8 @@ This is the Boxplot of resnet18 , Ournet, ghostnet on cifar without Cellyolo. Du
 CIFAR-10  dataset  consists of 60,000 32 × 32 color images in 10 classes, with 50,000 training images and 10,000 test images.  A common  data  augmentation  scheme  including random crop and mirroring is adopted as well.
 
 **Note:** 
-- Speed are tested on a NVIDIA RTX 2080. 
-- `-box` reports an axis-aligned bounding box from the box branch.
-- `-LD` means training with large dataset (ytb-bb+ytb-vos+vid+coco+det).
+- Speed are tested on a ETH zurich Leonhard Cluster. 
+.
 
 
 
