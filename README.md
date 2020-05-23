@@ -38,7 +38,7 @@ On  benchmark  pneumonia  dataset,  the  Pneumonia/Normal classification val acc
 | <sub>[ResNet-18](https://arxiv.org/abs/1512.03385)</sub> | <sub>11</sub> | <sub>95.28</sub> | <sub>180</sub> | 
 | <sub>[GhostNet](https://arxiv.org/abs/1911.11907)</sub> | <sub>5.18</sub> | <sub>93.411</sub> | <sub>141</sub> | 
 | <sub>[OurNet](https://github.com/Johnny-liqiang/CellNetUML)</sub> | <sub>2.91</sub> | <sub>95.638</sub> | <sub>41.7</sub> |
-| <sub>[VGG-16](https://arxiv.org/abs/1409.1556)</sub> | <sub>1.4</sub> | <sub>83.868</sub> | <sub>41</sub>|   
+| <sub>[ShuffleNet V2](https://arxiv.org/abs/1807.11164)</sub> | <sub>1.4</sub> | <sub>83.868</sub> | <sub>41</sub>|   
 
 ![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/Time%20Series%20Plot%20of%20ghost%20net%20on%2C%20resnet18%20on%20%2C%20our%20net%20on%20pneumonia%20dataset%20without%20cellyolo.png)
 
