@@ -84,16 +84,14 @@ In order to help the medical scientists, we made this COVID-19 CT dataset. Based
 
 **Note:** 
 - Speed are tested on a ETH Zurich Leonhard Cluster. 
-- Performance are tested with Cellyolo preprocessing.
+- Performance are tested without Cellyolo preprocessing.
 - This is I Chart of ournet, resnet 18, shufflenet without Cellyolo- Summary Report
 <center>
-    <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/I%20Chart%20of%20ournet%20on%2C%20resnet%2018%2C%20shufflenet%20withoutellyolo-%20Summary%20Report.png">
+    <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/ournetoncovid%20-%20Copy.png">
 </center>
 
 
-- This is Time Series Plot of Shufflenet V, ResNet18 Val, GhostNet18 V, on Sezary syndrome with cellyolo
-
-![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/Time%20Series%20Plot%20of%20Shufflenet%20V%2C%20ResNet18%20Val%2C%20GhostNet18%20V%2C%20on%20Sezary%20with%20cellyolo.png)
+![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/ournetoncovid.png)
 
 
 
