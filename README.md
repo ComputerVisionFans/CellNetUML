@@ -100,7 +100,7 @@ Our net belongs to the top list basedon the Val accuracy. Consider the fact of t
 
 ### Evaluate Cellyolo performance on [Sezary Syndrome Dataset](https://github.com/Johnny-liqiang/CellNetUML/tree/master/HDSS) with Saliency Map
 
-In order to better visualizetheperformance of the cellyolo and demonstrate the necnecessity of cellyolo, we wrote saliency script to generated attention map.
+In order to better visualizetheperformance of the cellyolo and demonstrate the necnecessity of cellyolo, we wrote saliency script to generated attention map. ResNet18 puts more attention on outside of ROI, while VGG and our Net more focus on ROI. Cellyolo playing a important role in eliminating the artifacts, enforcing the models more focus on the cell itself.
 
 
 
@@ -164,4 +164,7 @@ In order to better visualizetheperformance of the cellyolo and demonstrate the n
 | [![original pic](https://github.com/Johnny-liqiang/CellNetUML/blob/master/saliencymap/ss2_8%20(468).png)](https://github.com/Johnny-liqiang/CellNetUML/blob/master/saliencymap/ss2_8%20(468).png)  | [![aftercellyolo](https://github.com/Johnny-liqiang/CellNetUML/blob/master/cellyolo/output/ss2_8%20(468).png)](https://github.com/Johnny-liqiang/CellNetUML/blob/master/cellyolo/output/ss2_8%20(468).png) | [![ournetwithcellyolo](https://github.com/Johnny-liqiang/CellNetUML/blob/master/saliencymap/ss2_8%20(468)ournetWithcellyolo.jpg)](https://github.com/Johnny-liqiang/CellNetUML/blob/master/saliencymap/ss2_8%20(468)ournetWithcellyolo.jpg) | [![ournetwithoutcellyolo](https://github.com/Johnny-liqiang/CellNetUML/blob/master/saliencymap/ss2_8%20(468)ournetWithcellyolo.jpg)](https://github.com/Johnny-liqiang/CellNetUML/blob/master/saliencymap/ss2_8%20(468)ournetWithoutcellyolo.jpg) |[![resnetwithcellyolo](https://github.com/Johnny-liqiang/CellNetUML/blob/master/saliencymap/ss2_8%20(468)resnetWithcellyolo.jpg)](https://github.com/Johnny-liqiang/CellNetUML/blob/master/saliencymap/ss2_8%20(468)resnetWithcellyolo.jpg) | [![resnetwithoutcellyolo](https://github.com/Johnny-liqiang/CellNetUML/blob/master/saliencymap/ss2_8%20(468)resnetWithoutcellyolo.jpg)](https://github.com/Johnny-liqiang/CellNetUML/blob/master/saliencymap/ss2_8%20(468)resnetWithoutcellyolo.jpg) | [![vggnetwithcellyolo](https://github.com/Johnny-liqiang/CellNetUML/blob/master/saliencymap/ss2_8%20(468)vggnetWithcellyolo.jpg)](https://github.com/Johnny-liqiang/CellNetUML/blob/master/saliencymap/ss2_8%20(468)vggnetWithcellyolo.jpg) | 
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Original pic: ss2_8 (468).png | After Cellyolo segmentation | Ournet with cellyolo | Ournet without cellyolo | Res18 with cellyolo | Res18 without cellyolo | Vgg16 with cellyolo |
+
+## License
+All copy right licensed on  QiangLi
 
