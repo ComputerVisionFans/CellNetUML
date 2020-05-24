@@ -169,5 +169,5 @@ In order to better visualizetheperformance of the cellyolo and demonstrate the n
 | Original pic: ss2_8 (468).png | After Cellyolo segmentation | Ournet with cellyolo | Ournet without cellyolo | Res18 with cellyolo | Res18 without cellyolo | Vgg16 with cellyolo |
 
 ## License
-All copy right licensed on  QiangLi
+All copy right licensed by QiangLi
 
