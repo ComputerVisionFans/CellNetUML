@@ -67,7 +67,7 @@ ResNet18  [17]  and  shuffleNetv2  [25]  were  verified  so  farthe most represe
 
 ![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/Time%20Series%20Plot%20of%20Shufflenet%20V%2C%20ResNet18%20Val%2C%20GhostNet18%20V%2C%20on%20Sezary%20with%20cellyolo.png)
 
-### Evaluate performance on [Covid-19 Dataset](https://github.com/Johnny-liqiang/CellNetUML/tree/master/COVID19)
+### Evaluate performance on [COVID-19 Dataset](https://github.com/Johnny-liqiang/CellNetUML/tree/master/COVID19)
 
 In order to help the medical scientists, we made this COVID-19 CT dataset. Based on initial [COVID-19  Image  Data  Collection](https://arxiv.org/abs/2003.11597),  which  contains  only  123  frontal  view  X-rays.  We  additionally  collected  data  from  newest  publications  on  European  Journal  ofRadiology,  and  collected  nearly  1583  healthy  Lung  CT/xray images  as  comparative  data  from  recently  available  resourcesand publications.
 
@@ -76,13 +76,14 @@ In order to help the medical scientists, we made this COVID-19 CT dataset. Based
 | <sub>[ResNet-18](https://arxiv.org/abs/1512.03385)</sub> | <sub>11</sub> | <sub>94.389</sub> | <sub>180</sub> | 
 | <sub>[GhostNet](https://arxiv.org/abs/1911.11907)</sub> | <sub>5.18</sub> | <sub>92.739</sub> | <sub>141</sub> | 
 | <sub>[OurNet](https://github.com/Johnny-liqiang/CellNetUML)</sub> | <sub>2.91</sub> | <sub>94.719</sub> | <sub>41.7</sub> |
-| <sub>[MobileNet V2](https://arxiv.org/abs/1807.11164)</sub> | <sub>1.4</sub> | <sub>95.38</sub> | <sub>41</sub>| 
-| <sub>[Vgg11_BN](https://arxiv.org/abs/1807.11164)</sub> | <sub>1.4</sub> | <sub>87.129</sub> | <sub>41</sub>|
-| <sub>[DenseNet121](https://arxiv.org/abs/1807.11164)</sub> | <sub>1.4</sub> | <sub>95.71</sub> | <sub>41</sub>|
-| <sub>[AlexNet](https://arxiv.org/abs/1807.11164)</sub> | <sub>1.4</sub> | <sub>0</sub> | <sub>41</sub>|
-| <sub>[SqueezeNet](https://arxiv.org/abs/1807.11164)</sub> | <sub>1.4</sub> | <sub>0</sub> | <sub>41</sub>|
+| <sub>[MobileNet V2](https://arxiv.org/abs/1801.04381)</sub> | <sub>3.4</sub> | <sub>95.38</sub> | <sub>301</sub>| 
+| <sub>[Vgg11_BN](https://arxiv.org/abs/1807.11164)</sub> | <sub>13.28</sub> | <sub>87.129</sub> | <sub>132.87</sub>|
+| <sub>[DenseNet121](https://arxiv.org/abs/1608.06993)</sub> | <sub>7.98</sub> | <sub>95.71</sub> | <sub>283</sub>|
+| <sub>[AlexNet](http://www.cs.toronto.edu/~hinton/absps/imagenet.pdf)</sub> | <sub>60.95</sub> | <sub>0</sub> | <sub>727</sub>|
+| <sub>[SqueezeNet V2](https://arxiv.org/abs/1602.07360)</sub> | <sub>-</sub> | <sub>0</sub> | <sub>40</sub>|
 
 **Note:** 
+- - denoted un-provided.
 - Speed are tested on a ETH Zurich Leonhard Cluster. 
 - Performance are tested without Cellyolo preprocessing.
 - This is I Chart of ournet, resnet 18, shufflenet without Cellyolo- Summary Report
