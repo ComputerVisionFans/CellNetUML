@@ -104,10 +104,8 @@ In order to better visualizetheperformance of the cellyolo and demonstrate the n
 
 
 
-| [![original pic](https://github.com/Johnny-liqiang/CellNetUML/blob/master/saliencymap/hd070916_2%20(7102).png)](https://github.com/Johnny-liqiang/CellNetUML/blob/master/saliencymap/hd070916_2%20(7102).png)  | [![AudioBlocks](https://dtyn3c8zjrx01.cloudfront.net/img/assets/audioblocks/images/logo.png)](http://audioblocks.com) | [![GraphicStock](http://www.graphicstock.com/images/logo.jpg)](http://graphicstock.com) |
-|:---:|:---:|:---:|
-| original pic: hd070916_2%20(7102).png | http://audioblocks.com | http://graphicstock.com |
+| [![original pic](https://github.com/Johnny-liqiang/CellNetUML/blob/master/saliencymap/hd070916_2%20(7102).png)](https://github.com/Johnny-liqiang/CellNetUML/blob/master/saliencymap/hd070916_2%20(7102).png)  | [![aftercellyolo](https://github.com/Johnny-liqiang/CellNetUML/blob/master/cellyolo/output/hd070916_2%20(7102).png)](https://github.com/Johnny-liqiang/CellNetUML/blob/master/cellyolo/output/hd070916_2%20(7102).png) | [![ournetwithcellyolo](https://github.com/Johnny-liqiang/CellNetUML/blob/master/saliencymap/hd070916_2%20(7102)ournetWithcellyolo.jpg)](https://github.com/Johnny-liqiang/CellNetUML/blob/master/saliencymap/hd070916_2%20(7102)ournetWithcellyolo.jpg) | [![ournetwithoutcellyolo](https://github.com/Johnny-liqiang/CellNetUML/blob/master/saliencymap/hd070916_2%20(7102)ournetWithcellyolo.jpg)](https://github.com/Johnny-liqiang/CellNetUML/blob/master/saliencymap/hd070916_2%20(7102)ournetWithoutcellyolo.jpg) |[![resnetwithcellyolo](https://github.com/Johnny-liqiang/CellNetUML/blob/master/saliencymap/hd070916_2%20(7102)resnetWithcellyolo.jpg)](https://github.com/Johnny-liqiang/CellNetUML/blob/master/saliencymap/hd070916_2%20(7102)ournetWithcellyolo.jpg) | [![resnetwithoutcellyolo](https://github.com/Johnny-liqiang/CellNetUML/blob/master/saliencymap/hd070916_2%20(7102)resnetWithoutcellyolo.jpg)](https://github.com/Johnny-liqiang/CellNetUML/blob/master/saliencymap/hd070916_2%20(7102)ournetWithoutcellyolo.jpg) |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| original pic: hd070916_2 (7102).png | aftercellyolo | ournetwithcellyolo | ournetwithcellyolo | resnetwithcellyolo |resnetwithoutcellyolo |
 
-| [![VideoBlocks](https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/logo.png)](http://videoblocks.com)  | [![AudioBlocks](https://dtyn3c8zjrx01.cloudfront.net/img/assets/audioblocks/images/logo.png)](http://audioblocks.com) | [![GraphicStock](http://www.graphicstock.com/images/logo.jpg)](http://graphicstock.com) |
-|:---:|:---:|:---:|
-| http://videoblocks.com | http://audioblocks.com | http://graphicstock.com |
+
