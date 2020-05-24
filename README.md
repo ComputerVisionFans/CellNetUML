@@ -57,7 +57,7 @@ ResNet18  [17]  and  shuffleNetv2  [25]  were  verified  so  farthe most represe
 **Note:** 
 - Speed are tested on a ETH Zurich Leonhard Cluster. 
 - Performance are tested with Cellyolo preprocessing.
-- This is I Chart of ournet on, resnet 18, shufflenet without Cellyolo- Summary Report
+- This is I Chart of ournet, resnet 18, shufflenet without Cellyolo- Summary Report
 <center>
     <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/I%20Chart%20of%20ournet%20on%2C%20resnet%2018%2C%20shufflenet%20withoutellyolo-%20Summary%20Report.png">
 </center>
