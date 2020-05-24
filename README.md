@@ -80,10 +80,10 @@ In order to help the medical scientists, we made this COVID-19 CT dataset. Based
 | <sub>[Vgg11_BN](https://arxiv.org/abs/1807.11164)</sub> | <sub>13.28</sub> | <sub>87.129</sub> | <sub>132.87</sub>|
 | <sub>[DenseNet121](https://arxiv.org/abs/1608.06993)</sub> | <sub>7.98</sub> | <sub>95.71</sub> | <sub>283</sub>|
 | <sub>[AlexNet](http://www.cs.toronto.edu/~hinton/absps/imagenet.pdf)</sub> | <sub>60.95</sub> | <sub>0</sub> | <sub>727</sub>|
-| <sub>[SqueezeNet V2](https://arxiv.org/abs/1602.07360)</sub> | <sub>-</sub> | <sub>0</sub> | <sub>40</sub>|
+| <sub>[SqueezeNet V2](https://arxiv.org/abs/1602.07360)</sub> | <sub>--</sub> | <sub>0</sub> | <sub>40</sub>|
 
 **Note:** 
-- - denoted un-provided.
+- -- denoted un-provided.
 - Speed are tested on a ETH Zurich Leonhard Cluster. 
 - Performance are tested without Cellyolo preprocessing.
 - This is I Chart of ournet, resnet 18, shufflenet without Cellyolo- Summary Report
@@ -91,7 +91,7 @@ In order to help the medical scientists, we made this COVID-19 CT dataset. Based
     <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/ournetoncovid%20-%20Copy.png">
 </center>
 
-Our net belongs to the top list basedon the Val accuracy. Consider the fact of the higher complexity and parametersamount of other SOTA Net, our net is very competitive on classification task.
+Our net belongs to the top list basedon the Val accuracy. Consider the fact of the higher complexity and parameters amount of other SOTA Net, our net is very competitive on classification task.
 
 ![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/ournetoncovid.png)
 
