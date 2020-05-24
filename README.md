@@ -67,6 +67,33 @@ ResNet18  [17]  and  shuffleNetv2  [25]  were  verified  so  farthe most represe
 
 ![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/Time%20Series%20Plot%20of%20Shufflenet%20V%2C%20ResNet18%20Val%2C%20GhostNet18%20V%2C%20on%20Sezary%20with%20cellyolo.png)
 
+### Evaluate performance on [Covid-19 Dataset](https://github.com/Johnny-liqiang/CellNetUML/tree/master/COVID19)
+
+In order to help the medical scientists, we made this COVID-19 CT dataset. Based on initial [COVID-19  Image  Data  Collection](https://arxiv.org/abs/2003.11597),  which  contains  only  123  frontal  view  X-rays.  We  additionally  collected  data  from  newest  publications  on  European  Journal  ofRadiology,  and  collected  nearly  1583  healthy  Lung  CT/xray images  as  comparative  data  from  recently  available  resourcesand publications.
+
+|<sub>Model</sub>|<sub>Weights(million)</sub>|<sub>Top-1 Val Acc.(%)</sub>|<sub>FLops(million)</sub>|   
+| :---: | :---: | :---: | :---: |
+| <sub>[ResNet-18](https://arxiv.org/abs/1512.03385)</sub> | <sub>11</sub> | <sub>94.389</sub> | <sub>180</sub> | 
+| <sub>[GhostNet](https://arxiv.org/abs/1911.11907)</sub> | <sub>5.18</sub> | <sub>92.739</sub> | <sub>141</sub> | 
+| <sub>[OurNet](https://github.com/Johnny-liqiang/CellNetUML)</sub> | <sub>2.91</sub> | <sub>94.719</sub> | <sub>41.7</sub> |
+| <sub>[MobileNet V2](https://arxiv.org/abs/1807.11164)</sub> | <sub>1.4</sub> | <sub>95.38</sub> | <sub>41</sub>| 
+| <sub>[Vgg11_BN](https://arxiv.org/abs/1807.11164)</sub> | <sub>1.4</sub> | <sub>87.129</sub> | <sub>41</sub>|
+| <sub>[DenseNet121](https://arxiv.org/abs/1807.11164)</sub> | <sub>1.4</sub> | <sub>95.71</sub> | <sub>41</sub>|
+| <sub>[AlexNet](https://arxiv.org/abs/1807.11164)</sub> | <sub>1.4</sub> | <sub>0</sub> | <sub>41</sub>|
+| <sub>[SqueezeNet](https://arxiv.org/abs/1807.11164)</sub> | <sub>1.4</sub> | <sub>0</sub> | <sub>41</sub>|
+
+**Note:** 
+- Speed are tested on a ETH Zurich Leonhard Cluster. 
+- Performance are tested with Cellyolo preprocessing.
+- This is I Chart of ournet, resnet 18, shufflenet without Cellyolo- Summary Report
+<center>
+    <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/I%20Chart%20of%20ournet%20on%2C%20resnet%2018%2C%20shufflenet%20withoutellyolo-%20Summary%20Report.png">
+</center>
+
+
+- This is Time Series Plot of Shufflenet V, ResNet18 Val, GhostNet18 V, on Sezary syndrome with cellyolo
+
+![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/Time%20Series%20Plot%20of%20Shufflenet%20V%2C%20ResNet18%20Val%2C%20GhostNet18%20V%2C%20on%20Sezary%20with%20cellyolo.png)
 
 
 
