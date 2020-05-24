@@ -69,7 +69,7 @@ ResNet18  [17]  and  shuffleNetv2  [25]  were  verified  so  farthe most represe
 
 ### Evaluate performance on [COVID-19 Dataset](https://github.com/Johnny-liqiang/CellNetUML/tree/master/COVID19)
 
-In order to help the medical scientists, we made this COVID-19 CT dataset. Based on initial [COVID-19  Image  Data  Collection](https://arxiv.org/abs/2003.11597),  which  contains  only  123  frontal  view  X-rays.  We  additionally  collected  data  from  newest  publications  on  European  Journal  ofRadiology,  and  collected  nearly  1583  healthy  Lung  CT/xray images  as  comparative  data  from  recently  available  resourcesand publications.
+In order to help the medical scientists, we made this COVID-19 CT dataset. Based on initial [COVID-19  Image  Data  Collection](https://arxiv.org/abs/2003.11597),  which  contains  only  123  frontal  view  X-rays.  We  additionally  collected  data  from  newest  publications  on  European  Journal  ofRadiology,  and  collected  nearly  1583  healthy  Lung  CT/xray images  as  comparative  data  from  recently  available  resources and publications.
 
 |<sub>Model</sub>|<sub>Weights(million)</sub>|<sub>Top-1 Val Acc.(%)</sub>|<sub>FLops(million)</sub>|   
 | :---: | :---: | :---: | :---: |
@@ -91,6 +91,7 @@ In order to help the medical scientists, we made this COVID-19 CT dataset. Based
     <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/ournetoncovid%20-%20Copy.png">
 </center>
 
+Our net belongs to the top list basedon the Val accuracy. Consider the fact of the higher complexity and parametersamount of other SOTA Net, our net is very competitive on classification task.
 
 ![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/ournetoncovid.png)
 
