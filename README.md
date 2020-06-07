@@ -168,6 +168,9 @@ In order to better visualizetheperformance of the cellyolo and demonstrate the n
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Original pic: ss2_8 (468).png | After Cellyolo segmentation | Ournet with cellyolo | Ournet without cellyolo | Res18 with cellyolo | Res18 without cellyolo | Vgg16 with cellyolo |
 
+## How to train with your data
+You want to have it try by your own dataset with our cellnet. No problem! These are all the [commands](https://github.com/Johnny-liqiang/CellNetUML/blob/master/The%20%20commond%20so%20far%20to%20runing%20the%20project.docx)
+
 ## License
 All copy right licensed by QiangLi
 
