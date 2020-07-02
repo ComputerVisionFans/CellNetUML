@@ -168,6 +168,21 @@ In order to better visualizetheperformance of the cellyolo and demonstrate the n
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Original pic: ss2_8 (468).png | After Cellyolo segmentation | Ournet with cellyolo | Ournet without cellyolo | Res18 with cellyolo | Res18 without cellyolo | Vgg16 with cellyolo |
 
+## the generalization  performance with our best weight(with/without finetuning)
+Prediction with our best weight trained so far on Non-ceribriform dataset, As shown in the figure, the TP and TN achived general highest score on HD/SS with larger image amount.
+and average accuracy up to 99.53%-96.51% among HD image, and average accuracy achieved 92.19%-98.78% among SS image, but there are some small folder obtain 38.29%-37.48% on SS1 and SS2, 40.17% in SS6_B folder as well.
+<center>
+    <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/trainsfer%20learning%20on%20Non-ceribriform/before%20finetuning.JPG">
+</center>
+
+After further finetuning, basically using bestweight trained so far + new subset of Non-ceribriform, and setmini batch=679, trained around 100 epochs. We test again the performance.
+<center>
+    <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/trainsfer%20learning%20on%20Non-ceribriform/after%20%20finetuning/afterfinetuning.JPG">
+</center>
+
+Now our software on nash// cloud as well, and surport pretrained weight further training, and all the prediction lsg file you can check here: [lsg file for you to check](https://github.com/Johnny-liqiang/CellNetUML/tree/master/trainsfer%20learning%20on%20Non-ceribriform)
+
+
 ## How to train with your data
 You want to have it try by your own dataset with our cellnet. No problem! These are all the [commands](https://github.com/Johnny-liqiang/CellNetUML/blob/master/The%20%20commond%20so%20far%20to%20runing%20the%20project.docx)
 
