@@ -175,7 +175,7 @@ and average accuracy up to 99.53%-96.51% among HD image, and average accuracy ac
     <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/trainsfer%20learning%20on%20Non-ceribriform/before%20finetuning.JPG">
 </center>
 
-After further finetuning, basically using bestweight trained so far + new subset of Non-ceribriform, and set mini batch=679, trained around 100 epochs. We test again the performance. As you seen, the accuracy is imporved with SS1 and SS2 and SS6_B folder surprisingly up to 64.34$, 82.64% and 96.91%.
+After further finetuning, basically using bestweight trained so far + new subset of Non-ceribriform, and set mini batch=679, trained around 100 epochs. We test again the performance. As you seen, the accuracy is imporved with SS1 and SS2 and SS6_B folder surprisingly up to 64.34%, 82.64% and 96.91%.
 <center>
     <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/trainsfer%20learning%20on%20Non-ceribriform/after%20%20finetuning/afterfinetuning.JPG">
 </center>
