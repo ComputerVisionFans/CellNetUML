@@ -183,9 +183,7 @@ After further finetuning, basically using bestweight trained so far + new subset
 <center>
     <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/trainsfer%20learning%20on%20Non-ceribriform/after%20%20finetuning/After%20further%20finetuning.png">
 </center>
-<center>
-    <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/trainsfer%20learning%20on%20Non-ceribriform/after%20%20finetuning/Accuracy.png">
-</center>
+
 
 Now our software upload on nash cloud as well, and support pretrained_weight further training, and all the prediction lsg files you can check here: [lsg file for you to check](https://github.com/Johnny-liqiang/CellNetUML/tree/master/trainsfer%20learning%20on%20Non-ceribriform)
 
