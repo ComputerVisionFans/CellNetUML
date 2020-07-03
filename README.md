@@ -180,12 +180,13 @@ After further finetuning, basically using bestweight trained so far + new subset
 <center>
     <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/trainsfer%20learning%20on%20Non-ceribriform/after%20%20finetuning/afterfinetuning.JPG">
 </center>
-
-Now our software upload on nash cloud as well, and support pretrained_weight further training, and all the prediction lsg files you can check here: [lsg file for you to check](https://github.com/Johnny-liqiang/CellNetUML/tree/master/trainsfer%20learning%20on%20Non-ceribriform)
-
 <center>
     <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/trainsfer%20learning%20on%20Non-ceribriform/after%20%20finetuning/After%20further%20finetuning.png">
 </center>
+
+Now our software upload on nash cloud as well, and support pretrained_weight further training, and all the prediction lsg files you can check here: [lsg file for you to check](https://github.com/Johnny-liqiang/CellNetUML/tree/master/trainsfer%20learning%20on%20Non-ceribriform)
+
+
 
 ## How to train with your data
 You want to have it try by your own dataset with our cellnet. No problem! These are all the [commands](https://github.com/Johnny-liqiang/CellNetUML/blob/master/The%20%20commond%20so%20far%20to%20runing%20the%20project.docx)
