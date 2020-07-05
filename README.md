@@ -183,9 +183,7 @@ After further finetuning, basically using bestweight trained so far + new subset
 <center>
     <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/trainsfer%20learning%20on%20Non-ceribriform/after%20%20finetuning/afterfinetuning.JPG">
 </center>
-<center>
-    <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/trainsfer%20learning%20on%20Non-ceribriform/after%20%20finetuning/After%20further%20finetuning.png">
-</center>
+
 <center>
     <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/trainsfer%20learning%20on%20Non-ceribriform/after%20%20finetuning/cellnetafterfinetuningnonceri.png">
 </center>
