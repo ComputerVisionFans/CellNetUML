@@ -170,12 +170,15 @@ In order to better visualizetheperformance of the cellyolo and demonstrate the n
 | Original pic: ss2_8 (468).png | After Cellyolo segmentation | Ournet with cellyolo | Ournet without cellyolo | Res18 with cellyolo | Res18 without cellyolo | Vgg16 with cellyolo |
 
 ## The generalization  performance with our best weight(with/without finetuning)
-Prediction with our best weight trained so far on Non-ceribriform dataset, As shown in the figure, the TP and TN achived general highest score on HD/SS with larger image amount.
-and average accuracy up to 99.53%-96.51% among HD image, and average accuracy achieved 92.19%-98.78% among SS image, but there are some small folder obtain 38.29%-37.48% on SS1 and SS2, 40.17% in SS6_B folder as well.
+### Non-ceribriform dataset
+
+#### CellNet before finetuning
+Prediction with our CellNet best weight trained so far on Non-ceribriform dataset, As shown in the figure, the TP and TN achived general highest score on HD/SS with larger image amount. And average accuracy up to 99.53%-96.51% among HD image, and average accuracy achieved 92.19%-98.78% among SS image, but there are some small folder obtain 38.29%-37.48% on SS1 and SS2, 40.17% in SS6_B folder as well.
 <center>
     <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/trainsfer%20learning%20on%20Non-ceribriform/before%20finetuning.JPG">
 </center>
 
+#### CellNet after finetuning
 After further finetuning, basically using bestweight trained so far + new subset of Non-ceribriform, and set mini batch=679, trained around 100 epochs. We test again the performance. As you seen, the accuracy is imporved with SS1 and SS2 and SS6_B folder surprisingly up to 64.34%, 82.64% and 96.91%.
 <center>
     <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/trainsfer%20learning%20on%20Non-ceribriform/after%20%20finetuning/afterfinetuning.JPG">
@@ -187,15 +190,19 @@ After further finetuning, basically using bestweight trained so far + new subset
     <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/trainsfer%20learning%20on%20Non-ceribriform/after%20%20finetuning/cellnetafterfinetuningnonceri.png">
 </center>
 
-<center>
-    <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/trainsfer%20learning%20on%20Non-ceribriform/after%20%20finetuning/cellnetafterfinetuningceri.jpg">
-</center>
-
-
+This is the comparison between cellNet and  ResNet18 on  Non-ceribriform dataset, with/without finetuning. As it illustrated,our net has comparable Acc. even some higher on some folder.
 
 <center>
     <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/trainsfer%20learning%20on%20Non-ceribriform/acccomparison.jpg">
 </center>
+
+
+### Ceribriform dataset
+Prediction with our CellNet best weight trained so far on Non-ceribriform dataset, As shown in the figure, the TP and TN achived comparable accuracy in %.
+<center>
+    <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/trainsfer%20learning%20on%20Non-ceribriform/after%20%20finetuning/cellnetafterfinetuningceri.jpg">
+</center>
+
 <center>
     <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/trainsfer%20learning%20on%20Non-ceribriform/res18beforefinetuningceri.jpg">
 </center>
