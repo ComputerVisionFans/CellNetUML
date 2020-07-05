@@ -210,7 +210,7 @@ Prediction with our CellNet best weight trained so far on Non-ceribriform datase
 
 Now our software upload on nash cloud as well, and support pretrained_weight further training, and all the prediction lsg files you can check here: [lsg file for you to check](https://github.com/Johnny-liqiang/CellNetUML/tree/master/trainsfer%20learning%20on%20Non-ceribriform)
 
-### [table results of  Ceribriform dataset /Ceribriform dataset ](https://github.com/Johnny-liqiang/CellNetUML/blob/master/master%20thesis%20related%20graph%20data%20%20%20(updated%20until%2005072020).xlsx)
+### [Table results of  Ceribriform dataset /Ceribriform dataset ](https://github.com/Johnny-liqiang/CellNetUML/blob/master/master%20thesis%20related%20graph%20data%20%20%20(updated%20until%2005072020).xlsx)
 
 
 
