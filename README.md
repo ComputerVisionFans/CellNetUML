@@ -196,7 +196,7 @@ This is the comparison between cellNet and  ResNet18 on  Non-ceribriform dataset
 
 
 ### Ceribriform dataset
-Prediction with our CellNet best weight trained so far on Non-ceribriform dataset, As shown in the figure, the TP and TN achived comparable accuracy in %.
+Prediction with our CellNet best weight trained so far on ceribriform dataset, As shown in the figure, the TP and TN achived comparable accuracy(in %) with resnet18.
 <center>
     <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/trainsfer%20learning%20on%20Non-ceribriform/after%20%20finetuning/cellnetafterfinetuningceri.jpg">
 </center>
