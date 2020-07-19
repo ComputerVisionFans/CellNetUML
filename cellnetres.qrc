@@ -1,5 +1,6 @@
 <RCC>
   <qresource prefix="newPrefix">
+    <file>logo/deecamplogo.png</file>
     <file>logo/17 - 3.jpg</file>
     <file>logo/4264B6CF-A805-4B77-96169CE614F2FAA8.jpg</file>
     <file>logo/background-appromoters-advertisers.png</file>
@@ -13,7 +14,7 @@
     <file>logo/icons8_athlete_16.png</file>
     <file>logo/icons8_athlete_32.png</file>
     <file>logo/icons8_centre_of_gravity.ico</file>
-    <file>logo/icons8_centre_of_gravity_16.png</file>
+    <file>logo/icons8_centre_of_gravity_16.png</file
     <file>logo/icons8_centre_of_gravity_32.png</file>
     <file>logo/icons8_chromatography.ico</file>
     <file>logo/icons8_chromatography_16.png</file>
