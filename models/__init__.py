@@ -14,3 +14,4 @@ from . import segmentation
 from . import detection
 from . import video
 from . import quantization
+from . import bert
