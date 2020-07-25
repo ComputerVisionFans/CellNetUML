@@ -1,0 +1,4604 @@
+=> creating model 'resnet18'
+=> no checkpoint found at '~/CellNet1/CellNetUML/cellyolo/weights/checkpoint.pt'
+733
+733
+Epoch: [0][ 0/23]	Time 52.435 (52.435)	Data 50.675 (50.675)	Loss 6.7666e+00 (6.7666e+00)	Acc@1   0.78 (  0.78)	Acc@2   1.56 (  1.56)
+Epoch: [0][10/23]	Time  0.183 (13.743)	Data  0.110 (13.513)	Loss 1.2368e+00 (3.0435e+00)	Acc@1  53.91 ( 39.77)	Acc@2  77.34 ( 61.08)
+Epoch: [0][20/23]	Time 24.386 (13.796)	Data 24.338 (13.639)	Loss 1.3033e+00 (2.3261e+00)	Acc@1  63.28 ( 43.64)	Acc@2  73.44 ( 66.93)
+i: 0
+output[0]:  tensor([767.05237, 480.10632], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.337 (34.337)	Loss 1.9727e-02 (1.9727e-02)	Acc@1  99.22 ( 99.22)	Acc@2  99.22 ( 99.22)
+i: 1
+output[0]:  tensor([348.34827, 225.68187], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([313.07391, 205.43124], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([37.08149, 25.51308], device='cuda:0')
+No DR
+i: 4
+output[0]:  tensor([203.98279, 132.53255], device='cuda:0')
+No DR
+i: 5
+output[0]:  tensor([60.41114, 39.43027], device='cuda:0')
+No DR
+ * Acc@1 49.659 Acc@5 57.844
+Epoch: [1][ 0/23]	Time 50.501 (50.501)	Data 50.417 (50.417)	Loss 1.3771e+00 (1.3771e+00)	Acc@1  55.47 ( 55.47)	Acc@2  74.22 ( 74.22)
+Epoch: [1][10/23]	Time 12.215 (14.861)	Data 12.146 (14.780)	Loss 1.3511e+00 (1.2796e+00)	Acc@1  58.59 ( 54.69)	Acc@2  75.00 ( 72.23)
+Epoch: [1][20/23]	Time 21.827 (13.604)	Data 21.770 (13.520)	Loss 1.2353e+00 (1.2250e+00)	Acc@1  63.28 ( 57.03)	Acc@2  82.81 ( 75.60)
+i: 0
+output[0]:  tensor([46.81161, 41.31966], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.402 (34.402)	Loss 2.0019e-01 (2.0019e-01)	Acc@1  91.41 ( 91.41)	Acc@2  96.88 ( 96.88)
+i: 1
+output[0]:  tensor([27.98967, 19.63504], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([21.19435, 16.68118], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([13.23896, 12.09873], device='cuda:0')
+No DR
+i: 4
+output[0]:  tensor([12.38949, 11.61594], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.42533, 12.34069], device='cuda:0')
+Moderate
+ * Acc@1 63.029 Acc@5 77.080
+Epoch: [2][ 0/23]	Time 54.552 (54.552)	Data 54.384 (54.384)	Loss 1.2679e+00 (1.2679e+00)	Acc@1  60.94 ( 60.94)	Acc@2  79.69 ( 79.69)
+Epoch: [2][10/23]	Time  0.207 (13.632)	Data  0.106 (13.504)	Loss 1.1434e+00 (1.0735e+00)	Acc@1  67.19 ( 63.00)	Acc@2  81.25 ( 79.76)
+Epoch: [2][20/23]	Time 28.573 (13.726)	Data 28.527 (13.617)	Loss 1.2325e+00 (1.1070e+00)	Acc@1  61.72 ( 61.76)	Acc@2  82.03 ( 79.91)
+i: 0
+output[0]:  tensor([15.75768, 13.88533], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.348 (34.348)	Loss 5.3834e-01 (5.3834e-01)	Acc@1  82.81 ( 82.81)	Acc@2  98.44 ( 98.44)
+i: 1
+output[0]:  tensor([16.54143, 12.85262], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([15.03716, 12.57209], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([12.90960, 12.49167], device='cuda:0')
+Moderate
+i: 4
+output[0]:  tensor([12.07073, 11.73477], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.44477, 12.23232], device='cuda:0')
+Moderate
+ * Acc@1 64.939 Acc@5 81.583
+Epoch: [3][ 0/23]	Time 47.383 (47.383)	Data 47.294 (47.294)	Loss 1.0950e+00 (1.0950e+00)	Acc@1  59.38 ( 59.38)	Acc@2  79.69 ( 79.69)
+Epoch: [3][10/23]	Time  5.387 (13.983)	Data  5.326 (13.898)	Loss 1.1498e+00 (1.1196e+00)	Acc@1  54.69 ( 59.59)	Acc@2  72.66 ( 77.77)
+Epoch: [3][20/23]	Time 23.454 (13.794)	Data 23.404 (13.711)	Loss 1.0817e+00 (1.0964e+00)	Acc@1  62.50 ( 61.20)	Acc@2  78.12 ( 78.68)
+i: 0
+output[0]:  tensor([27.78735, 23.56364], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.755 (33.755)	Loss 2.3310e-01 (2.3310e-01)	Acc@1  92.97 ( 92.97)	Acc@2  98.44 ( 98.44)
+i: 1
+output[0]:  tensor([21.14642, 13.20956], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([18.07614, 12.44314], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.90084, 11.09811], device='cuda:0')
+No DR
+i: 4
+output[0]:  tensor([13.87831, 11.01451], device='cuda:0')
+No DR
+i: 5
+output[0]:  tensor([14.46812, 11.13214], device='cuda:0')
+No DR
+ * Acc@1 58.527 Acc@5 78.035
+Epoch: [4][ 0/23]	Time 51.484 (51.484)	Data 51.423 (51.423)	Loss 9.1134e-01 (9.1134e-01)	Acc@1  67.19 ( 67.19)	Acc@2  85.94 ( 85.94)
+Epoch: [4][10/23]	Time  8.446 (14.553)	Data  8.391 (14.472)	Loss 1.2539e+00 (1.0305e+00)	Acc@1  53.12 ( 63.92)	Acc@2  75.78 ( 81.82)
+Epoch: [4][20/23]	Time 26.345 (13.662)	Data 26.296 (13.583)	Loss 1.0848e+00 (1.0628e+00)	Acc@1  60.16 ( 62.50)	Acc@2  72.66 ( 79.76)
+i: 0
+output[0]:  tensor([17.24040, 14.68450], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.441 (33.441)	Loss 2.0621e-01 (2.0621e-01)	Acc@1  96.88 ( 96.88)	Acc@2  98.44 ( 98.44)
+i: 1
+output[0]:  tensor([16.66822, 12.84461], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([15.04042, 12.57728], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([13.12405, 12.21422], device='cuda:0')
+No DR
+i: 4
+output[0]:  tensor([13.64785, 12.04464], device='cuda:0')
+No DR
+i: 5
+output[0]:  tensor([12.73191, 12.00414], device='cuda:0')
+No DR
+ * Acc@1 65.211 Acc@5 80.628
+Epoch: [5][ 0/23]	Time 58.707 (58.707)	Data 58.605 (58.605)	Loss 1.0708e+00 (1.0708e+00)	Acc@1  57.03 ( 57.03)	Acc@2  75.00 ( 75.00)
+Epoch: [5][10/23]	Time  0.163 (14.581)	Data  0.068 (14.494)	Loss 1.1504e+00 (9.6364e-01)	Acc@1  60.16 ( 65.55)	Acc@2  74.22 ( 81.25)
+Epoch: [5][20/23]	Time 28.108 (13.807)	Data 28.060 (13.726)	Loss 1.0284e+00 (1.0041e+00)	Acc@1  66.41 ( 64.40)	Acc@2  75.78 ( 80.69)
+i: 0
+output[0]:  tensor([22.46116, 18.30251], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.232 (33.232)	Loss 3.6148e-01 (3.6148e-01)	Acc@1  89.06 ( 89.06)	Acc@2  93.75 ( 93.75)
+i: 1
+output[0]:  tensor([22.63599, 15.31777], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([18.82545, 13.66158], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.12350, 12.59288], device='cuda:0')
+No DR
+i: 4
+output[0]:  tensor([13.77280, 12.40395], device='cuda:0')
+No DR
+i: 5
+output[0]:  tensor([13.74402, 12.37440], device='cuda:0')
+No DR
+ * Acc@1 64.939 Acc@5 79.673
+Epoch: [6][ 0/23]	Time 51.368 (51.368)	Data 51.310 (51.310)	Loss 9.8230e-01 (9.8230e-01)	Acc@1  65.62 ( 65.62)	Acc@2  82.81 ( 82.81)
+Epoch: [6][10/23]	Time  1.693 (14.408)	Data  1.591 (14.322)	Loss 1.0653e+00 (9.8542e-01)	Acc@1  59.38 ( 64.63)	Acc@2  78.12 ( 81.18)
+Epoch: [6][20/23]	Time 32.547 (13.802)	Data 32.499 (13.724)	Loss 9.8918e-01 (9.7506e-01)	Acc@1  57.81 ( 64.73)	Acc@2  79.69 ( 81.06)
+i: 0
+output[0]:  tensor([16.76102, 13.64868], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.072 (34.072)	Loss 2.6294e-01 (2.6294e-01)	Acc@1  97.66 ( 97.66)	Acc@2  98.44 ( 98.44)
+i: 1
+output[0]:  tensor([17.45045, 13.08651], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([15.78048, 12.72227], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([11.52526, 11.80345], device='cuda:0')
+Moderate
+i: 4
+output[0]:  tensor([12.58378, 12.04228], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([11.08404, 11.56208], device='cuda:0')
+Moderate
+ * Acc@1 70.123 Acc@5 83.629
+Epoch: [7][ 0/23]	Time 57.726 (57.726)	Data 57.640 (57.640)	Loss 9.4973e-01 (9.4973e-01)	Acc@1  64.84 ( 64.84)	Acc@2  81.25 ( 81.25)
+Epoch: [7][10/23]	Time  0.506 (14.326)	Data  0.458 (14.252)	Loss 1.0927e+00 (1.0157e+00)	Acc@1  64.84 ( 65.55)	Acc@2  77.34 ( 80.68)
+Epoch: [7][20/23]	Time 33.318 (13.831)	Data 33.272 (13.757)	Loss 8.8156e-01 (1.0037e+00)	Acc@1  72.66 ( 64.69)	Acc@2  83.59 ( 80.92)
+i: 0
+output[0]:  tensor([19.27229, 16.21016], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.526 (34.526)	Loss 3.2367e-01 (3.2367e-01)	Acc@1  95.31 ( 95.31)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([16.32188, 13.60913], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([13.33906, 13.15821], device='cuda:0')
+Moderate
+i: 3
+output[0]:  tensor([13.91459, 13.06696], device='cuda:0')
+No DR
+i: 4
+output[0]:  tensor([13.85164, 12.95907], device='cuda:0')
+No DR
+i: 5
+output[0]:  tensor([13.18434, 12.86150], device='cuda:0')
+No DR
+ * Acc@1 64.802 Acc@5 81.173
+Epoch: [8][ 0/23]	Time 49.163 (49.163)	Data 49.105 (49.105)	Loss 1.0725e+00 (1.0725e+00)	Acc@1  61.72 ( 61.72)	Acc@2  79.69 ( 79.69)
+Epoch: [8][10/23]	Time  0.191 (13.933)	Data  0.074 (13.852)	Loss 8.4971e-01 (9.6527e-01)	Acc@1  66.41 ( 66.48)	Acc@2  83.59 ( 81.61)
+Epoch: [8][20/23]	Time 32.693 (13.853)	Data 32.645 (13.774)	Loss 9.7301e-01 (9.6261e-01)	Acc@1  66.41 ( 65.70)	Acc@2  79.69 ( 81.03)
+i: 0
+output[0]:  tensor([28.02070, 24.76704], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.816 (34.816)	Loss 2.1482e-01 (2.1482e-01)	Acc@1  95.31 ( 95.31)	Acc@2  96.88 ( 96.88)
+i: 1
+output[0]:  tensor([20.89717, 14.55459], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([18.90718, 14.18659], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.29859, 13.87880], device='cuda:0')
+No DR
+i: 4
+output[0]:  tensor([14.95741, 13.74651], device='cuda:0')
+No DR
+i: 5
+output[0]:  tensor([13.68701, 13.68195], device='cuda:0')
+Moderate
+ * Acc@1 68.759 Acc@5 81.583
+Epoch: [9][ 0/23]	Time 49.887 (49.887)	Data 49.839 (49.839)	Loss 8.9137e-01 (8.9137e-01)	Acc@1  67.19 ( 67.19)	Acc@2  81.25 ( 81.25)
+Epoch: [9][10/23]	Time  0.211 (13.581)	Data  0.095 (13.500)	Loss 9.3002e-01 (9.4027e-01)	Acc@1  67.97 ( 67.26)	Acc@2  78.12 ( 81.11)
+Epoch: [9][20/23]	Time 28.357 (13.767)	Data 28.311 (13.696)	Loss 8.9198e-01 (9.7774e-01)	Acc@1  70.31 ( 66.26)	Acc@2  85.16 ( 81.40)
+i: 0
+output[0]:  tensor([21.86379, 16.22818], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.475 (34.475)	Loss 1.9868e-01 (1.9868e-01)	Acc@1  93.75 ( 93.75)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.80127, 19.00374], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([29.64043, 17.87436], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([11.12151, 11.55385], device='cuda:0')
+Moderate
+i: 4
+output[0]:  tensor([13.61529, 11.58130], device='cuda:0')
+No DR
+i: 5
+output[0]:  tensor([11.62823, 11.29189], device='cuda:0')
+Moderate
+ * Acc@1 67.531 Acc@5 81.855
+Epoch: [10][ 0/23]	Time 49.644 (49.644)	Data 49.528 (49.528)	Loss 9.8213e-01 (9.8213e-01)	Acc@1  64.84 ( 64.84)	Acc@2  80.47 ( 80.47)
+Epoch: [10][10/23]	Time  0.215 (13.825)	Data  0.154 (13.746)	Loss 9.3048e-01 (9.5547e-01)	Acc@1  69.53 ( 64.63)	Acc@2  81.25 ( 80.61)
+Epoch: [10][20/23]	Time 29.697 (13.740)	Data 29.650 (13.656)	Loss 9.2084e-01 (9.5478e-01)	Acc@1  69.53 ( 65.62)	Acc@2  82.81 ( 81.10)
+i: 0
+output[0]:  tensor([13.94529, 11.37500], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.755 (33.755)	Loss 3.8658e-01 (3.8658e-01)	Acc@1  93.75 ( 93.75)	Acc@2  98.44 ( 98.44)
+i: 1
+output[0]:  tensor([15.91142, 11.97180], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([14.76736, 11.78356], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([11.96682, 11.82825], device='cuda:0')
+Moderate
+i: 4
+output[0]:  tensor([12.29571, 11.35418], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.10191, 11.64834], device='cuda:0')
+Moderate
+ * Acc@1 69.304 Acc@5 83.356
+Epoch: [11][ 0/23]	Time 47.248 (47.248)	Data 47.172 (47.172)	Loss 8.1368e-01 (8.1368e-01)	Acc@1  71.09 ( 71.09)	Acc@2  81.25 ( 81.25)
+Epoch: [11][10/23]	Time  0.274 (13.903)	Data  0.094 (13.814)	Loss 8.4055e-01 (9.0982e-01)	Acc@1  68.75 ( 66.41)	Acc@2  85.16 ( 82.74)
+Epoch: [11][20/23]	Time 32.932 (13.780)	Data 32.884 (13.701)	Loss 9.7348e-01 (9.4307e-01)	Acc@1  67.19 ( 66.41)	Acc@2  82.81 ( 81.62)
+i: 0
+output[0]:  tensor([17.46960, 15.13989], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.175 (33.175)	Loss 3.7579e-01 (3.7579e-01)	Acc@1  90.62 ( 90.62)	Acc@2  92.97 ( 92.97)
+i: 1
+output[0]:  tensor([19.67915, 12.52363], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([18.00022, 11.63906], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([10.22050, 11.67916], device='cuda:0')
+Moderate
+i: 4
+output[0]:  tensor([11.31240, 11.05539], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([10.68103, 11.34566], device='cuda:0')
+Moderate
+ * Acc@1 67.394 Acc@5 82.674
+Epoch: [12][ 0/23]	Time 57.766 (57.766)	Data 57.708 (57.708)	Loss 1.1401e+00 (1.1401e+00)	Acc@1  59.38 ( 59.38)	Acc@2  75.78 ( 75.78)
+Epoch: [12][10/23]	Time  6.126 (14.809)	Data  6.072 (14.732)	Loss 8.6009e-01 (9.8724e-01)	Acc@1  72.66 ( 64.56)	Acc@2  85.94 ( 81.39)
+Epoch: [12][20/23]	Time 29.586 (13.826)	Data 29.539 (13.682)	Loss 8.8510e-01 (9.7284e-01)	Acc@1  71.88 ( 65.70)	Acc@2  85.94 ( 81.77)
+i: 0
+output[0]:  tensor([16.08670, 12.68939], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.220 (33.220)	Loss 2.5576e-01 (2.5576e-01)	Acc@1  92.97 ( 92.97)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([21.39550, 13.26594], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([19.45586, 13.13336], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([17.22904, 14.02949], device='cuda:0')
+No DR
+i: 4
+output[0]:  tensor([13.52159, 12.97399], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([15.11846, 13.51051], device='cuda:0')
+No DR
+ * Acc@1 64.939 Acc@5 80.491
+Epoch: [13][ 0/23]	Time 53.152 (53.152)	Data 53.053 (53.053)	Loss 8.6699e-01 (8.6699e-01)	Acc@1  66.41 ( 66.41)	Acc@2  85.16 ( 85.16)
+Epoch: [13][10/23]	Time  1.170 (14.396)	Data  1.064 (14.299)	Loss 8.4614e-01 (9.3656e-01)	Acc@1  73.44 ( 66.62)	Acc@2  82.81 ( 81.32)
+Epoch: [13][20/23]	Time 35.192 (13.836)	Data 35.145 (13.748)	Loss 8.6793e-01 (9.2018e-01)	Acc@1  71.09 ( 67.37)	Acc@2  84.38 ( 81.70)
+i: 0
+output[0]:  tensor([16.95539, 13.94956], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.322 (34.322)	Loss 2.2201e-01 (2.2201e-01)	Acc@1  96.09 ( 96.09)	Acc@2  96.88 ( 96.88)
+i: 1
+output[0]:  tensor([22.77083, 15.15866], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([21.70345, 14.67841], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([13.61480, 13.96846], device='cuda:0')
+Moderate
+i: 4
+output[0]:  tensor([13.12896, 13.28762], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.67595, 13.60524], device='cuda:0')
+Moderate
+ * Acc@1 71.351 Acc@5 84.175
+Epoch: [14][ 0/23]	Time 50.279 (50.279)	Data 50.213 (50.213)	Loss 8.1030e-01 (8.1030e-01)	Acc@1  72.66 ( 72.66)	Acc@2  82.03 ( 82.03)
+Epoch: [14][10/23]	Time  0.233 (13.893)	Data  0.103 (13.808)	Loss 8.7916e-01 (8.5147e-01)	Acc@1  68.75 ( 69.74)	Acc@2  81.25 ( 82.46)
+Epoch: [14][20/23]	Time 25.330 (13.859)	Data 25.282 (13.782)	Loss 8.5954e-01 (8.6972e-01)	Acc@1  72.66 ( 69.05)	Acc@2  79.69 ( 81.96)
+i: 0
+output[0]:  tensor([21.81877, 19.27342], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.599 (34.599)	Loss 5.2905e-01 (5.2905e-01)	Acc@1  86.72 ( 86.72)	Acc@2  90.62 ( 90.62)
+i: 1
+output[0]:  tensor([15.50748, 12.24464], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([13.44259, 12.56414], device='cuda:0')
+Moderate
+i: 3
+output[0]:  tensor([12.44078, 12.32292], device='cuda:0')
+Moderate
+i: 4
+output[0]:  tensor([12.35992, 11.70477], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([11.47544, 11.96782], device='cuda:0')
+Moderate
+ * Acc@1 65.757 Acc@5 80.082
+Epoch: [15][ 0/23]	Time 50.692 (50.692)	Data 50.624 (50.624)	Loss 9.6177e-01 (9.6177e-01)	Acc@1  63.28 ( 63.28)	Acc@2  79.69 ( 79.69)
+Epoch: [15][10/23]	Time  0.188 (14.329)	Data  0.118 (14.261)	Loss 8.9808e-01 (9.1305e-01)	Acc@1  67.97 ( 67.19)	Acc@2  82.81 ( 82.46)
+Epoch: [15][20/23]	Time 26.397 (13.618)	Data 26.343 (13.549)	Loss 1.0113e+00 (9.2485e-01)	Acc@1  67.19 ( 67.34)	Acc@2  80.47 ( 81.92)
+i: 0
+output[0]:  tensor([20.18957, 17.81024], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.282 (34.282)	Loss 7.5101e-01 (7.5101e-01)	Acc@1  78.91 ( 78.91)	Acc@2  92.97 ( 92.97)
+i: 1
+output[0]:  tensor([14.41657, 12.60966], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([12.06848, 12.35977], device='cuda:0')
+Moderate
+i: 3
+output[0]:  tensor([13.05972, 13.77657], device='cuda:0')
+Moderate
+i: 4
+output[0]:  tensor([13.26120, 12.61952], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.62362, 13.06347], device='cuda:0')
+Moderate
+ * Acc@1 62.347 Acc@5 81.173
+Epoch: [16][ 0/23]	Time 49.279 (49.279)	Data 48.739 (48.739)	Loss 7.8321e-01 (7.8321e-01)	Acc@1  74.22 ( 74.22)	Acc@2  86.72 ( 86.72)
+Epoch: [16][10/23]	Time  3.065 (14.038)	Data  2.999 (13.924)	Loss 8.9949e-01 (9.2599e-01)	Acc@1  65.62 ( 66.83)	Acc@2  83.59 ( 81.89)
+Epoch: [16][20/23]	Time 27.642 (13.728)	Data 27.567 (13.630)	Loss 7.8656e-01 (9.0552e-01)	Acc@1  78.12 ( 67.86)	Acc@2  84.38 ( 82.07)
+i: 0
+output[0]:  tensor([17.77649, 14.68857], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.351 (34.351)	Loss 3.0424e-01 (3.0424e-01)	Acc@1  91.41 ( 91.41)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([16.61842, 13.18738], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([17.31436, 13.37420], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([13.17784, 13.29407], device='cuda:0')
+Moderate
+i: 4
+output[0]:  tensor([13.14164, 12.72933], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([14.40909, 13.45457], device='cuda:0')
+Moderate
+ * Acc@1 70.259 Acc@5 82.674
+Epoch: [17][ 0/23]	Time 49.001 (49.001)	Data 48.916 (48.916)	Loss 9.9413e-01 (9.9413e-01)	Acc@1  64.84 ( 64.84)	Acc@2  79.69 ( 79.69)
+Epoch: [17][10/23]	Time  0.156 (13.688)	Data  0.048 (13.589)	Loss 9.5502e-01 (8.8091e-01)	Acc@1  64.06 ( 67.26)	Acc@2  80.47 ( 84.09)
+Epoch: [17][20/23]	Time 26.894 (13.816)	Data 26.848 (13.726)	Loss 8.6703e-01 (8.6529e-01)	Acc@1  71.88 ( 68.64)	Acc@2  85.16 ( 83.82)
+i: 0
+output[0]:  tensor([19.27113, 17.59727], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.458 (33.458)	Loss 8.8120e-01 (8.8120e-01)	Acc@1  76.56 ( 76.56)	Acc@2  84.38 ( 84.38)
+i: 1
+output[0]:  tensor([14.84027, 13.63489], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([11.68553, 13.09044], device='cuda:0')
+Moderate
+i: 3
+output[0]:  tensor([13.62525, 14.15234], device='cuda:0')
+Moderate
+i: 4
+output[0]:  tensor([12.11495, 13.09430], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.23450, 13.81841], device='cuda:0')
+Moderate
+ * Acc@1 61.119 Acc@5 78.718
+Epoch: [18][ 0/23]	Time 52.368 (52.368)	Data 52.299 (52.299)	Loss 9.3908e-01 (9.3908e-01)	Acc@1  66.41 ( 66.41)	Acc@2  80.47 ( 80.47)
+Epoch: [18][10/23]	Time  0.228 (14.282)	Data  0.129 (14.204)	Loss 8.2965e-01 (9.1909e-01)	Acc@1  76.56 ( 67.61)	Acc@2  84.38 ( 81.53)
+Epoch: [18][20/23]	Time 24.016 (13.509)	Data 23.957 (13.430)	Loss 8.9712e-01 (8.8876e-01)	Acc@1  64.84 ( 68.34)	Acc@2  78.91 ( 81.81)
+i: 0
+output[0]:  tensor([28.45758, 21.95309], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.210 (33.210)	Loss 1.7038e-01 (1.7038e-01)	Acc@1  95.31 ( 95.31)	Acc@2  96.88 ( 96.88)
+i: 1
+output[0]:  tensor([24.64096, 15.06838], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([21.94189, 13.96095], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([12.42868, 13.85642], device='cuda:0')
+Moderate
+i: 4
+output[0]:  tensor([12.25088, 12.50541], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([11.94024, 13.21379], device='cuda:0')
+Moderate
+ * Acc@1 70.532 Acc@5 84.857
+Epoch: [19][ 0/23]	Time 48.230 (48.230)	Data 48.138 (48.138)	Loss 8.7804e-01 (8.7804e-01)	Acc@1  69.53 ( 69.53)	Acc@2  84.38 ( 84.38)
+Epoch: [19][10/23]	Time  0.194 (14.086)	Data  0.087 (14.008)	Loss 8.2725e-01 (8.3112e-01)	Acc@1  68.75 ( 69.82)	Acc@2  81.25 ( 83.52)
+Epoch: [19][20/23]	Time 34.683 (13.797)	Data 34.635 (13.722)	Loss 9.8357e-01 (8.4797e-01)	Acc@1  63.28 ( 69.42)	Acc@2  82.03 ( 83.67)
+i: 0
+output[0]:  tensor([22.69072, 19.69630], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.399 (33.399)	Loss 6.5042e-01 (6.5042e-01)	Acc@1  82.81 ( 82.81)	Acc@2  86.72 ( 86.72)
+i: 1
+output[0]:  tensor([13.52393, 12.94811], device='cuda:0')
+Moderate
+i: 2
+output[0]:  tensor([13.11865, 12.80337], device='cuda:0')
+Moderate
+i: 3
+output[0]:  tensor([12.83485, 13.30165], device='cuda:0')
+Moderate
+i: 4
+output[0]:  tensor([11.55870, 12.25942], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.43826, 13.39153], device='cuda:0')
+Moderate
+ * Acc@1 60.573 Acc@5 79.263
+Epoch: [20][ 0/23]	Time 56.022 (56.022)	Data 55.932 (55.932)	Loss 8.7105e-01 (8.7105e-01)	Acc@1  66.41 ( 66.41)	Acc@2  83.59 ( 83.59)
+Epoch: [20][10/23]	Time  0.158 (14.324)	Data  0.084 (14.242)	Loss 9.6279e-01 (8.4372e-01)	Acc@1  61.72 ( 69.96)	Acc@2  77.34 ( 83.17)
+Epoch: [20][20/23]	Time 27.297 (13.797)	Data 27.251 (13.557)	Loss 9.0849e-01 (8.5996e-01)	Acc@1  67.19 ( 69.87)	Acc@2  83.59 ( 83.18)
+i: 0
+output[0]:  tensor([17.86115, 12.42451], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.139 (34.139)	Loss 2.4344e-01 (2.4344e-01)	Acc@1  92.19 ( 92.19)	Acc@2  95.31 ( 95.31)
+i: 1
+output[0]:  tensor([24.91220, 14.35025], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([22.59262, 13.50028], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([13.21553, 12.79210], device='cuda:0')
+Moderate
+i: 4
+output[0]:  tensor([11.10648, 11.79096], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.81627, 12.83036], device='cuda:0')
+Moderate
+ * Acc@1 69.850 Acc@5 84.584
+Epoch: [21][ 0/23]	Time 51.839 (51.839)	Data 51.788 (51.788)	Loss 8.3231e-01 (8.3231e-01)	Acc@1  71.88 ( 71.88)	Acc@2  85.16 ( 85.16)
+Epoch: [21][10/23]	Time  0.198 (13.803)	Data  0.096 (13.716)	Loss 8.9642e-01 (8.4192e-01)	Acc@1  72.66 ( 69.46)	Acc@2  85.16 ( 83.74)
+Epoch: [21][20/23]	Time 31.142 (13.664)	Data 31.095 (13.465)	Loss 8.4649e-01 (8.6074e-01)	Acc@1  67.97 ( 68.75)	Acc@2  86.72 ( 82.81)
+i: 0
+output[0]:  tensor([30.07487, 22.61771], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.036 (34.036)	Loss 1.8668e-01 (1.8668e-01)	Acc@1  93.75 ( 93.75)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([32.11401, 19.81744], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([33.83398, 20.77076], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([11.37590, 12.91197], device='cuda:0')
+Moderate
+i: 4
+output[0]:  tensor([11.48243, 12.02324], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([11.27090, 12.95257], device='cuda:0')
+Moderate
+ * Acc@1 69.986 Acc@5 85.130
+Epoch: [22][ 0/23]	Time 51.585 (51.585)	Data 51.520 (51.520)	Loss 8.4765e-01 (8.4765e-01)	Acc@1  64.84 ( 64.84)	Acc@2  82.03 ( 82.03)
+Epoch: [22][10/23]	Time  0.196 (13.697)	Data  0.102 (13.629)	Loss 9.5266e-01 (8.6191e-01)	Acc@1  63.28 ( 67.90)	Acc@2  81.25 ( 83.10)
+Epoch: [22][20/23]	Time 24.513 (13.638)	Data 24.457 (13.565)	Loss 9.4693e-01 (8.6206e-01)	Acc@1  64.84 ( 68.34)	Acc@2  84.38 ( 83.48)
+i: 0
+output[0]:  tensor([20.77354, 16.28953], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.523 (34.523)	Loss 2.1994e-01 (2.1994e-01)	Acc@1  94.53 ( 94.53)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([21.13683, 14.07300], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([18.42061, 12.99673], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([12.50058, 12.89182], device='cuda:0')
+Moderate
+i: 4
+output[0]:  tensor([11.22963, 11.89474], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.12580, 12.89245], device='cuda:0')
+Moderate
+ * Acc@1 70.941 Acc@5 85.266
+Epoch: [23][ 0/23]	Time 49.992 (49.992)	Data 49.914 (49.914)	Loss 8.1952e-01 (8.1952e-01)	Acc@1  73.44 ( 73.44)	Acc@2  85.16 ( 85.16)
+Epoch: [23][10/23]	Time  4.761 (14.496)	Data  4.704 (14.419)	Loss 9.1429e-01 (8.6467e-01)	Acc@1  71.09 ( 68.96)	Acc@2  84.38 ( 83.88)
+Epoch: [23][20/23]	Time 27.681 (13.585)	Data 27.619 (13.511)	Loss 1.0008e+00 (8.5318e-01)	Acc@1  71.09 ( 69.98)	Acc@2  80.47 ( 84.23)
+i: 0
+output[0]:  tensor([15.20537, 13.28165], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.430 (34.430)	Loss 1.6941e+00 (1.6941e+00)	Acc@1  54.69 ( 54.69)	Acc@2  64.06 ( 64.06)
+i: 1
+output[0]:  tensor([12.50463, 13.73363], device='cuda:0')
+Moderate
+i: 2
+output[0]:  tensor([11.90381, 13.82057], device='cuda:0')
+Moderate
+i: 3
+output[0]:  tensor([11.74410, 13.38087], device='cuda:0')
+Moderate
+i: 4
+output[0]:  tensor([11.57999, 13.24426], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([11.85493, 14.07518], device='cuda:0')
+Moderate
+ * Acc@1 51.432 Acc@5 68.759
+Epoch: [24][ 0/23]	Time 55.508 (55.508)	Data 55.459 (55.459)	Loss 7.8810e-01 (7.8810e-01)	Acc@1  71.88 ( 71.88)	Acc@2  83.59 ( 83.59)
+Epoch: [24][10/23]	Time  1.227 (13.983)	Data  1.163 (13.905)	Loss 9.1052e-01 (8.2602e-01)	Acc@1  68.75 ( 70.45)	Acc@2  82.81 ( 84.66)
+Epoch: [24][20/23]	Time 30.417 (13.716)	Data 30.367 (13.642)	Loss 8.3121e-01 (8.2896e-01)	Acc@1  68.75 ( 70.13)	Acc@2  82.03 ( 84.30)
+i: 0
+output[0]:  tensor([34.16356, 25.32213], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.992 (33.992)	Loss 1.8860e-01 (1.8860e-01)	Acc@1  92.97 ( 92.97)	Acc@2  96.09 ( 96.09)
+i: 1
+output[0]:  tensor([38.96992, 22.65853], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([41.67694, 24.37107], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([13.61481, 13.86449], device='cuda:0')
+Moderate
+i: 4
+output[0]:  tensor([11.68588, 13.12095], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.51744, 14.03154], device='cuda:0')
+Moderate
+ * Acc@1 69.441 Acc@5 83.083
+Epoch: [25][ 0/23]	Time 55.721 (55.721)	Data 55.620 (55.620)	Loss 7.4270e-01 (7.4270e-01)	Acc@1  71.88 ( 71.88)	Acc@2  87.50 ( 87.50)
+Epoch: [25][10/23]	Time  1.578 (14.524)	Data  1.285 (14.386)	Loss 5.8939e-01 (8.2687e-01)	Acc@1  82.81 ( 70.45)	Acc@2  91.41 ( 83.88)
+Epoch: [25][20/23]	Time 31.434 (13.787)	Data 31.387 (13.613)	Loss 9.7251e-01 (8.3549e-01)	Acc@1  68.75 ( 69.98)	Acc@2  78.91 ( 83.85)
+i: 0
+output[0]:  tensor([20.69887, 15.26401], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.226 (33.226)	Loss 2.1378e-01 (2.1378e-01)	Acc@1  94.53 ( 94.53)	Acc@2  95.31 ( 95.31)
+i: 1
+output[0]:  tensor([26.62890, 15.47775], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([25.15545, 15.42938], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([13.15864, 12.55976], device='cuda:0')
+No DR
+i: 4
+output[0]:  tensor([11.54603, 12.20497], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.21129, 13.02678], device='cuda:0')
+Moderate
+ * Acc@1 70.941 Acc@5 84.584
+Epoch: [26][ 0/23]	Time 57.958 (57.958)	Data 57.888 (57.888)	Loss 8.7791e-01 (8.7791e-01)	Acc@1  67.19 ( 67.19)	Acc@2  79.69 ( 79.69)
+Epoch: [26][10/23]	Time  0.204 (14.229)	Data  0.078 (14.146)	Loss 6.4228e-01 (8.2680e-01)	Acc@1  77.34 ( 69.46)	Acc@2  88.28 ( 84.16)
+Epoch: [26][20/23]	Time 28.410 (13.753)	Data 28.361 (13.453)	Loss 8.4434e-01 (8.3567e-01)	Acc@1  64.06 ( 69.01)	Acc@2  83.59 ( 83.97)
+i: 0
+output[0]:  tensor([17.70976, 12.97440], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.129 (33.129)	Loss 2.5101e-01 (2.5101e-01)	Acc@1  93.75 ( 93.75)	Acc@2  96.09 ( 96.09)
+i: 1
+output[0]:  tensor([30.11849, 17.55932], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([26.49765, 16.66077], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([13.25576, 12.24934], device='cuda:0')
+No DR
+i: 4
+output[0]:  tensor([10.58133, 12.19450], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([11.65777, 13.29746], device='cuda:0')
+Moderate
+ * Acc@1 71.351 Acc@5 85.266
+Epoch: [27][ 0/23]	Time 53.108 (53.108)	Data 53.052 (53.052)	Loss 7.8364e-01 (7.8364e-01)	Acc@1  71.88 ( 71.88)	Acc@2  85.94 ( 85.94)
+Epoch: [27][10/23]	Time  0.196 (14.382)	Data  0.109 (14.205)	Loss 7.4683e-01 (8.1603e-01)	Acc@1  71.88 ( 70.17)	Acc@2  85.16 ( 84.59)
+Epoch: [27][20/23]	Time 25.920 (13.580)	Data 25.857 (13.389)	Loss 7.8632e-01 (8.1268e-01)	Acc@1  72.66 ( 70.94)	Acc@2  84.38 ( 84.52)
+i: 0
+output[0]:  tensor([19.70727, 17.19284], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.163 (33.163)	Loss 1.0341e+00 (1.0341e+00)	Acc@1  67.97 ( 67.97)	Acc@2  76.56 ( 76.56)
+i: 1
+output[0]:  tensor([16.06959, 14.51537], device='cuda:0')
+Moderate
+i: 2
+output[0]:  tensor([12.71773, 13.65311], device='cuda:0')
+Moderate
+i: 3
+output[0]:  tensor([13.91981, 14.29437], device='cuda:0')
+Moderate
+i: 4
+output[0]:  tensor([11.74214, 13.29794], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([10.47403, 13.62333], device='cuda:0')
+Moderate
+ * Acc@1 60.573 Acc@5 76.808
+Epoch: [28][ 0/23]	Time 52.177 (52.177)	Data 52.112 (52.112)	Loss 9.1347e-01 (9.1347e-01)	Acc@1  65.62 ( 65.62)	Acc@2  78.91 ( 78.91)
+Epoch: [28][10/23]	Time  0.217 (14.128)	Data  0.101 (14.055)	Loss 8.8515e-01 (8.2328e-01)	Acc@1  68.75 ( 69.96)	Acc@2  83.59 ( 84.02)
+Epoch: [28][20/23]	Time 35.024 (13.776)	Data 34.976 (13.701)	Loss 8.6396e-01 (8.1539e-01)	Acc@1  67.19 ( 70.80)	Acc@2  84.38 ( 84.60)
+i: 0
+output[0]:  tensor([21.51801, 17.46609], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.289 (34.289)	Loss 2.6984e-01 (2.6984e-01)	Acc@1  92.97 ( 92.97)	Acc@2  96.09 ( 96.09)
+i: 1
+output[0]:  tensor([23.79193, 15.86360], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([22.66618, 15.57624], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([13.52655, 14.19004], device='cuda:0')
+Moderate
+i: 4
+output[0]:  tensor([11.57198, 13.37981], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.16836, 14.29243], device='cuda:0')
+Moderate
+ * Acc@1 70.668 Acc@5 87.176
+Epoch: [29][ 0/23]	Time 52.493 (52.493)	Data 52.431 (52.431)	Loss 7.5445e-01 (7.5445e-01)	Acc@1  72.66 ( 72.66)	Acc@2  86.72 ( 86.72)
+Epoch: [29][10/23]	Time  0.166 (14.003)	Data  0.068 (13.916)	Loss 7.7770e-01 (7.5151e-01)	Acc@1  71.09 ( 72.59)	Acc@2  86.72 ( 86.15)
+Epoch: [29][20/23]	Time 31.333 (13.690)	Data 31.285 (13.502)	Loss 8.2587e-01 (8.2873e-01)	Acc@1  67.97 ( 70.61)	Acc@2  84.38 ( 84.00)
+i: 0
+output[0]:  tensor([14.92311, 13.02426], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.136 (34.136)	Loss 7.7930e-01 (7.7930e-01)	Acc@1  75.00 ( 75.00)	Acc@2  82.81 ( 82.81)
+i: 1
+output[0]:  tensor([14.23721, 12.77957], device='cuda:0')
+Moderate
+i: 2
+output[0]:  tensor([11.04256, 12.05553], device='cuda:0')
+Moderate
+i: 3
+output[0]:  tensor([12.12392, 11.88118], device='cuda:0')
+No DR
+i: 4
+output[0]:  tensor([10.82547, 10.64941], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([10.37000, 11.87523], device='cuda:0')
+Moderate
+ * Acc@1 59.482 Acc@5 77.353
+Epoch: [30][ 0/23]	Time 47.483 (47.483)	Data 47.434 (47.434)	Loss 7.2272e-01 (7.2272e-01)	Acc@1  74.22 ( 74.22)	Acc@2  82.81 ( 82.81)
+Epoch: [30][10/23]	Time 11.351 (14.638)	Data 11.304 (14.569)	Loss 8.9338e-01 (7.8317e-01)	Acc@1  70.31 ( 71.52)	Acc@2  80.47 ( 84.02)
+Epoch: [30][20/23]	Time 18.818 (13.452)	Data 18.764 (13.290)	Loss 8.5373e-01 (7.9564e-01)	Acc@1  66.41 ( 70.80)	Acc@2  82.03 ( 84.45)
+i: 0
+output[0]:  tensor([21.74015, 15.39331], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.180 (34.180)	Loss 1.7929e-01 (1.7929e-01)	Acc@1  95.31 ( 95.31)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([32.63102, 18.84494], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.10846, 18.63214], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([11.93282, 12.25146], device='cuda:0')
+Moderate
+i: 4
+output[0]:  tensor([10.36924, 11.47254], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([ 9.84330, 12.69028], device='cuda:0')
+Moderate
+ * Acc@1 72.033 Acc@5 86.357
+Epoch: [31][ 0/23]	Time 48.999 (48.999)	Data 48.925 (48.925)	Loss 6.8252e-01 (6.8252e-01)	Acc@1  75.00 ( 75.00)	Acc@2  91.41 ( 91.41)
+Epoch: [31][10/23]	Time  0.222 (13.930)	Data  0.107 (13.853)	Loss 8.5545e-01 (7.3604e-01)	Acc@1  69.53 ( 73.22)	Acc@2  81.25 ( 87.07)
+Epoch: [31][20/23]	Time 35.191 (13.638)	Data 35.143 (13.565)	Loss 9.5722e-01 (7.5049e-01)	Acc@1  62.50 ( 72.54)	Acc@2  82.81 ( 85.90)
+i: 0
+output[0]:  tensor([20.39144, 16.35555], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.084 (34.084)	Loss 2.0472e-01 (2.0472e-01)	Acc@1  97.66 ( 97.66)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([20.79170, 14.58613], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([18.17456, 14.41070], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([13.06039, 13.15419], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([11.28023, 12.56572], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([10.41090, 13.84940], device='cuda:0')
+Moderate
+ * Acc@1 71.760 Acc@5 86.085
+Epoch: [32][ 0/23]	Time 52.198 (52.198)	Data 49.840 (49.840)	Loss 6.7957e-01 (6.7957e-01)	Acc@1  78.12 ( 78.12)	Acc@2  86.72 ( 86.72)
+Epoch: [32][10/23]	Time  9.165 (14.488)	Data  9.087 (13.975)	Loss 8.6590e-01 (7.6160e-01)	Acc@1  64.84 ( 72.16)	Acc@2  82.03 ( 86.22)
+Epoch: [32][20/23]	Time 25.803 (13.570)	Data 25.746 (13.266)	Loss 6.3426e-01 (7.5042e-01)	Acc@1  78.91 ( 72.99)	Acc@2  88.28 ( 86.24)
+i: 0
+output[0]:  tensor([20.60771, 16.57578], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.997 (33.997)	Loss 1.9758e-01 (1.9758e-01)	Acc@1  95.31 ( 95.31)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([23.29257, 15.57436], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([21.06751, 15.58831], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([13.25699, 14.00439], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([11.38253, 13.55310], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([10.52166, 14.75588], device='cuda:0')
+Moderate
+ * Acc@1 72.169 Acc@5 87.176
+Epoch: [33][ 0/23]	Time 52.267 (52.267)	Data 52.180 (52.180)	Loss 7.8472e-01 (7.8472e-01)	Acc@1  71.09 ( 71.09)	Acc@2  84.38 ( 84.38)
+Epoch: [33][10/23]	Time  0.996 (13.850)	Data  0.904 (13.764)	Loss 7.1601e-01 (7.4196e-01)	Acc@1  71.09 ( 72.37)	Acc@2  88.28 ( 86.15)
+Epoch: [33][20/23]	Time 29.621 (13.542)	Data 29.562 (13.457)	Loss 7.7471e-01 (7.4271e-01)	Acc@1  71.88 ( 72.36)	Acc@2  85.16 ( 86.42)
+i: 0
+output[0]:  tensor([20.21036, 16.59680], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.348 (33.348)	Loss 1.8570e-01 (1.8570e-01)	Acc@1  96.88 ( 96.88)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([22.87388, 15.42676], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([20.71916, 15.54125], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([13.15072, 14.04318], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([11.07704, 13.77179], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([10.21929, 14.85062], device='cuda:0')
+Moderate
+ * Acc@1 72.169 Acc@5 86.357
+Epoch: [34][ 0/23]	Time 51.916 (51.916)	Data 51.857 (51.857)	Loss 8.7465e-01 (8.7465e-01)	Acc@1  64.84 ( 64.84)	Acc@2  80.47 ( 80.47)
+Epoch: [34][10/23]	Time  0.211 (14.483)	Data  0.092 (14.392)	Loss 7.8228e-01 (7.5680e-01)	Acc@1  68.75 ( 71.66)	Acc@2  86.72 ( 86.29)
+Epoch: [34][20/23]	Time 29.254 (13.708)	Data 29.184 (13.516)	Loss 8.7357e-01 (7.4852e-01)	Acc@1  67.97 ( 72.32)	Acc@2  84.38 ( 86.83)
+i: 0
+output[0]:  tensor([21.10987, 17.26438], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.111 (33.111)	Loss 1.7294e-01 (1.7294e-01)	Acc@1  96.88 ( 96.88)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([24.61735, 16.23159], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([22.21738, 16.29391], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([13.52179, 14.80847], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([11.44567, 14.55572], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([10.44969, 15.67808], device='cuda:0')
+Moderate
+ * Acc@1 72.306 Acc@5 86.903
+Epoch: [35][ 0/23]	Time 54.692 (54.692)	Data 54.634 (54.634)	Loss 8.3240e-01 (8.3240e-01)	Acc@1  71.09 ( 71.09)	Acc@2  86.72 ( 86.72)
+Epoch: [35][10/23]	Time  0.167 (14.441)	Data  0.104 (14.357)	Loss 9.2429e-01 (7.5573e-01)	Acc@1  67.97 ( 73.37)	Acc@2  85.16 ( 87.57)
+Epoch: [35][20/23]	Time 31.191 (13.812)	Data 31.143 (13.732)	Loss 7.7397e-01 (7.5012e-01)	Acc@1  67.97 ( 72.25)	Acc@2  85.94 ( 86.42)
+i: 0
+output[0]:  tensor([22.20097, 17.26189], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.287 (33.287)	Loss 1.7197e-01 (1.7197e-01)	Acc@1  95.31 ( 95.31)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([29.99763, 18.27095], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([28.92554, 18.60369], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([13.26969, 14.83184], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([11.28113, 14.61645], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([10.24897, 15.54435], device='cuda:0')
+Moderate
+ * Acc@1 72.578 Acc@5 86.630
+Epoch: [36][ 0/23]	Time 53.353 (53.353)	Data 53.305 (53.305)	Loss 7.6300e-01 (7.6300e-01)	Acc@1  71.09 ( 71.09)	Acc@2  89.06 ( 89.06)
+Epoch: [36][10/23]	Time  0.168 (14.271)	Data  0.067 (14.170)	Loss 7.2425e-01 (7.6542e-01)	Acc@1  72.66 ( 70.60)	Acc@2  85.16 ( 86.08)
+Epoch: [36][20/23]	Time 25.471 (13.818)	Data 25.423 (13.725)	Loss 8.4291e-01 (7.4014e-01)	Acc@1  67.19 ( 72.14)	Acc@2  82.03 ( 86.64)
+i: 0
+output[0]:  tensor([21.73341, 17.17897], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.551 (34.551)	Loss 1.7625e-01 (1.7625e-01)	Acc@1  95.31 ( 95.31)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([26.96284, 16.71504], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([25.16175, 16.81124], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([13.69985, 14.54585], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([11.53132, 14.86403], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([10.63333, 15.66558], device='cuda:0')
+Moderate
+ * Acc@1 72.306 Acc@5 86.630
+Epoch: [37][ 0/23]	Time 54.493 (54.493)	Data 54.424 (54.424)	Loss 6.2797e-01 (6.2797e-01)	Acc@1  77.34 ( 77.34)	Acc@2  89.84 ( 89.84)
+Epoch: [37][10/23]	Time  0.199 (14.109)	Data  0.087 (14.030)	Loss 8.4637e-01 (7.3938e-01)	Acc@1  66.41 ( 72.80)	Acc@2  80.47 ( 86.22)
+Epoch: [37][20/23]	Time 27.432 (13.779)	Data 27.384 (13.703)	Loss 6.8743e-01 (7.4130e-01)	Acc@1  75.78 ( 72.81)	Acc@2  85.94 ( 86.01)
+i: 0
+output[0]:  tensor([20.53434, 17.31257], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.453 (34.453)	Loss 2.0005e-01 (2.0005e-01)	Acc@1  96.88 ( 96.88)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([22.90751, 15.96876], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([20.75327, 15.94882], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([13.18870, 15.07616], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([10.97658, 15.10041], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([10.26057, 15.54100], device='cuda:0')
+Moderate
+ * Acc@1 73.261 Acc@5 87.858
+Epoch: [38][ 0/23]	Time 54.407 (54.407)	Data 54.350 (54.350)	Loss 7.5083e-01 (7.5083e-01)	Acc@1  70.31 ( 70.31)	Acc@2  85.94 ( 85.94)
+Epoch: [38][10/23]	Time  0.167 (13.761)	Data  0.058 (13.661)	Loss 6.1837e-01 (7.0187e-01)	Acc@1  75.78 ( 74.50)	Acc@2  89.06 ( 87.07)
+Epoch: [38][20/23]	Time 34.032 (13.759)	Data 33.985 (13.668)	Loss 8.4156e-01 (7.3117e-01)	Acc@1  67.97 ( 73.36)	Acc@2  86.72 ( 86.87)
+i: 0
+output[0]:  tensor([22.66525, 17.88531], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.427 (34.427)	Loss 1.7945e-01 (1.7945e-01)	Acc@1  95.31 ( 95.31)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([28.07794, 17.52985], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([26.77676, 17.76424], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([13.61366, 15.32923], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([11.94972, 15.41558], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([10.85676, 15.80367], device='cuda:0')
+Moderate
+ * Acc@1 72.715 Acc@5 87.585
+Epoch: [39][ 0/23]	Time 54.396 (54.396)	Data 54.302 (54.302)	Loss 7.5748e-01 (7.5748e-01)	Acc@1  73.44 ( 73.44)	Acc@2  88.28 ( 88.28)
+Epoch: [39][10/23]	Time  0.198 (14.449)	Data  0.085 (14.363)	Loss 8.6858e-01 (7.4294e-01)	Acc@1  67.97 ( 73.37)	Acc@2  81.25 ( 87.29)
+Epoch: [39][20/23]	Time 29.643 (13.608)	Data 29.584 (13.533)	Loss 8.5266e-01 (7.3641e-01)	Acc@1  67.19 ( 73.25)	Acc@2  83.59 ( 86.98)
+i: 0
+output[0]:  tensor([20.95511, 17.36963], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.263 (34.263)	Loss 1.9834e-01 (1.9834e-01)	Acc@1  95.31 ( 95.31)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([23.36534, 16.42437], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([21.13305, 16.49305], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([13.83872, 14.98446], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([11.97330, 15.34506], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([10.64718, 15.77598], device='cuda:0')
+Moderate
+ * Acc@1 72.578 Acc@5 87.858
+Epoch: [40][ 0/23]	Time 48.205 (48.205)	Data 48.135 (48.135)	Loss 6.5544e-01 (6.5544e-01)	Acc@1  79.69 ( 79.69)	Acc@2  90.62 ( 90.62)
+Epoch: [40][10/23]	Time  0.149 (14.254)	Data  0.071 (14.180)	Loss 7.0416e-01 (7.1831e-01)	Acc@1  78.12 ( 73.22)	Acc@2  85.16 ( 86.93)
+Epoch: [40][20/23]	Time 31.056 (13.719)	Data 31.007 (13.650)	Loss 6.9818e-01 (7.1762e-01)	Acc@1  75.00 ( 72.99)	Acc@2  86.72 ( 87.35)
+i: 0
+output[0]:  tensor([22.26104, 17.95796], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.118 (33.118)	Loss 1.8538e-01 (1.8538e-01)	Acc@1  95.31 ( 95.31)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([27.60066, 17.68428], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([26.13506, 17.92458], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.05425, 15.25174], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([12.10351, 16.03181], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([10.66075, 16.32522], device='cuda:0')
+Moderate
+ * Acc@1 72.851 Acc@5 87.040
+Epoch: [41][ 0/23]	Time 47.233 (47.233)	Data 47.163 (47.163)	Loss 6.8563e-01 (6.8563e-01)	Acc@1  74.22 ( 74.22)	Acc@2  85.94 ( 85.94)
+Epoch: [41][10/23]	Time  1.713 (13.701)	Data  1.657 (13.625)	Loss 8.3210e-01 (7.1458e-01)	Acc@1  65.62 ( 73.15)	Acc@2  85.94 ( 87.36)
+Epoch: [41][20/23]	Time 31.661 (13.741)	Data 31.613 (13.658)	Loss 7.4779e-01 (7.3015e-01)	Acc@1  69.53 ( 72.58)	Acc@2  87.50 ( 87.31)
+i: 0
+output[0]:  tensor([21.70229, 18.29376], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.546 (33.546)	Loss 1.9686e-01 (1.9686e-01)	Acc@1  95.31 ( 95.31)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([25.39960, 17.51339], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([23.36472, 17.73879], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([13.73190, 15.64718], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([12.03980, 16.57106], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([10.82184, 16.61474], device='cuda:0')
+Moderate
+ * Acc@1 72.715 Acc@5 86.903
+Epoch: [42][ 0/23]	Time 50.306 (50.306)	Data 50.233 (50.233)	Loss 6.1221e-01 (6.1221e-01)	Acc@1  76.56 ( 76.56)	Acc@2  87.50 ( 87.50)
+Epoch: [42][10/23]	Time  5.989 (14.331)	Data  5.921 (14.258)	Loss 7.0795e-01 (7.0983e-01)	Acc@1  71.09 ( 73.22)	Acc@2  87.50 ( 87.36)
+Epoch: [42][20/23]	Time 25.240 (13.643)	Data 25.189 (13.574)	Loss 7.4435e-01 (7.2853e-01)	Acc@1  70.31 ( 73.29)	Acc@2  85.94 ( 86.76)
+i: 0
+output[0]:  tensor([25.41270, 19.25110], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.481 (33.481)	Loss 1.5246e-01 (1.5246e-01)	Acc@1  95.31 ( 95.31)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([36.48623, 21.71442], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([36.11337, 22.58302], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([13.83688, 15.69633], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([12.51313, 16.56842], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([10.96563, 16.49180], device='cuda:0')
+Moderate
+ * Acc@1 72.715 Acc@5 86.903
+Epoch: [43][ 0/23]	Time 49.718 (49.718)	Data 49.649 (49.649)	Loss 7.6060e-01 (7.6060e-01)	Acc@1  71.88 ( 71.88)	Acc@2  84.38 ( 84.38)
+Epoch: [43][10/23]	Time  0.243 (14.170)	Data  0.106 (14.081)	Loss 5.9018e-01 (7.3839e-01)	Acc@1  73.44 ( 72.87)	Acc@2  89.84 ( 87.57)
+Epoch: [43][20/23]	Time 23.056 (13.638)	Data 23.008 (13.558)	Loss 7.1803e-01 (7.2797e-01)	Acc@1  75.78 ( 72.88)	Acc@2  83.59 ( 87.13)
+i: 0
+output[0]:  tensor([22.57751, 18.92069], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.441 (34.441)	Loss 2.2241e-01 (2.2241e-01)	Acc@1  95.31 ( 95.31)	Acc@2  96.88 ( 96.88)
+i: 1
+output[0]:  tensor([24.14767, 17.47189], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([21.71479, 17.96450], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.17109, 15.34176], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([11.59579, 17.25810], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([11.24184, 16.80873], device='cuda:0')
+Moderate
+ * Acc@1 72.851 Acc@5 86.767
+Epoch: [44][ 0/23]	Time 46.986 (46.986)	Data 46.928 (46.928)	Loss 5.5405e-01 (5.5405e-01)	Acc@1  78.12 ( 78.12)	Acc@2  92.97 ( 92.97)
+Epoch: [44][10/23]	Time  0.143 (14.159)	Data  0.062 (14.076)	Loss 6.2210e-01 (7.0593e-01)	Acc@1  78.12 ( 74.29)	Acc@2  89.84 ( 87.86)
+Epoch: [44][20/23]	Time 24.845 (13.704)	Data 24.792 (13.625)	Loss 6.3871e-01 (7.1685e-01)	Acc@1  78.12 ( 73.33)	Acc@2  90.62 ( 87.39)
+i: 0
+output[0]:  tensor([23.02372, 19.04990], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.289 (34.289)	Loss 1.8963e-01 (1.8963e-01)	Acc@1  95.31 ( 95.31)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([25.40879, 17.87477], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([24.23383, 18.58225], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.14330, 15.81288], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([12.60176, 17.38842], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([11.30196, 16.98060], device='cuda:0')
+Moderate
+ * Acc@1 72.442 Acc@5 87.312
+Epoch: [45][ 0/23]	Time 51.507 (51.507)	Data 51.438 (51.438)	Loss 7.5673e-01 (7.5673e-01)	Acc@1  71.09 ( 71.09)	Acc@2  85.94 ( 85.94)
+Epoch: [45][10/23]	Time  0.176 (14.079)	Data  0.096 (13.994)	Loss 6.5080e-01 (6.7307e-01)	Acc@1  76.56 ( 75.28)	Acc@2  88.28 ( 88.49)
+Epoch: [45][20/23]	Time 29.517 (13.752)	Data 29.468 (13.670)	Loss 8.4225e-01 (7.1420e-01)	Acc@1  66.41 ( 73.14)	Acc@2  83.59 ( 87.39)
+i: 0
+output[0]:  tensor([22.71334, 19.33105], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.700 (34.700)	Loss 2.3618e-01 (2.3618e-01)	Acc@1  95.31 ( 95.31)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([24.04758, 17.84562], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([22.02480, 18.37764], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.14972, 16.62568], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([11.63823, 17.69500], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([11.02205, 17.35610], device='cuda:0')
+Moderate
+ * Acc@1 72.306 Acc@5 87.040
+Epoch: [46][ 0/23]	Time 54.499 (54.499)	Data 54.439 (54.439)	Loss 6.7235e-01 (6.7235e-01)	Acc@1  74.22 ( 74.22)	Acc@2  87.50 ( 87.50)
+Epoch: [46][10/23]	Time  0.152 (14.042)	Data  0.055 (13.967)	Loss 6.9235e-01 (7.0424e-01)	Acc@1  75.78 ( 74.01)	Acc@2  87.50 ( 86.86)
+Epoch: [46][20/23]	Time 30.639 (13.789)	Data 30.583 (13.711)	Loss 7.1872e-01 (7.0857e-01)	Acc@1  73.44 ( 73.77)	Acc@2  87.50 ( 87.39)
+i: 0
+output[0]:  tensor([24.62636, 19.50284], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.735 (33.735)	Loss 1.3718e-01 (1.3718e-01)	Acc@1  97.66 ( 97.66)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.34527, 19.11626], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([28.99305, 19.74774], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.07998, 16.96387], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([12.07937, 18.36959], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([10.95930, 17.86418], device='cuda:0')
+Moderate
+ * Acc@1 72.578 Acc@5 86.767
+Epoch: [47][ 0/23]	Time 47.981 (47.981)	Data 47.932 (47.932)	Loss 7.4748e-01 (7.4748e-01)	Acc@1  74.22 ( 74.22)	Acc@2  85.16 ( 85.16)
+Epoch: [47][10/23]	Time  7.268 (13.820)	Data  7.191 (13.749)	Loss 7.3970e-01 (7.2880e-01)	Acc@1  72.66 ( 72.23)	Acc@2  84.38 ( 87.22)
+Epoch: [47][20/23]	Time 31.828 (13.770)	Data 31.779 (13.700)	Loss 6.9082e-01 (7.1711e-01)	Acc@1  74.22 ( 72.88)	Acc@2  85.94 ( 87.43)
+i: 0
+output[0]:  tensor([24.73975, 19.35186], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.559 (33.559)	Loss 1.6876e-01 (1.6876e-01)	Acc@1  95.31 ( 95.31)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([29.88713, 18.52863], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([29.49060, 19.59707], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([13.98877, 16.08415], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([12.64184, 17.76849], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([11.21378, 16.68098], device='cuda:0')
+Moderate
+ * Acc@1 72.715 Acc@5 86.767
+Epoch: [48][ 0/23]	Time 52.428 (52.428)	Data 52.360 (52.360)	Loss 7.6275e-01 (7.6275e-01)	Acc@1  71.09 ( 71.09)	Acc@2  88.28 ( 88.28)
+Epoch: [48][10/23]	Time  0.184 (13.978)	Data  0.084 (13.882)	Loss 6.5676e-01 (6.9883e-01)	Acc@1  80.47 ( 72.73)	Acc@2  89.84 ( 87.57)
+Epoch: [48][20/23]	Time 30.909 (13.791)	Data 30.863 (13.700)	Loss 6.7651e-01 (7.1385e-01)	Acc@1  79.69 ( 72.73)	Acc@2  89.06 ( 86.68)
+i: 0
+output[0]:  tensor([24.50581, 19.69875], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.308 (33.308)	Loss 1.5359e-01 (1.5359e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([27.45459, 17.98081], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([26.80330, 19.03372], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([13.87171, 16.88402], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([11.94225, 18.05754], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([11.08278, 16.75598], device='cuda:0')
+Moderate
+ * Acc@1 73.670 Acc@5 87.449
+Epoch: [49][ 0/23]	Time 46.353 (46.353)	Data 46.246 (46.246)	Loss 7.9660e-01 (7.9660e-01)	Acc@1  66.41 ( 66.41)	Acc@2  87.50 ( 87.50)
+Epoch: [49][10/23]	Time  0.221 (14.265)	Data  0.121 (14.154)	Loss 7.8150e-01 (7.3355e-01)	Acc@1  72.66 ( 71.73)	Acc@2  82.81 ( 86.08)
+Epoch: [49][20/23]	Time 28.109 (13.713)	Data 28.051 (13.618)	Loss 6.3516e-01 (7.1853e-01)	Acc@1  76.56 ( 72.58)	Acc@2  90.62 ( 86.79)
+i: 0
+output[0]:  tensor([24.51672, 21.28168], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.092 (34.092)	Loss 2.0650e-01 (2.0650e-01)	Acc@1  95.31 ( 95.31)	Acc@2  96.88 ( 96.88)
+i: 1
+output[0]:  tensor([26.05103, 19.13202], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([23.68559, 19.53516], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.27288, 18.18064], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([13.01703, 19.05594], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([11.41706, 17.70090], device='cuda:0')
+Moderate
+ * Acc@1 72.578 Acc@5 87.449
+Epoch: [50][ 0/23]	Time 45.006 (45.006)	Data 44.888 (44.888)	Loss 6.6384e-01 (6.6384e-01)	Acc@1  74.22 ( 74.22)	Acc@2  90.62 ( 90.62)
+Epoch: [50][10/23]	Time  9.184 (14.280)	Data  9.083 (14.207)	Loss 7.1364e-01 (6.9585e-01)	Acc@1  75.00 ( 73.30)	Acc@2  89.06 ( 88.57)
+Epoch: [50][20/23]	Time 27.275 (13.812)	Data 27.229 (13.734)	Loss 5.8364e-01 (7.0601e-01)	Acc@1  76.56 ( 72.47)	Acc@2  90.62 ( 87.83)
+i: 0
+output[0]:  tensor([26.09261, 20.38334], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.378 (34.378)	Loss 1.4903e-01 (1.4903e-01)	Acc@1  95.31 ( 95.31)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.81812, 19.58170], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.47132, 20.84574], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([13.70773, 16.66593], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([13.24308, 18.65924], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([11.18415, 17.77537], device='cuda:0')
+Moderate
+ * Acc@1 72.578 Acc@5 87.449
+Epoch: [51][ 0/23]	Time 55.387 (55.387)	Data 55.336 (55.336)	Loss 8.0583e-01 (8.0583e-01)	Acc@1  71.09 ( 71.09)	Acc@2  86.72 ( 86.72)
+Epoch: [51][10/23]	Time  4.262 (14.316)	Data  4.214 (14.238)	Loss 6.4911e-01 (7.3508e-01)	Acc@1  72.66 ( 73.01)	Acc@2  90.62 ( 87.36)
+Epoch: [51][20/23]	Time 21.690 (13.425)	Data 21.631 (13.350)	Loss 5.2379e-01 (7.0682e-01)	Acc@1  82.03 ( 73.59)	Acc@2  91.41 ( 88.02)
+i: 0
+output[0]:  tensor([26.77358, 20.30999], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.621 (34.621)	Loss 1.6761e-01 (1.6761e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([33.49133, 20.16880], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([33.65127, 21.37979], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([12.68586, 16.71794], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([13.19987, 18.00520], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([10.67700, 17.27319], device='cuda:0')
+Moderate
+ * Acc@1 73.124 Acc@5 87.176
+Epoch: [52][ 0/23]	Time 47.360 (47.360)	Data 47.280 (47.280)	Loss 6.3518e-01 (6.3518e-01)	Acc@1  75.78 ( 75.78)	Acc@2  89.84 ( 89.84)
+Epoch: [52][10/23]	Time  5.284 (14.036)	Data  5.226 (13.966)	Loss 7.1981e-01 (7.0274e-01)	Acc@1  71.88 ( 72.80)	Acc@2  87.50 ( 87.71)
+Epoch: [52][20/23]	Time 32.451 (13.665)	Data 32.374 (13.596)	Loss 7.9082e-01 (7.0182e-01)	Acc@1  69.53 ( 73.33)	Acc@2  85.94 ( 87.87)
+i: 0
+output[0]:  tensor([24.13804, 20.19444], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.510 (34.510)	Loss 2.0413e-01 (2.0413e-01)	Acc@1  95.31 ( 95.31)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([26.38840, 18.34229], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([24.95071, 19.16498], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([12.45447, 17.06848], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([11.91536, 18.58078], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([10.84150, 17.92881], device='cuda:0')
+Moderate
+ * Acc@1 73.261 Acc@5 87.722
+Epoch: [53][ 0/23]	Time 49.886 (49.886)	Data 49.797 (49.797)	Loss 6.3561e-01 (6.3561e-01)	Acc@1  77.34 ( 77.34)	Acc@2  89.84 ( 89.84)
+Epoch: [53][10/23]	Time 10.867 (14.492)	Data 10.777 (14.407)	Loss 6.5341e-01 (6.8792e-01)	Acc@1  77.34 ( 74.29)	Acc@2  89.06 ( 87.78)
+Epoch: [53][20/23]	Time 20.655 (13.347)	Data 20.605 (13.270)	Loss 6.8260e-01 (7.0316e-01)	Acc@1  75.00 ( 73.55)	Acc@2  90.62 ( 87.72)
+i: 0
+output[0]:  tensor([26.94138, 21.55929], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.277 (34.277)	Loss 1.6985e-01 (1.6985e-01)	Acc@1  96.09 ( 96.09)	Acc@2  96.88 ( 96.88)
+i: 1
+output[0]:  tensor([30.15873, 19.47002], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([30.12571, 20.85364], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([13.62764, 16.65546], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([13.50664, 19.08753], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([11.08981, 18.29126], device='cuda:0')
+Moderate
+ * Acc@1 73.533 Acc@5 87.040
+Epoch: [54][ 0/23]	Time 50.204 (50.204)	Data 50.130 (50.130)	Loss 7.1396e-01 (7.1396e-01)	Acc@1  75.00 ( 75.00)	Acc@2  88.28 ( 88.28)
+Epoch: [54][10/23]	Time  0.174 (14.235)	Data  0.053 (14.134)	Loss 7.9095e-01 (6.9688e-01)	Acc@1  71.09 ( 74.36)	Acc@2  82.81 ( 87.71)
+Epoch: [54][20/23]	Time 35.676 (13.773)	Data 35.627 (13.680)	Loss 7.2354e-01 (7.0607e-01)	Acc@1  75.78 ( 73.74)	Acc@2  85.16 ( 87.50)
+i: 0
+output[0]:  tensor([24.60355, 20.59104], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.496 (33.496)	Loss 2.5203e-01 (2.5203e-01)	Acc@1  95.31 ( 95.31)	Acc@2  96.88 ( 96.88)
+i: 1
+output[0]:  tensor([24.27227, 18.42391], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([23.59921, 19.56738], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([13.85970, 15.65397], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([12.54196, 18.71059], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([11.44095, 17.80757], device='cuda:0')
+Moderate
+ * Acc@1 73.397 Acc@5 86.903
+Epoch: [55][ 0/23]	Time 52.090 (52.090)	Data 51.957 (51.957)	Loss 5.5375e-01 (5.5375e-01)	Acc@1  78.91 ( 78.91)	Acc@2  90.62 ( 90.62)
+Epoch: [55][10/23]	Time  0.219 (14.785)	Data  0.107 (14.688)	Loss 7.3754e-01 (7.1876e-01)	Acc@1  73.44 ( 72.51)	Acc@2  88.28 ( 86.93)
+Epoch: [55][20/23]	Time 33.766 (13.806)	Data 33.718 (13.720)	Loss 7.3781e-01 (6.9203e-01)	Acc@1  73.44 ( 73.96)	Acc@2  84.38 ( 87.95)
+i: 0
+output[0]:  tensor([25.49313, 20.77653], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.236 (33.236)	Loss 1.7274e-01 (1.7274e-01)	Acc@1  95.31 ( 95.31)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([28.96583, 19.19271], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([28.29064, 20.31031], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.84325, 16.14806], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.99536, 19.24593], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([11.61949, 18.27921], device='cuda:0')
+Moderate
+ * Acc@1 73.261 Acc@5 87.722
+Epoch: [56][ 0/23]	Time 48.805 (48.805)	Data 48.742 (48.742)	Loss 7.0907e-01 (7.0907e-01)	Acc@1  71.88 ( 71.88)	Acc@2  88.28 ( 88.28)
+Epoch: [56][10/23]	Time  5.648 (14.180)	Data  5.602 (14.110)	Loss 7.5503e-01 (6.8361e-01)	Acc@1  70.31 ( 74.01)	Acc@2  82.03 ( 88.00)
+Epoch: [56][20/23]	Time 26.345 (13.746)	Data 26.297 (13.675)	Loss 6.4914e-01 (6.9419e-01)	Acc@1  74.22 ( 73.85)	Acc@2  89.06 ( 88.17)
+i: 0
+output[0]:  tensor([24.64978, 20.36404], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.929 (33.929)	Loss 1.9275e-01 (1.9275e-01)	Acc@1  95.31 ( 95.31)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([27.54934, 18.86918], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([26.92839, 19.84240], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.71236, 17.24117], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([13.12319, 18.84224], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([11.42930, 17.67352], device='cuda:0')
+Moderate
+ * Acc@1 73.397 Acc@5 87.449
+Epoch: [57][ 0/23]	Time 52.228 (52.228)	Data 52.170 (52.170)	Loss 7.7551e-01 (7.7551e-01)	Acc@1  71.88 ( 71.88)	Acc@2  85.94 ( 85.94)
+Epoch: [57][10/23]	Time  0.142 (14.110)	Data  0.079 (14.033)	Loss 5.8563e-01 (6.7106e-01)	Acc@1  81.25 ( 75.85)	Acc@2  89.06 ( 88.28)
+Epoch: [57][20/23]	Time 36.254 (13.810)	Data 36.205 (13.729)	Loss 6.7663e-01 (6.8533e-01)	Acc@1  73.44 ( 74.14)	Acc@2  84.38 ( 88.17)
+i: 0
+output[0]:  tensor([25.35380, 20.52466], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.203 (34.203)	Loss 1.5822e-01 (1.5822e-01)	Acc@1  96.88 ( 96.88)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([29.47855, 19.82469], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([29.19801, 20.93978], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.68335, 17.57156], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([13.09077, 19.39449], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([11.61046, 18.13169], device='cuda:0')
+Moderate
+ * Acc@1 73.806 Acc@5 88.131
+Epoch: [58][ 0/23]	Time 50.179 (50.179)	Data 50.109 (50.109)	Loss 6.8853e-01 (6.8853e-01)	Acc@1  71.09 ( 71.09)	Acc@2  83.59 ( 83.59)
+Epoch: [58][10/23]	Time  0.770 (14.116)	Data  0.712 (14.036)	Loss 8.3146e-01 (7.0905e-01)	Acc@1  71.88 ( 72.80)	Acc@2  82.81 ( 86.93)
+Epoch: [58][20/23]	Time 29.695 (13.834)	Data 29.647 (13.762)	Loss 7.5544e-01 (7.1827e-01)	Acc@1  71.09 ( 72.10)	Acc@2  88.28 ( 87.09)
+i: 0
+output[0]:  tensor([26.95717, 21.43115], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.763 (34.763)	Loss 1.4999e-01 (1.4999e-01)	Acc@1  96.88 ( 96.88)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.80911, 20.07104], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([29.91106, 20.94145], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.39196, 17.27023], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.73417, 19.12481], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([11.96665, 18.31199], device='cuda:0')
+Moderate
+ * Acc@1 72.578 Acc@5 86.767
+Epoch: [59][ 0/23]	Time 48.625 (48.625)	Data 48.537 (48.537)	Loss 6.6734e-01 (6.6734e-01)	Acc@1  79.69 ( 79.69)	Acc@2  89.84 ( 89.84)
+Epoch: [59][10/23]	Time  7.424 (14.542)	Data  7.367 (14.471)	Loss 6.6664e-01 (7.2330e-01)	Acc@1  76.56 ( 73.51)	Acc@2  89.84 ( 86.65)
+Epoch: [59][20/23]	Time 24.591 (13.665)	Data 24.543 (13.596)	Loss 5.8679e-01 (6.8822e-01)	Acc@1  79.69 ( 74.67)	Acc@2  89.84 ( 87.69)
+i: 0
+output[0]:  tensor([25.63664, 21.37552], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.154 (34.154)	Loss 1.9413e-01 (1.9413e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([27.34882, 19.86379], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([27.14050, 21.08560], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.94986, 18.64469], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.19142, 19.91953], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.41279, 18.99151], device='cuda:0')
+Moderate
+ * Acc@1 74.216 Acc@5 88.267
+Epoch: [60][ 0/23]	Time 51.280 (51.280)	Data 51.222 (51.222)	Loss 7.3056e-01 (7.3056e-01)	Acc@1  73.44 ( 73.44)	Acc@2  88.28 ( 88.28)
+Epoch: [60][10/23]	Time  0.242 (13.844)	Data  0.139 (13.531)	Loss 6.7266e-01 (6.7470e-01)	Acc@1  76.56 ( 74.79)	Acc@2  85.94 ( 87.43)
+Epoch: [60][20/23]	Time 25.317 (13.514)	Data 25.270 (13.315)	Loss 7.2808e-01 (6.8544e-01)	Acc@1  69.53 ( 74.07)	Acc@2  89.84 ( 87.98)
+i: 0
+output[0]:  tensor([26.63096, 21.27753], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.412 (33.412)	Loss 1.5090e-01 (1.5090e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.03357, 20.23202], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.58825, 21.87794], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([15.05468, 18.26153], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.07011, 19.87837], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.56917, 18.85997], device='cuda:0')
+Moderate
+ * Acc@1 73.806 Acc@5 87.722
+Epoch: [61][ 0/23]	Time 52.306 (52.306)	Data 52.213 (52.213)	Loss 5.5348e-01 (5.5348e-01)	Acc@1  78.12 ( 78.12)	Acc@2  93.75 ( 93.75)
+Epoch: [61][10/23]	Time  0.204 (15.147)	Data  0.120 (15.074)	Loss 5.6612e-01 (6.5443e-01)	Acc@1  78.12 ( 74.36)	Acc@2  92.97 ( 89.99)
+Epoch: [61][20/23]	Time 21.971 (13.626)	Data 21.925 (13.553)	Loss 6.8926e-01 (6.8009e-01)	Acc@1  74.22 ( 73.66)	Acc@2  90.62 ( 88.99)
+i: 0
+output[0]:  tensor([26.63054, 21.29168], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.401 (33.401)	Loss 1.7241e-01 (1.7241e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.14019, 20.28653], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.48126, 21.83591], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([15.11280, 18.33229], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([13.96680, 19.79938], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.44068, 18.85366], device='cuda:0')
+Moderate
+ * Acc@1 73.806 Acc@5 87.858
+Epoch: [62][ 0/23]	Time 52.614 (52.614)	Data 52.513 (52.513)	Loss 6.3035e-01 (6.3035e-01)	Acc@1  80.47 ( 80.47)	Acc@2  89.84 ( 89.84)
+Epoch: [62][10/23]	Time  1.413 (14.156)	Data  1.337 (14.080)	Loss 7.0166e-01 (6.7950e-01)	Acc@1  71.09 ( 74.22)	Acc@2  87.50 ( 88.42)
+Epoch: [62][20/23]	Time 32.432 (13.702)	Data 32.377 (13.617)	Loss 5.2218e-01 (6.7639e-01)	Acc@1  81.25 ( 74.70)	Acc@2  91.41 ( 88.06)
+i: 0
+output[0]:  tensor([26.61881, 21.29944], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.269 (33.269)	Loss 1.7271e-01 (1.7271e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.71042, 20.17837], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([30.98487, 21.69352], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.96178, 18.32740], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([13.90885, 19.73688], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.41446, 18.75843], device='cuda:0')
+Moderate
+ * Acc@1 73.670 Acc@5 87.449
+Epoch: [63][ 0/23]	Time 49.907 (49.907)	Data 49.823 (49.823)	Loss 6.1526e-01 (6.1526e-01)	Acc@1  76.56 ( 76.56)	Acc@2  91.41 ( 91.41)
+Epoch: [63][10/23]	Time  0.163 (14.745)	Data  0.088 (14.666)	Loss 7.0559e-01 (6.6969e-01)	Acc@1  75.78 ( 75.00)	Acc@2  85.94 ( 87.86)
+Epoch: [63][20/23]	Time 18.337 (13.359)	Data 18.263 (13.277)	Loss 6.9769e-01 (6.7001e-01)	Acc@1  71.88 ( 74.26)	Acc@2  90.62 ( 88.24)
+i: 0
+output[0]:  tensor([26.74338, 21.70057], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.119 (34.119)	Loss 1.7954e-01 (1.7954e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.69933, 20.57978], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([30.76841, 21.98624], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([15.25060, 18.82795], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.08596, 20.26444], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.73823, 19.21262], device='cuda:0')
+Moderate
+ * Acc@1 74.216 Acc@5 87.449
+Epoch: [64][ 0/23]	Time 47.767 (47.767)	Data 47.648 (47.648)	Loss 6.4111e-01 (6.4111e-01)	Acc@1  77.34 ( 77.34)	Acc@2  91.41 ( 91.41)
+Epoch: [64][10/23]	Time  0.152 (14.396)	Data  0.063 (14.316)	Loss 6.2586e-01 (6.7601e-01)	Acc@1  75.00 ( 74.08)	Acc@2  89.06 ( 88.85)
+Epoch: [64][20/23]	Time 31.080 (13.717)	Data 31.020 (13.632)	Loss 7.3235e-01 (6.6732e-01)	Acc@1  70.31 ( 74.48)	Acc@2  84.38 ( 88.58)
+i: 0
+output[0]:  tensor([26.83306, 21.66258], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.108 (34.108)	Loss 1.6004e-01 (1.6004e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.01135, 20.22367], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([30.33811, 21.68371], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([15.17123, 18.89179], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([13.91188, 19.92931], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.51334, 18.86832], device='cuda:0')
+Moderate
+ * Acc@1 73.806 Acc@5 87.312
+Epoch: [65][ 0/23]	Time 50.886 (50.886)	Data 50.826 (50.826)	Loss 7.5435e-01 (7.5435e-01)	Acc@1  70.31 ( 70.31)	Acc@2  89.84 ( 89.84)
+Epoch: [65][10/23]	Time  0.224 (14.945)	Data  0.128 (14.877)	Loss 6.3550e-01 (6.7386e-01)	Acc@1  79.69 ( 75.00)	Acc@2  92.97 ( 88.92)
+Epoch: [65][20/23]	Time 22.561 (13.584)	Data 22.515 (13.510)	Loss 7.6631e-01 (6.7329e-01)	Acc@1  70.31 ( 74.07)	Acc@2  86.72 ( 88.69)
+i: 0
+output[0]:  tensor([27.03204, 21.74045], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.236 (34.236)	Loss 1.6899e-01 (1.6899e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([29.97889, 20.01659], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([30.67157, 21.78171], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([15.27745, 18.49431], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.21851, 20.01872], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.47125, 18.98742], device='cuda:0')
+Moderate
+ * Acc@1 73.943 Acc@5 87.995
+Epoch: [66][ 0/23]	Time 47.560 (47.560)	Data 47.490 (47.490)	Loss 6.6992e-01 (6.6992e-01)	Acc@1  77.34 ( 77.34)	Acc@2  89.84 ( 89.84)
+Epoch: [66][10/23]	Time  0.220 (14.146)	Data  0.069 (14.061)	Loss 7.1107e-01 (6.6697e-01)	Acc@1  75.78 ( 75.57)	Acc@2  92.19 ( 89.84)
+Epoch: [66][20/23]	Time 25.664 (13.681)	Data 25.605 (13.600)	Loss 7.0534e-01 (6.7149e-01)	Acc@1  74.22 ( 75.19)	Acc@2  85.94 ( 88.95)
+i: 0
+output[0]:  tensor([26.50392, 21.51361], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.598 (34.598)	Loss 1.7737e-01 (1.7737e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([29.21148, 19.83951], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([29.38725, 21.38042], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.76133, 18.34558], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([13.87742, 19.99127], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.34047, 18.98105], device='cuda:0')
+Moderate
+ * Acc@1 74.216 Acc@5 87.995
+Epoch: [67][ 0/23]	Time 48.786 (48.786)	Data 48.693 (48.693)	Loss 7.7372e-01 (7.7372e-01)	Acc@1  68.75 ( 68.75)	Acc@2  84.38 ( 84.38)
+Epoch: [67][10/23]	Time  0.131 (14.124)	Data  0.066 (14.018)	Loss 8.0169e-01 (6.7085e-01)	Acc@1  64.06 ( 74.22)	Acc@2  85.16 ( 89.20)
+Epoch: [67][20/23]	Time 34.295 (13.688)	Data 34.248 (13.603)	Loss 8.2664e-01 (6.7435e-01)	Acc@1  66.41 ( 73.92)	Acc@2  82.81 ( 88.62)
+i: 0
+output[0]:  tensor([26.99567, 21.84037], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.997 (33.997)	Loss 1.6063e-01 (1.6063e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([29.97556, 20.22017], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([30.16725, 21.75917], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.69515, 18.42696], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.03213, 20.21787], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.57416, 18.97423], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.585
+Epoch: [68][ 0/23]	Time 57.644 (57.644)	Data 57.558 (57.558)	Loss 7.0815e-01 (7.0815e-01)	Acc@1  73.44 ( 73.44)	Acc@2  89.06 ( 89.06)
+Epoch: [68][10/23]	Time  0.175 (13.990)	Data  0.069 (13.909)	Loss 6.6529e-01 (6.9484e-01)	Acc@1  77.34 ( 73.51)	Acc@2  87.50 ( 88.35)
+Epoch: [68][20/23]	Time 29.669 (13.810)	Data 29.621 (13.732)	Loss 6.6177e-01 (6.6643e-01)	Acc@1  73.44 ( 74.33)	Acc@2  90.62 ( 88.80)
+i: 0
+output[0]:  tensor([27.28478, 22.01451], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.253 (33.253)	Loss 1.7696e-01 (1.7696e-01)	Acc@1  96.09 ( 96.09)	Acc@2  96.88 ( 96.88)
+i: 1
+output[0]:  tensor([30.15566, 20.35651], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([30.48710, 21.92695], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.97683, 18.64865], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.06809, 20.47918], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.68629, 19.18885], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.585
+Epoch: [69][ 0/23]	Time 55.101 (55.101)	Data 55.042 (55.042)	Loss 6.0793e-01 (6.0793e-01)	Acc@1  78.12 ( 78.12)	Acc@2  91.41 ( 91.41)
+Epoch: [69][10/23]	Time  0.165 (13.487)	Data  0.072 (13.402)	Loss 7.3469e-01 (6.3913e-01)	Acc@1  73.44 ( 75.92)	Acc@2  85.16 ( 89.63)
+Epoch: [69][20/23]	Time 32.990 (13.819)	Data 32.941 (13.734)	Loss 7.3544e-01 (6.7282e-01)	Acc@1  67.97 ( 74.22)	Acc@2  82.81 ( 88.32)
+i: 0
+output[0]:  tensor([26.94327, 21.65628], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.319 (33.319)	Loss 1.6374e-01 (1.6374e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.24768, 20.09319], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([30.58016, 21.75299], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.54959, 18.17978], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([13.55523, 20.23206], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.45795, 19.05577], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.449
+Epoch: [70][ 0/23]	Time 56.915 (56.915)	Data 56.821 (56.821)	Loss 7.2004e-01 (7.2004e-01)	Acc@1  68.75 ( 68.75)	Acc@2  90.62 ( 90.62)
+Epoch: [70][10/23]	Time  0.196 (14.417)	Data  0.103 (14.328)	Loss 6.5318e-01 (6.6104e-01)	Acc@1  74.22 ( 74.22)	Acc@2  87.50 ( 88.28)
+Epoch: [70][20/23]	Time 32.392 (13.715)	Data 32.332 (13.626)	Loss 6.1927e-01 (6.6105e-01)	Acc@1  76.56 ( 74.37)	Acc@2  90.62 ( 88.58)
+i: 0
+output[0]:  tensor([27.60291, 22.11111], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.613 (33.613)	Loss 1.6753e-01 (1.6753e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.19252, 20.54987], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.58537, 22.28629], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.87823, 18.79230], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([13.87582, 20.47333], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.67372, 19.42030], device='cuda:0')
+Moderate
+ * Acc@1 73.670 Acc@5 87.858
+Epoch: [71][ 0/23]	Time 53.565 (53.565)	Data 53.494 (53.494)	Loss 6.0815e-01 (6.0815e-01)	Acc@1  76.56 ( 76.56)	Acc@2  88.28 ( 88.28)
+Epoch: [71][10/23]	Time  0.216 (14.431)	Data  0.105 (14.359)	Loss 6.7711e-01 (6.7059e-01)	Acc@1  78.91 ( 74.79)	Acc@2  89.84 ( 88.64)
+Epoch: [71][20/23]	Time 23.132 (13.670)	Data 23.073 (13.594)	Loss 6.5538e-01 (6.6573e-01)	Acc@1  74.22 ( 74.74)	Acc@2  86.72 ( 88.50)
+i: 0
+output[0]:  tensor([27.41359, 22.01416], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.323 (34.323)	Loss 1.6265e-01 (1.6265e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.13156, 20.48277], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.60987, 22.21627], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.73538, 18.67470], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([13.90140, 20.42018], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.54390, 19.30992], device='cuda:0')
+Moderate
+ * Acc@1 73.943 Acc@5 87.449
+Epoch: [72][ 0/23]	Time 46.450 (46.450)	Data 46.362 (46.362)	Loss 6.7762e-01 (6.7762e-01)	Acc@1  75.78 ( 75.78)	Acc@2  89.84 ( 89.84)
+Epoch: [72][10/23]	Time  0.123 (13.848)	Data  0.055 (13.768)	Loss 6.5034e-01 (6.6963e-01)	Acc@1  75.78 ( 74.29)	Acc@2  86.72 ( 88.42)
+Epoch: [72][20/23]	Time 21.096 (13.452)	Data 21.038 (13.368)	Loss 6.0317e-01 (6.7268e-01)	Acc@1  80.47 ( 74.33)	Acc@2  89.06 ( 88.47)
+i: 0
+output[0]:  tensor([27.51465, 22.33342], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.475 (34.475)	Loss 1.6496e-01 (1.6496e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([29.91879, 20.27993], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([30.06763, 21.98239], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.82926, 18.64589], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([13.86925, 20.57562], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.82922, 19.51898], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.312
+Epoch: [73][ 0/23]	Time 50.729 (50.729)	Data 50.619 (50.619)	Loss 5.1781e-01 (5.1781e-01)	Acc@1  80.47 ( 80.47)	Acc@2  92.19 ( 92.19)
+Epoch: [73][10/23]	Time  0.185 (14.721)	Data  0.059 (14.634)	Loss 6.8603e-01 (6.4844e-01)	Acc@1  78.12 ( 75.43)	Acc@2  87.50 ( 90.34)
+Epoch: [73][20/23]	Time 29.542 (13.746)	Data 29.493 (13.659)	Loss 7.3823e-01 (6.6974e-01)	Acc@1  75.78 ( 74.63)	Acc@2  86.72 ( 88.99)
+i: 0
+output[0]:  tensor([27.58370, 22.18604], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.412 (34.412)	Loss 1.6298e-01 (1.6298e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.43180, 20.36432], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([30.81367, 22.10609], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.77535, 18.59239], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([13.97401, 20.60997], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.81065, 19.64724], device='cuda:0')
+Moderate
+ * Acc@1 74.216 Acc@5 87.722
+Epoch: [74][ 0/23]	Time 47.019 (47.019)	Data 46.006 (46.006)	Loss 5.6507e-01 (5.6507e-01)	Acc@1  78.91 ( 78.91)	Acc@2  90.62 ( 90.62)
+Epoch: [74][10/23]	Time  2.627 (13.906)	Data  2.532 (13.621)	Loss 5.3400e-01 (6.2959e-01)	Acc@1  85.16 ( 77.13)	Acc@2  91.41 ( 89.91)
+Epoch: [74][20/23]	Time 34.628 (13.786)	Data 34.578 (13.598)	Loss 6.6341e-01 (6.5153e-01)	Acc@1  75.00 ( 75.71)	Acc@2  88.28 ( 89.47)
+i: 0
+output[0]:  tensor([27.55266, 22.32384], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.902 (33.902)	Loss 1.5901e-01 (1.5901e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.47200, 20.53272], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([30.83400, 22.28095], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.74328, 18.57573], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.25117, 20.78642], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.88073, 19.60571], device='cuda:0')
+Moderate
+ * Acc@1 74.216 Acc@5 87.585
+Epoch: [75][ 0/23]	Time 51.777 (51.777)	Data 51.685 (51.685)	Loss 7.9208e-01 (7.9208e-01)	Acc@1  69.53 ( 69.53)	Acc@2  85.16 ( 85.16)
+Epoch: [75][10/23]	Time  0.178 (13.959)	Data  0.114 (13.877)	Loss 6.4390e-01 (6.5103e-01)	Acc@1  76.56 ( 75.07)	Acc@2  89.84 ( 89.20)
+Epoch: [75][20/23]	Time 25.038 (13.670)	Data 24.980 (13.594)	Loss 5.7628e-01 (6.6349e-01)	Acc@1  72.66 ( 74.14)	Acc@2  91.41 ( 88.13)
+i: 0
+output[0]:  tensor([27.24133, 22.24478], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.169 (33.169)	Loss 1.7745e-01 (1.7745e-01)	Acc@1  96.09 ( 96.09)	Acc@2  96.88 ( 96.88)
+i: 1
+output[0]:  tensor([30.34368, 20.55305], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([30.63250, 22.16805], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.75778, 18.58566], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([13.86972, 20.68748], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.77846, 19.44598], device='cuda:0')
+Moderate
+ * Acc@1 74.352 Acc@5 87.722
+Epoch: [76][ 0/23]	Time 49.727 (49.727)	Data 49.668 (49.668)	Loss 6.6538e-01 (6.6538e-01)	Acc@1  72.66 ( 72.66)	Acc@2  92.97 ( 92.97)
+Epoch: [76][10/23]	Time  0.282 (13.415)	Data  0.184 (13.338)	Loss 7.1071e-01 (6.4755e-01)	Acc@1  71.09 ( 75.85)	Acc@2  86.72 ( 89.56)
+Epoch: [76][20/23]	Time 34.904 (13.799)	Data 34.856 (13.723)	Loss 6.7431e-01 (6.5431e-01)	Acc@1  71.09 ( 75.52)	Acc@2  87.50 ( 88.99)
+i: 0
+output[0]:  tensor([27.93244, 22.43500], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.272 (33.272)	Loss 1.7417e-01 (1.7417e-01)	Acc@1  96.09 ( 96.09)	Acc@2  96.88 ( 96.88)
+i: 1
+output[0]:  tensor([31.66348, 20.94610], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.23252, 22.72993], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.67230, 18.78960], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.05842, 20.89296], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.96846, 19.72780], device='cuda:0')
+Moderate
+ * Acc@1 73.806 Acc@5 87.585
+Epoch: [77][ 0/23]	Time 53.142 (53.142)	Data 53.042 (53.042)	Loss 8.2981e-01 (8.2981e-01)	Acc@1  67.97 ( 67.97)	Acc@2  83.59 ( 83.59)
+Epoch: [77][10/23]	Time  9.401 (14.776)	Data  9.346 (14.682)	Loss 6.9163e-01 (6.5650e-01)	Acc@1  71.88 ( 74.93)	Acc@2  88.28 ( 88.71)
+Epoch: [77][20/23]	Time 31.442 (13.761)	Data 31.393 (13.676)	Loss 5.2085e-01 (6.5597e-01)	Acc@1  82.03 ( 75.56)	Acc@2  89.84 ( 88.88)
+i: 0
+output[0]:  tensor([27.97512, 22.49041], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.796 (33.796)	Loss 1.6847e-01 (1.6847e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.58180, 20.56849], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.35605, 22.46508], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.66456, 18.86820], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.11129, 20.95232], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.92979, 19.78295], device='cuda:0')
+Moderate
+ * Acc@1 74.216 Acc@5 87.449
+Epoch: [78][ 0/23]	Time 52.308 (52.308)	Data 52.219 (52.219)	Loss 6.9765e-01 (6.9765e-01)	Acc@1  75.78 ( 75.78)	Acc@2  88.28 ( 88.28)
+Epoch: [78][10/23]	Time  0.214 (14.577)	Data  0.100 (14.491)	Loss 5.6246e-01 (6.6659e-01)	Acc@1  77.34 ( 74.08)	Acc@2  90.62 ( 88.64)
+Epoch: [78][20/23]	Time 32.621 (13.824)	Data 32.573 (13.740)	Loss 7.2006e-01 (6.7055e-01)	Acc@1  73.44 ( 74.07)	Acc@2  88.28 ( 88.47)
+i: 0
+output[0]:  tensor([28.06667, 22.62195], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.492 (34.492)	Loss 1.7246e-01 (1.7246e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.61522, 20.52638], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.28929, 22.46387], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.42198, 18.89113], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.05404, 20.76567], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.77685, 19.72115], device='cuda:0')
+Moderate
+ * Acc@1 74.216 Acc@5 87.858
+Epoch: [79][ 0/23]	Time 52.983 (52.983)	Data 52.875 (52.875)	Loss 5.7617e-01 (5.7617e-01)	Acc@1  80.47 ( 80.47)	Acc@2  88.28 ( 88.28)
+Epoch: [79][10/23]	Time  0.197 (14.517)	Data  0.072 (14.431)	Loss 6.1538e-01 (6.8471e-01)	Acc@1  77.34 ( 74.43)	Acc@2  92.19 ( 87.57)
+Epoch: [79][20/23]	Time 27.690 (13.614)	Data 27.631 (13.526)	Loss 5.7919e-01 (6.7443e-01)	Acc@1  78.91 ( 74.22)	Acc@2  91.41 ( 88.17)
+i: 0
+output[0]:  tensor([28.41452, 22.91486], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.572 (34.572)	Loss 1.7307e-01 (1.7307e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.50348, 20.58630], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.29408, 22.69522], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.84149, 18.97094], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.52286, 21.40833], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.22593, 20.04674], device='cuda:0')
+Moderate
+ * Acc@1 73.533 Acc@5 87.722
+Epoch: [80][ 0/23]	Time 51.245 (51.245)	Data 51.172 (51.172)	Loss 6.3307e-01 (6.3307e-01)	Acc@1  78.91 ( 78.91)	Acc@2  87.50 ( 87.50)
+Epoch: [80][10/23]	Time  0.125 (14.064)	Data  0.060 (13.987)	Loss 6.8604e-01 (6.3752e-01)	Acc@1  70.31 ( 75.57)	Acc@2  86.72 ( 88.49)
+Epoch: [80][20/23]	Time 23.145 (13.492)	Data 23.078 (13.411)	Loss 6.4576e-01 (6.4566e-01)	Acc@1  78.12 ( 75.33)	Acc@2  87.50 ( 88.80)
+i: 0
+output[0]:  tensor([28.19242, 22.87181], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.285 (34.285)	Loss 1.8221e-01 (1.8221e-01)	Acc@1  96.09 ( 96.09)	Acc@2  96.88 ( 96.88)
+i: 1
+output[0]:  tensor([30.96552, 20.72877], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.80512, 22.80339], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.50682, 18.99085], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.25387, 21.30457], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.18443, 19.96153], device='cuda:0')
+Moderate
+ * Acc@1 73.533 Acc@5 87.585
+Epoch: [81][ 0/23]	Time 49.831 (49.831)	Data 49.763 (49.763)	Loss 7.0171e-01 (7.0171e-01)	Acc@1  76.56 ( 76.56)	Acc@2  89.84 ( 89.84)
+Epoch: [81][10/23]	Time  3.445 (14.119)	Data  3.388 (14.056)	Loss 7.1363e-01 (6.7362e-01)	Acc@1  75.00 ( 74.86)	Acc@2  85.94 ( 89.20)
+Epoch: [81][20/23]	Time 25.719 (13.636)	Data 25.662 (13.566)	Loss 6.9005e-01 (6.6641e-01)	Acc@1  69.53 ( 74.63)	Acc@2  88.28 ( 88.54)
+i: 0
+output[0]:  tensor([28.08407, 22.52744], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.630 (33.630)	Loss 1.9128e-01 (1.9128e-01)	Acc@1  96.09 ( 96.09)	Acc@2  96.09 ( 96.09)
+i: 1
+output[0]:  tensor([30.96769, 20.54657], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.84193, 22.66367], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.46034, 18.63029], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.17184, 21.18350], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.03902, 19.89456], device='cuda:0')
+Moderate
+ * Acc@1 73.943 Acc@5 87.312
+Epoch: [82][ 0/23]	Time 55.617 (55.617)	Data 55.554 (55.554)	Loss 6.3670e-01 (6.3670e-01)	Acc@1  78.91 ( 78.91)	Acc@2  92.19 ( 92.19)
+Epoch: [82][10/23]	Time  0.155 (13.773)	Data  0.082 (13.699)	Loss 6.3214e-01 (6.6610e-01)	Acc@1  77.34 ( 74.36)	Acc@2  88.28 ( 89.20)
+Epoch: [82][20/23]	Time 25.275 (13.722)	Data 25.217 (13.653)	Loss 6.1304e-01 (6.6270e-01)	Acc@1  75.00 ( 74.67)	Acc@2  89.06 ( 89.03)
+i: 0
+output[0]:  tensor([28.49510, 22.77521], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.449 (33.449)	Loss 1.6036e-01 (1.6036e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([32.02195, 21.08427], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.83149, 23.01476], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.35268, 18.69880], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.34570, 21.36271], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.02099, 19.90980], device='cuda:0')
+Moderate
+ * Acc@1 73.533 Acc@5 87.858
+Epoch: [83][ 0/23]	Time 51.555 (51.555)	Data 51.456 (51.456)	Loss 7.8108e-01 (7.8108e-01)	Acc@1  64.84 ( 64.84)	Acc@2  87.50 ( 87.50)
+Epoch: [83][10/23]	Time  5.015 (14.463)	Data  4.956 (14.381)	Loss 7.2646e-01 (6.6223e-01)	Acc@1  71.09 ( 73.79)	Acc@2  90.62 ( 88.57)
+Epoch: [83][20/23]	Time 29.628 (13.713)	Data 29.569 (13.635)	Loss 5.6597e-01 (6.6330e-01)	Acc@1  78.12 ( 74.07)	Acc@2  92.97 ( 88.76)
+i: 0
+output[0]:  tensor([28.43189, 22.81790], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.265 (33.265)	Loss 1.6699e-01 (1.6699e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.13428, 20.84122], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.03516, 22.72065], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.46007, 18.85627], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.09180, 21.27390], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.01230, 19.87154], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.585
+Epoch: [84][ 0/23]	Time 53.260 (53.260)	Data 53.191 (53.191)	Loss 6.7360e-01 (6.7360e-01)	Acc@1  72.66 ( 72.66)	Acc@2  84.38 ( 84.38)
+Epoch: [84][10/23]	Time  0.235 (14.539)	Data  0.143 (14.451)	Loss 6.4745e-01 (6.4659e-01)	Acc@1  73.44 ( 75.28)	Acc@2  86.72 ( 89.06)
+Epoch: [84][20/23]	Time 32.776 (13.734)	Data 32.730 (13.645)	Loss 7.7254e-01 (6.4744e-01)	Acc@1  71.09 ( 75.45)	Acc@2  87.50 ( 89.29)
+i: 0
+output[0]:  tensor([28.33730, 22.84909], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.522 (33.522)	Loss 1.7782e-01 (1.7782e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.85493, 20.65205], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.88974, 22.76688], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.45943, 18.71521], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.20619, 21.32853], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([12.99605, 19.93112], device='cuda:0')
+Moderate
+ * Acc@1 73.943 Acc@5 87.312
+Epoch: [85][ 0/23]	Time 54.881 (54.881)	Data 54.789 (54.789)	Loss 7.3205e-01 (7.3205e-01)	Acc@1  72.66 ( 72.66)	Acc@2  89.06 ( 89.06)
+Epoch: [85][10/23]	Time  0.179 (14.891)	Data  0.067 (14.805)	Loss 6.0658e-01 (6.6172e-01)	Acc@1  79.69 ( 74.93)	Acc@2  89.84 ( 89.70)
+Epoch: [85][20/23]	Time 31.438 (13.768)	Data 31.377 (13.683)	Loss 8.0956e-01 (6.7257e-01)	Acc@1  70.31 ( 74.59)	Acc@2  85.94 ( 88.99)
+i: 0
+output[0]:  tensor([28.77470, 23.18287], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.443 (34.443)	Loss 1.7357e-01 (1.7357e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.41808, 20.93398], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.54936, 23.08296], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.63097, 19.39859], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.37850, 21.63305], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.28655, 20.09862], device='cuda:0')
+Moderate
+ * Acc@1 73.670 Acc@5 87.722
+Epoch: [86][ 0/23]	Time 50.338 (50.338)	Data 50.280 (50.280)	Loss 5.0412e-01 (5.0412e-01)	Acc@1  80.47 ( 80.47)	Acc@2  93.75 ( 93.75)
+Epoch: [86][10/23]	Time  8.553 (14.710)	Data  8.444 (14.641)	Loss 6.3596e-01 (6.6610e-01)	Acc@1  75.78 ( 72.73)	Acc@2  92.19 ( 89.13)
+Epoch: [86][20/23]	Time 29.440 (13.789)	Data 29.391 (13.710)	Loss 6.9856e-01 (6.6110e-01)	Acc@1  73.44 ( 74.29)	Acc@2  91.41 ( 89.32)
+i: 0
+output[0]:  tensor([28.55063, 23.22063], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.482 (34.482)	Loss 1.5892e-01 (1.5892e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.54399, 21.11452], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.30701, 23.12779], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.82036, 19.59254], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.17047, 21.80585], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.43401, 20.35099], device='cuda:0')
+Moderate
+ * Acc@1 73.806 Acc@5 88.131
+Epoch: [87][ 0/23]	Time 52.304 (52.304)	Data 52.227 (52.227)	Loss 6.7840e-01 (6.7840e-01)	Acc@1  75.78 ( 75.78)	Acc@2  92.19 ( 92.19)
+Epoch: [87][10/23]	Time  0.163 (14.232)	Data  0.078 (14.155)	Loss 8.1338e-01 (6.6776e-01)	Acc@1  75.78 ( 74.64)	Acc@2  89.06 ( 88.57)
+Epoch: [87][20/23]	Time 31.294 (13.799)	Data 31.248 (13.724)	Loss 6.4302e-01 (6.8179e-01)	Acc@1  73.44 ( 74.03)	Acc@2  85.94 ( 88.13)
+i: 0
+output[0]:  tensor([28.70252, 23.16461], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.518 (34.518)	Loss 1.7394e-01 (1.7394e-01)	Acc@1  96.09 ( 96.09)	Acc@2  96.88 ( 96.88)
+i: 1
+output[0]:  tensor([30.96130, 20.95476], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.79241, 22.99273], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.61516, 19.27603], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([13.91689, 21.77726], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.23595, 20.37707], device='cuda:0')
+Moderate
+ * Acc@1 74.488 Acc@5 87.722
+Epoch: [88][ 0/23]	Time 49.395 (49.395)	Data 49.312 (49.312)	Loss 7.7573e-01 (7.7573e-01)	Acc@1  70.31 ( 70.31)	Acc@2  86.72 ( 86.72)
+Epoch: [88][10/23]	Time  1.262 (13.718)	Data  1.170 (13.638)	Loss 6.9062e-01 (6.8424e-01)	Acc@1  75.00 ( 74.43)	Acc@2  89.84 ( 88.71)
+Epoch: [88][20/23]	Time 29.074 (13.742)	Data 28.798 (13.651)	Loss 7.7658e-01 (6.7884e-01)	Acc@1  68.75 ( 74.22)	Acc@2  84.38 ( 88.65)
+i: 0
+output[0]:  tensor([28.69650, 23.42842], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.617 (33.617)	Loss 1.6708e-01 (1.6708e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.05249, 21.10376], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.64491, 23.05627], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.39058, 19.15318], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.21935, 21.74356], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.25706, 20.30339], device='cuda:0')
+Moderate
+ * Acc@1 73.806 Acc@5 87.858
+Epoch: [89][ 0/23]	Time 52.909 (52.909)	Data 52.819 (52.819)	Loss 6.6131e-01 (6.6131e-01)	Acc@1  76.56 ( 76.56)	Acc@2  85.94 ( 85.94)
+Epoch: [89][10/23]	Time  6.012 (14.158)	Data  5.963 (14.077)	Loss 7.1919e-01 (6.5042e-01)	Acc@1  72.66 ( 75.57)	Acc@2  87.50 ( 88.64)
+Epoch: [89][20/23]	Time 26.854 (13.679)	Data 26.807 (13.597)	Loss 7.8178e-01 (6.6241e-01)	Acc@1  65.62 ( 74.48)	Acc@2  86.72 ( 89.17)
+i: 0
+output[0]:  tensor([28.33862, 23.14648], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.143 (33.143)	Loss 1.6162e-01 (1.6162e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.62954, 20.95296], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.30573, 22.89779], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.25292, 19.52557], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.16385, 21.51356], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.17342, 20.29662], device='cuda:0')
+Moderate
+ * Acc@1 73.397 Acc@5 87.722
+Epoch: [90][ 0/23]	Time 51.057 (51.057)	Data 50.971 (50.971)	Loss 5.9385e-01 (5.9385e-01)	Acc@1  75.00 ( 75.00)	Acc@2  89.84 ( 89.84)
+Epoch: [90][10/23]	Time  0.685 (13.991)	Data  0.591 (13.912)	Loss 6.3068e-01 (6.5211e-01)	Acc@1  73.44 ( 75.64)	Acc@2  88.28 ( 89.56)
+Epoch: [90][20/23]	Time 31.640 (13.806)	Data 31.594 (13.734)	Loss 7.8368e-01 (6.6500e-01)	Acc@1  75.00 ( 74.81)	Acc@2  87.50 ( 88.99)
+i: 0
+output[0]:  tensor([28.81485, 23.42928], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.162 (33.162)	Loss 1.6164e-01 (1.6164e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.92586, 21.00865], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.93102, 23.17345], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.40689, 19.47716], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.22437, 21.69787], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.32942, 20.38764], device='cuda:0')
+Moderate
+ * Acc@1 73.533 Acc@5 87.995
+Epoch: [91][ 0/23]	Time 49.008 (49.008)	Data 48.960 (48.960)	Loss 6.8493e-01 (6.8493e-01)	Acc@1  70.31 ( 70.31)	Acc@2  87.50 ( 87.50)
+Epoch: [91][10/23]	Time  2.311 (14.506)	Data  2.224 (14.433)	Loss 7.7469e-01 (6.8208e-01)	Acc@1  68.75 ( 73.51)	Acc@2  83.59 ( 88.14)
+Epoch: [91][20/23]	Time 31.081 (13.726)	Data 31.021 (13.650)	Loss 6.8380e-01 (6.5616e-01)	Acc@1  73.44 ( 74.44)	Acc@2  89.06 ( 89.40)
+i: 0
+output[0]:  tensor([28.64097, 23.15463], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.898 (33.898)	Loss 1.5937e-01 (1.5937e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.19794, 21.06064], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.00453, 23.13992], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.27536, 19.34314], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.25116, 21.75842], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.26252, 20.50091], device='cuda:0')
+Moderate
+ * Acc@1 73.670 Acc@5 87.858
+Epoch: [92][ 0/23]	Time 54.258 (54.258)	Data 54.183 (54.183)	Loss 6.5621e-01 (6.5621e-01)	Acc@1  76.56 ( 76.56)	Acc@2  88.28 ( 88.28)
+Epoch: [92][10/23]	Time  0.127 (14.438)	Data  0.044 (14.352)	Loss 6.3420e-01 (6.6128e-01)	Acc@1  76.56 ( 75.43)	Acc@2  90.62 ( 89.13)
+Epoch: [92][20/23]	Time 30.312 (13.812)	Data 30.264 (13.726)	Loss 5.9332e-01 (6.5207e-01)	Acc@1  78.12 ( 75.41)	Acc@2  89.06 ( 89.10)
+i: 0
+output[0]:  tensor([28.61801, 23.22222], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.289 (34.289)	Loss 1.6749e-01 (1.6749e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.19554, 21.22192], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.73086, 23.07437], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.44513, 19.46608], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.31908, 21.76571], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.21519, 20.41864], device='cuda:0')
+Moderate
+ * Acc@1 73.806 Acc@5 87.449
+Epoch: [93][ 0/23]	Time 46.252 (46.252)	Data 46.155 (46.155)	Loss 6.4472e-01 (6.4472e-01)	Acc@1  75.78 ( 75.78)	Acc@2  88.28 ( 88.28)
+Epoch: [93][10/23]	Time  0.154 (14.577)	Data  0.058 (14.491)	Loss 6.3519e-01 (6.8342e-01)	Acc@1  80.47 ( 73.30)	Acc@2  90.62 ( 88.64)
+Epoch: [93][20/23]	Time 20.368 (13.443)	Data 20.319 (13.363)	Loss 7.7466e-01 (6.4807e-01)	Acc@1  72.66 ( 75.63)	Acc@2  82.03 ( 89.25)
+i: 0
+output[0]:  tensor([28.67218, 23.22042], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.466 (34.466)	Loss 1.6439e-01 (1.6439e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.79046, 20.92150], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.81682, 23.07313], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.39894, 19.42042], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.32522, 21.62233], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.27569, 20.34003], device='cuda:0')
+Moderate
+ * Acc@1 73.943 Acc@5 87.995
+Epoch: [94][ 0/23]	Time 50.067 (50.067)	Data 49.988 (49.988)	Loss 6.6580e-01 (6.6580e-01)	Acc@1  71.88 ( 71.88)	Acc@2  87.50 ( 87.50)
+Epoch: [94][10/23]	Time  6.033 (14.702)	Data  5.964 (14.620)	Loss 7.5616e-01 (6.8651e-01)	Acc@1  72.66 ( 73.93)	Acc@2  85.94 ( 88.00)
+Epoch: [94][20/23]	Time 33.153 (13.768)	Data 33.106 (13.688)	Loss 7.2988e-01 (6.6178e-01)	Acc@1  74.22 ( 74.81)	Acc@2  86.72 ( 88.80)
+i: 0
+output[0]:  tensor([28.61357, 23.13267], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.335 (34.335)	Loss 1.6878e-01 (1.6878e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.07323, 20.90578], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.10468, 23.03645], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.42517, 18.98731], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.24098, 21.60974], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.15084, 20.16614], device='cuda:0')
+Moderate
+ * Acc@1 73.261 Acc@5 87.722
+Epoch: [95][ 0/23]	Time 53.390 (53.390)	Data 53.304 (53.304)	Loss 6.9656e-01 (6.9656e-01)	Acc@1  69.53 ( 69.53)	Acc@2  92.97 ( 92.97)
+Epoch: [95][10/23]	Time  0.212 (14.581)	Data  0.107 (14.498)	Loss 6.7948e-01 (6.7118e-01)	Acc@1  75.78 ( 74.15)	Acc@2  88.28 ( 88.85)
+Epoch: [95][20/23]	Time 30.280 (13.620)	Data 30.205 (13.542)	Loss 5.7882e-01 (6.5819e-01)	Acc@1  76.56 ( 74.67)	Acc@2  88.28 ( 88.99)
+i: 0
+output[0]:  tensor([28.59364, 23.08494], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.095 (34.095)	Loss 1.7369e-01 (1.7369e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.22497, 20.93918], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.02057, 22.98443], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.12309, 19.07358], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([13.92208, 21.39914], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.06664, 20.12718], device='cuda:0')
+Moderate
+ * Acc@1 74.216 Acc@5 87.858
+Epoch: [96][ 0/23]	Time 46.528 (46.528)	Data 46.423 (46.423)	Loss 6.1651e-01 (6.1651e-01)	Acc@1  77.34 ( 77.34)	Acc@2  88.28 ( 88.28)
+Epoch: [96][10/23]	Time  9.840 (14.710)	Data  9.792 (14.634)	Loss 8.0059e-01 (6.4693e-01)	Acc@1  71.09 ( 76.70)	Acc@2  84.38 ( 90.20)
+Epoch: [96][20/23]	Time 24.417 (13.679)	Data 24.362 (13.602)	Loss 7.1218e-01 (6.4200e-01)	Acc@1  73.44 ( 76.15)	Acc@2  90.62 ( 89.84)
+i: 0
+output[0]:  tensor([28.85599, 23.29827], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.382 (33.382)	Loss 1.6818e-01 (1.6818e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.27981, 20.92810], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.22826, 23.09753], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.19141, 19.04504], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.13231, 21.41711], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.13842, 20.09728], device='cuda:0')
+Moderate
+ * Acc@1 73.806 Acc@5 87.722
+Epoch: [97][ 0/23]	Time 49.180 (49.180)	Data 49.100 (49.100)	Loss 6.9566e-01 (6.9566e-01)	Acc@1  73.44 ( 73.44)	Acc@2  86.72 ( 86.72)
+Epoch: [97][10/23]	Time  8.281 (14.314)	Data  8.209 (14.128)	Loss 6.0823e-01 (6.2957e-01)	Acc@1  78.91 ( 76.85)	Acc@2  86.72 ( 89.06)
+Epoch: [97][20/23]	Time 27.708 (13.749)	Data 27.659 (13.615)	Loss 5.2135e-01 (6.5632e-01)	Acc@1  82.81 ( 75.52)	Acc@2  91.41 ( 88.88)
+i: 0
+output[0]:  tensor([28.48302, 22.90650], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.059 (33.059)	Loss 1.6777e-01 (1.6777e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.69894, 20.65239], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.66005, 22.82647], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.09790, 18.91966], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.08017, 21.37375], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.14351, 20.09568], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.858
+Epoch: [98][ 0/23]	Time 51.633 (51.633)	Data 51.550 (51.550)	Loss 6.9280e-01 (6.9280e-01)	Acc@1  72.66 ( 72.66)	Acc@2  85.16 ( 85.16)
+Epoch: [98][10/23]	Time  0.177 (13.976)	Data  0.067 (13.895)	Loss 6.5040e-01 (6.4604e-01)	Acc@1  74.22 ( 75.14)	Acc@2  89.06 ( 89.13)
+Epoch: [98][20/23]	Time 26.453 (13.610)	Data 26.407 (13.535)	Loss 7.4770e-01 (6.5873e-01)	Acc@1  70.31 ( 74.89)	Acc@2  85.94 ( 89.29)
+i: 0
+output[0]:  tensor([28.64286, 23.14541], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.236 (34.236)	Loss 1.6391e-01 (1.6391e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.84497, 20.86575], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.73732, 22.93077], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.17788, 19.26034], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.10721, 21.42974], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.18663, 20.20339], device='cuda:0')
+Moderate
+ * Acc@1 73.943 Acc@5 88.131
+Epoch: [99][ 0/23]	Time 50.983 (50.983)	Data 50.881 (50.881)	Loss 6.8613e-01 (6.8613e-01)	Acc@1  71.09 ( 71.09)	Acc@2  87.50 ( 87.50)
+Epoch: [99][10/23]	Time  0.241 (13.701)	Data  0.115 (13.619)	Loss 5.2339e-01 (6.3973e-01)	Acc@1  78.91 ( 76.21)	Acc@2  94.53 ( 90.41)
+Epoch: [99][20/23]	Time 25.719 (13.753)	Data 25.673 (13.675)	Loss 5.8266e-01 (6.6109e-01)	Acc@1  78.12 ( 75.19)	Acc@2  92.19 ( 89.21)
+i: 0
+output[0]:  tensor([28.83475, 23.45338], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.334 (34.334)	Loss 1.6262e-01 (1.6262e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.99702, 21.13599], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.79366, 23.13665], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.54702, 19.41073], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.30847, 21.60750], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.29163, 20.18819], device='cuda:0')
+Moderate
+ * Acc@1 73.533 Acc@5 87.995
+Epoch: [100][ 0/23]	Time 51.753 (51.753)	Data 51.667 (51.667)	Loss 5.5030e-01 (5.5030e-01)	Acc@1  79.69 ( 79.69)	Acc@2  91.41 ( 91.41)
+Epoch: [100][10/23]	Time  0.176 (14.556)	Data  0.068 (14.474)	Loss 7.0489e-01 (6.5409e-01)	Acc@1  71.09 ( 74.36)	Acc@2  92.19 ( 89.56)
+Epoch: [100][20/23]	Time 32.267 (13.802)	Data 32.219 (13.724)	Loss 8.0482e-01 (6.4614e-01)	Acc@1  71.88 ( 74.96)	Acc@2  82.81 ( 89.06)
+i: 0
+output[0]:  tensor([29.08453, 23.61565], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.307 (34.307)	Loss 1.7281e-01 (1.7281e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.97951, 21.07396], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.81619, 23.21485], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.57241, 19.19010], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.33699, 21.89896], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.43403, 20.43229], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.722
+Epoch: [101][ 0/23]	Time 51.961 (51.961)	Data 51.891 (51.891)	Loss 5.7203e-01 (5.7203e-01)	Acc@1  79.69 ( 79.69)	Acc@2  90.62 ( 90.62)
+Epoch: [101][10/23]	Time  0.184 (14.550)	Data  0.058 (14.469)	Loss 6.1974e-01 (6.3733e-01)	Acc@1  79.69 ( 75.99)	Acc@2  88.28 ( 88.42)
+Epoch: [101][20/23]	Time 25.058 (13.706)	Data 25.004 (13.627)	Loss 8.0787e-01 (6.6016e-01)	Acc@1  67.97 ( 74.70)	Acc@2  84.38 ( 87.65)
+i: 0
+output[0]:  tensor([28.68509, 23.09148], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.270 (34.270)	Loss 1.6108e-01 (1.6108e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.14812, 20.99304], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.05219, 23.02968], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.55494, 19.32298], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.38438, 21.69374], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.28622, 20.23649], device='cuda:0')
+Moderate
+ * Acc@1 73.397 Acc@5 87.585
+Epoch: [102][ 0/23]	Time 53.620 (53.620)	Data 53.547 (53.547)	Loss 6.5009e-01 (6.5009e-01)	Acc@1  75.00 ( 75.00)	Acc@2  87.50 ( 87.50)
+Epoch: [102][10/23]	Time  1.379 (14.183)	Data  1.276 (14.105)	Loss 6.8694e-01 (6.5323e-01)	Acc@1  72.66 ( 74.93)	Acc@2  90.62 ( 88.49)
+Epoch: [102][20/23]	Time 31.067 (13.762)	Data 31.018 (13.678)	Loss 6.1637e-01 (6.5849e-01)	Acc@1  78.12 ( 74.70)	Acc@2  89.06 ( 88.39)
+i: 0
+output[0]:  tensor([28.55570, 23.02161], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.856 (33.856)	Loss 1.7069e-01 (1.7069e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.49307, 21.17234], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.17412, 23.03736], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.49902, 19.18563], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.17271, 21.66048], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.18101, 20.17451], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 88.267
+Epoch: [103][ 0/23]	Time 51.928 (51.928)	Data 51.817 (51.817)	Loss 6.6860e-01 (6.6860e-01)	Acc@1  75.00 ( 75.00)	Acc@2  88.28 ( 88.28)
+Epoch: [103][10/23]	Time  0.204 (14.054)	Data  0.090 (13.924)	Loss 5.4999e-01 (6.5370e-01)	Acc@1  76.56 ( 75.78)	Acc@2  92.97 ( 90.13)
+Epoch: [103][20/23]	Time 35.135 (13.806)	Data 35.086 (13.699)	Loss 7.1184e-01 (6.5286e-01)	Acc@1  75.00 ( 75.89)	Acc@2  86.72 ( 89.21)
+i: 0
+output[0]:  tensor([28.61963, 23.17187], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.305 (33.305)	Loss 1.6495e-01 (1.6495e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.40734, 20.69222], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.58162, 22.91190], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.50565, 19.29144], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.14586, 21.60612], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.24990, 20.21628], device='cuda:0')
+Moderate
+ * Acc@1 73.806 Acc@5 87.858
+Epoch: [104][ 0/23]	Time 47.689 (47.689)	Data 47.623 (47.623)	Loss 6.6471e-01 (6.6471e-01)	Acc@1  77.34 ( 77.34)	Acc@2  91.41 ( 91.41)
+Epoch: [104][10/23]	Time  8.888 (14.067)	Data  8.800 (13.985)	Loss 6.2599e-01 (6.5957e-01)	Acc@1  75.00 ( 74.57)	Acc@2  88.28 ( 88.42)
+Epoch: [104][20/23]	Time 20.045 (13.563)	Data 19.980 (13.487)	Loss 5.4385e-01 (6.6863e-01)	Acc@1  80.47 ( 74.67)	Acc@2  94.53 ( 88.32)
+i: 0
+output[0]:  tensor([28.56824, 23.06954], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.523 (33.523)	Loss 1.6573e-01 (1.6573e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.07446, 20.91860], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.89919, 22.94605], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.39098, 19.05837], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.04471, 21.34511], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.10975, 20.01922], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.722
+Epoch: [105][ 0/23]	Time 51.130 (51.130)	Data 51.027 (51.027)	Loss 6.0956e-01 (6.0956e-01)	Acc@1  71.88 ( 71.88)	Acc@2  91.41 ( 91.41)
+Epoch: [105][10/23]	Time  0.173 (14.379)	Data  0.090 (14.307)	Loss 6.6904e-01 (6.4224e-01)	Acc@1  73.44 ( 75.36)	Acc@2  88.28 ( 89.06)
+Epoch: [105][20/23]	Time 31.504 (13.781)	Data 31.455 (13.699)	Loss 6.0958e-01 (6.5561e-01)	Acc@1  79.69 ( 75.22)	Acc@2  90.62 ( 88.54)
+i: 0
+output[0]:  tensor([28.85447, 23.36092], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.418 (33.418)	Loss 1.6366e-01 (1.6366e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.15122, 20.97680], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.15220, 23.17981], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.42063, 18.92270], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.34223, 21.57231], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.32170, 20.13473], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.858
+Epoch: [106][ 0/23]	Time 51.216 (51.216)	Data 51.111 (51.111)	Loss 6.1469e-01 (6.1469e-01)	Acc@1  78.12 ( 78.12)	Acc@2  90.62 ( 90.62)
+Epoch: [106][10/23]	Time  0.195 (14.352)	Data  0.105 (14.269)	Loss 6.5397e-01 (6.1346e-01)	Acc@1  77.34 ( 76.70)	Acc@2  91.41 ( 90.06)
+Epoch: [106][20/23]	Time 32.627 (13.785)	Data 32.566 (13.703)	Loss 6.5573e-01 (6.5094e-01)	Acc@1  76.56 ( 75.19)	Acc@2  89.84 ( 89.51)
+i: 0
+output[0]:  tensor([28.38886, 22.93460], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.413 (34.413)	Loss 1.6426e-01 (1.6426e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.19151, 20.60507], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.05979, 22.65028], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.16164, 18.91773], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.12214, 21.41395], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.05069, 20.03152], device='cuda:0')
+Moderate
+ * Acc@1 73.943 Acc@5 87.858
+Epoch: [107][ 0/23]	Time 50.624 (50.624)	Data 50.565 (50.565)	Loss 5.7276e-01 (5.7276e-01)	Acc@1  80.47 ( 80.47)	Acc@2  91.41 ( 91.41)
+Epoch: [107][10/23]	Time  2.811 (14.148)	Data  2.745 (14.078)	Loss 5.9088e-01 (6.3925e-01)	Acc@1  74.22 ( 75.36)	Acc@2  92.19 ( 89.42)
+Epoch: [107][20/23]	Time 33.149 (13.754)	Data 33.089 (13.682)	Loss 5.8925e-01 (6.5180e-01)	Acc@1  77.34 ( 74.81)	Acc@2  88.28 ( 88.58)
+i: 0
+output[0]:  tensor([28.59157, 23.15009], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.303 (34.303)	Loss 1.7087e-01 (1.7087e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.74808, 20.90310], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.71563, 23.02099], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.57230, 19.36845], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.26291, 21.67689], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.31101, 20.29160], device='cuda:0')
+Moderate
+ * Acc@1 73.943 Acc@5 87.858
+Epoch: [108][ 0/23]	Time 53.003 (53.003)	Data 52.949 (52.949)	Loss 6.1753e-01 (6.1753e-01)	Acc@1  78.91 ( 78.91)	Acc@2  91.41 ( 91.41)
+Epoch: [108][10/23]	Time  0.193 (14.847)	Data  0.116 (14.755)	Loss 5.7862e-01 (6.4593e-01)	Acc@1  82.81 ( 76.07)	Acc@2  90.62 ( 88.64)
+Epoch: [108][20/23]	Time 29.619 (13.757)	Data 29.570 (13.667)	Loss 7.0524e-01 (6.5834e-01)	Acc@1  74.22 ( 74.63)	Acc@2  85.94 ( 88.39)
+i: 0
+output[0]:  tensor([28.56997, 23.02684], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.494 (34.494)	Loss 1.6934e-01 (1.6934e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.18252, 20.87558], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.43776, 23.19663], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.44891, 19.27964], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.13945, 21.57500], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.36139, 20.28323], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.858
+Epoch: [109][ 0/23]	Time 49.123 (49.123)	Data 49.073 (49.073)	Loss 7.8328e-01 (7.8328e-01)	Acc@1  69.53 ( 69.53)	Acc@2  88.28 ( 88.28)
+Epoch: [109][10/23]	Time  0.182 (13.761)	Data  0.113 (13.683)	Loss 7.0155e-01 (6.6104e-01)	Acc@1  74.22 ( 74.79)	Acc@2  89.06 ( 88.85)
+Epoch: [109][20/23]	Time 30.023 (13.783)	Data 29.973 (13.707)	Loss 5.5423e-01 (6.5603e-01)	Acc@1  79.69 ( 74.81)	Acc@2  91.41 ( 89.03)
+i: 0
+output[0]:  tensor([28.66285, 23.26241], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.125 (34.125)	Loss 1.7246e-01 (1.7246e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.77383, 20.84422], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.89903, 23.06292], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.59299, 19.27496], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.08992, 21.59021], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.33059, 20.18734], device='cuda:0')
+Moderate
+ * Acc@1 73.943 Acc@5 87.858
+Epoch: [110][ 0/23]	Time 58.029 (58.029)	Data 57.933 (57.933)	Loss 6.6080e-01 (6.6080e-01)	Acc@1  75.78 ( 75.78)	Acc@2  85.94 ( 85.94)
+Epoch: [110][10/23]	Time  0.188 (14.250)	Data  0.058 (14.150)	Loss 7.7737e-01 (6.6480e-01)	Acc@1  71.09 ( 75.28)	Acc@2  90.62 ( 89.28)
+Epoch: [110][20/23]	Time 28.811 (13.792)	Data 28.763 (13.697)	Loss 6.8791e-01 (6.7249e-01)	Acc@1  73.44 ( 74.59)	Acc@2  91.41 ( 88.99)
+i: 0
+output[0]:  tensor([28.53116, 23.15085], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.229 (33.229)	Loss 1.6997e-01 (1.6997e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.12841, 21.02131], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.81111, 22.95026], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.36567, 19.06338], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.06688, 21.44174], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.07602, 19.99257], device='cuda:0')
+Moderate
+ * Acc@1 73.397 Acc@5 87.995
+Epoch: [111][ 0/23]	Time 51.558 (51.558)	Data 51.465 (51.465)	Loss 8.2353e-01 (8.2353e-01)	Acc@1  64.06 ( 64.06)	Acc@2  85.16 ( 85.16)
+Epoch: [111][10/23]	Time  0.176 (14.554)	Data  0.098 (14.465)	Loss 6.2993e-01 (6.5219e-01)	Acc@1  75.00 ( 74.93)	Acc@2  88.28 ( 88.21)
+Epoch: [111][20/23]	Time 35.553 (13.812)	Data 35.505 (13.722)	Loss 7.6425e-01 (6.5775e-01)	Acc@1  67.97 ( 74.81)	Acc@2  89.06 ( 88.95)
+i: 0
+output[0]:  tensor([28.88317, 23.45477], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.359 (33.359)	Loss 1.6764e-01 (1.6764e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.15516, 21.09753], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.15145, 23.23700], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.60560, 19.31637], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.26141, 21.67186], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.35136, 20.26766], device='cuda:0')
+Moderate
+ * Acc@1 73.806 Acc@5 87.722
+Epoch: [112][ 0/23]	Time 53.381 (53.381)	Data 53.322 (53.322)	Loss 6.3597e-01 (6.3597e-01)	Acc@1  71.88 ( 71.88)	Acc@2  92.19 ( 92.19)
+Epoch: [112][10/23]	Time  0.174 (14.023)	Data  0.119 (13.951)	Loss 5.6077e-01 (6.6997e-01)	Acc@1  78.91 ( 75.21)	Acc@2  92.19 ( 89.06)
+Epoch: [112][20/23]	Time 23.900 (13.779)	Data 23.849 (13.708)	Loss 6.2178e-01 (6.6868e-01)	Acc@1  74.22 ( 74.81)	Acc@2  91.41 ( 88.91)
+i: 0
+output[0]:  tensor([28.91426, 23.50690], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.611 (33.611)	Loss 1.7617e-01 (1.7617e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.60642, 20.80755], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.82066, 23.17003], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.33421, 19.19880], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.12178, 21.81747], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.34179, 20.38851], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.722
+Epoch: [113][ 0/23]	Time 54.696 (54.696)	Data 54.592 (54.592)	Loss 8.7347e-01 (8.7347e-01)	Acc@1  65.62 ( 65.62)	Acc@2  85.16 ( 85.16)
+Epoch: [113][10/23]	Time  0.224 (14.465)	Data  0.106 (14.370)	Loss 6.2542e-01 (6.9882e-01)	Acc@1  75.78 ( 73.37)	Acc@2  91.41 ( 88.21)
+Epoch: [113][20/23]	Time 29.945 (13.813)	Data 29.899 (13.725)	Loss 6.0343e-01 (6.6717e-01)	Acc@1  72.66 ( 74.52)	Acc@2  93.75 ( 88.76)
+i: 0
+output[0]:  tensor([28.73094, 23.41780], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.522 (34.522)	Loss 1.7234e-01 (1.7234e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.15551, 20.83612], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([30.98284, 22.91599], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.38440, 19.15030], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.09221, 21.69603], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.17609, 20.20549], device='cuda:0')
+Moderate
+ * Acc@1 74.216 Acc@5 87.858
+Epoch: [114][ 0/23]	Time 49.925 (49.925)	Data 49.844 (49.844)	Loss 6.2340e-01 (6.2340e-01)	Acc@1  78.12 ( 78.12)	Acc@2  91.41 ( 91.41)
+Epoch: [114][10/23]	Time  0.187 (14.137)	Data  0.072 (14.054)	Loss 5.9877e-01 (6.4068e-01)	Acc@1  78.12 ( 75.57)	Acc@2  92.19 ( 89.49)
+Epoch: [114][20/23]	Time 28.093 (13.710)	Data 28.034 (13.632)	Loss 6.5055e-01 (6.4978e-01)	Acc@1  75.00 ( 75.26)	Acc@2  88.28 ( 89.43)
+i: 0
+output[0]:  tensor([28.91937, 23.36556], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.477 (34.477)	Loss 1.6909e-01 (1.6909e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.73921, 20.81487], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.88465, 23.03552], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.41681, 19.05527], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.10993, 21.77033], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.24383, 20.28609], device='cuda:0')
+Moderate
+ * Acc@1 73.806 Acc@5 87.858
+Epoch: [115][ 0/23]	Time 52.658 (52.658)	Data 52.561 (52.561)	Loss 6.2526e-01 (6.2526e-01)	Acc@1  78.12 ( 78.12)	Acc@2  88.28 ( 88.28)
+Epoch: [115][10/23]	Time  0.230 (14.460)	Data  0.102 (14.374)	Loss 6.3166e-01 (6.2335e-01)	Acc@1  78.12 ( 77.49)	Acc@2  90.62 ( 89.42)
+Epoch: [115][20/23]	Time 24.287 (13.447)	Data 24.232 (13.365)	Loss 6.2718e-01 (6.5092e-01)	Acc@1  75.78 ( 75.56)	Acc@2  89.06 ( 88.58)
+i: 0
+output[0]:  tensor([29.21933, 23.58188], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.467 (34.467)	Loss 1.7110e-01 (1.7110e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.42311, 21.29520], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.38113, 23.43317], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.52190, 19.37238], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.47975, 21.97703], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.48363, 20.54381], device='cuda:0')
+Moderate
+ * Acc@1 73.806 Acc@5 87.585
+Epoch: [116][ 0/23]	Time 50.039 (50.039)	Data 49.961 (49.961)	Loss 6.3659e-01 (6.3659e-01)	Acc@1  75.00 ( 75.00)	Acc@2  89.06 ( 89.06)
+Epoch: [116][10/23]	Time  8.235 (14.167)	Data  8.175 (14.088)	Loss 6.2666e-01 (6.6823e-01)	Acc@1  77.34 ( 73.65)	Acc@2  89.06 ( 89.13)
+Epoch: [116][20/23]	Time 34.000 (13.774)	Data 33.936 (13.690)	Loss 6.2815e-01 (6.6017e-01)	Acc@1  74.22 ( 74.48)	Acc@2  89.06 ( 89.17)
+i: 0
+output[0]:  tensor([28.80272, 23.17558], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.982 (33.982)	Loss 1.8045e-01 (1.8045e-01)	Acc@1  96.09 ( 96.09)	Acc@2  96.88 ( 96.88)
+i: 1
+output[0]:  tensor([31.45025, 21.11976], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.35188, 23.19837], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.38495, 19.16761], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.21789, 21.80541], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.29840, 20.37459], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.585
+Epoch: [117][ 0/23]	Time 50.805 (50.805)	Data 50.703 (50.703)	Loss 5.7565e-01 (5.7565e-01)	Acc@1  81.25 ( 81.25)	Acc@2  92.97 ( 92.97)
+Epoch: [117][10/23]	Time  0.206 (14.044)	Data  0.111 (13.961)	Loss 5.6039e-01 (6.6225e-01)	Acc@1  78.91 ( 74.43)	Acc@2  90.62 ( 88.64)
+Epoch: [117][20/23]	Time 25.987 (13.598)	Data 25.940 (13.520)	Loss 6.6522e-01 (6.6593e-01)	Acc@1  76.56 ( 74.85)	Acc@2  88.28 ( 88.54)
+i: 0
+output[0]:  tensor([28.83882, 23.40525], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.235 (33.235)	Loss 1.7143e-01 (1.7143e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.73935, 21.00853], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.60157, 23.09064], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.51150, 19.13660], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.36854, 21.78045], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.29300, 20.27982], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.722
+Epoch: [118][ 0/23]	Time 49.113 (49.113)	Data 49.048 (49.048)	Loss 6.7290e-01 (6.7290e-01)	Acc@1  72.66 ( 72.66)	Acc@2  89.06 ( 89.06)
+Epoch: [118][10/23]	Time  0.220 (14.460)	Data  0.122 (14.392)	Loss 6.3706e-01 (6.7115e-01)	Acc@1  78.12 ( 74.64)	Acc@2  86.72 ( 88.49)
+Epoch: [118][20/23]	Time 36.588 (13.954)	Data 36.540 (13.884)	Loss 5.3101e-01 (6.5670e-01)	Acc@1  81.25 ( 75.48)	Acc@2  92.97 ( 89.14)
+i: 0
+output[0]:  tensor([29.35445, 23.93119], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.475 (33.475)	Loss 1.7460e-01 (1.7460e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.30580, 21.40282], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.22374, 23.57094], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.86015, 19.74664], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.55800, 22.13828], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.62880, 20.71394], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.722
+Epoch: [119][ 0/23]	Time 50.025 (50.025)	Data 49.938 (49.938)	Loss 6.2627e-01 (6.2627e-01)	Acc@1  75.00 ( 75.00)	Acc@2  89.84 ( 89.84)
+Epoch: [119][10/23]	Time  3.825 (14.200)	Data  3.740 (14.077)	Loss 6.9869e-01 (6.4959e-01)	Acc@1  70.31 ( 75.50)	Acc@2  85.16 ( 88.71)
+Epoch: [119][20/23]	Time 23.779 (13.427)	Data 23.725 (13.319)	Loss 5.9769e-01 (6.5807e-01)	Acc@1  73.44 ( 74.96)	Acc@2  90.62 ( 89.14)
+i: 0
+output[0]:  tensor([29.04232, 23.44075], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.907 (33.907)	Loss 1.7046e-01 (1.7046e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.34463, 21.09890], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.46175, 23.39695], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.79086, 19.47850], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.45949, 22.19428], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.51311, 20.65474], device='cuda:0')
+Moderate
+ * Acc@1 73.806 Acc@5 87.858
+Epoch: [120][ 0/23]	Time 50.745 (50.745)	Data 50.666 (50.666)	Loss 5.7021e-01 (5.7021e-01)	Acc@1  77.34 ( 77.34)	Acc@2  89.84 ( 89.84)
+Epoch: [120][10/23]	Time  0.181 (14.140)	Data  0.115 (14.061)	Loss 6.4156e-01 (6.2139e-01)	Acc@1  76.56 ( 75.92)	Acc@2  89.06 ( 89.99)
+Epoch: [120][20/23]	Time 32.391 (13.743)	Data 32.343 (13.663)	Loss 6.9950e-01 (6.4873e-01)	Acc@1  76.56 ( 75.00)	Acc@2  88.28 ( 89.40)
+i: 0
+output[0]:  tensor([28.74664, 23.15302], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.650 (34.650)	Loss 1.7063e-01 (1.7063e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.56923, 21.03654], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.71489, 23.34640], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.58779, 19.18053], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.33370, 21.89545], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.37663, 20.45123], device='cuda:0')
+Moderate
+ * Acc@1 73.806 Acc@5 87.858
+Epoch: [121][ 0/23]	Time 50.908 (50.908)	Data 50.839 (50.839)	Loss 6.9316e-01 (6.9316e-01)	Acc@1  77.34 ( 77.34)	Acc@2  88.28 ( 88.28)
+Epoch: [121][10/23]	Time  0.189 (14.189)	Data  0.125 (14.099)	Loss 6.1340e-01 (6.5221e-01)	Acc@1  79.69 ( 74.93)	Acc@2  89.06 ( 89.42)
+Epoch: [121][20/23]	Time 34.361 (13.772)	Data 34.301 (13.689)	Loss 8.1971e-01 (6.5268e-01)	Acc@1  65.62 ( 75.26)	Acc@2  84.38 ( 89.03)
+i: 0
+output[0]:  tensor([28.59149, 23.14659], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.177 (34.177)	Loss 1.6505e-01 (1.6505e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.23963, 21.15114], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.87046, 22.98987], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.50507, 19.14280], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.26337, 21.69717], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.23892, 20.13794], device='cuda:0')
+Moderate
+ * Acc@1 73.533 Acc@5 87.995
+Epoch: [122][ 0/23]	Time 50.821 (50.821)	Data 50.754 (50.754)	Loss 7.3223e-01 (7.3223e-01)	Acc@1  73.44 ( 73.44)	Acc@2  83.59 ( 83.59)
+Epoch: [122][10/23]	Time  0.202 (14.878)	Data  0.098 (14.780)	Loss 6.3116e-01 (6.3942e-01)	Acc@1  75.00 ( 75.85)	Acc@2  89.06 ( 88.28)
+Epoch: [122][20/23]	Time 25.308 (13.717)	Data 25.259 (13.621)	Loss 7.0044e-01 (6.5440e-01)	Acc@1  71.09 ( 75.37)	Acc@2  87.50 ( 88.62)
+i: 0
+output[0]:  tensor([28.57958, 23.11413], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.310 (34.310)	Loss 1.6967e-01 (1.6967e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.89445, 20.89487], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.83641, 22.98612], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.50801, 19.17871], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.09486, 21.58840], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.18227, 20.16421], device='cuda:0')
+Moderate
+ * Acc@1 73.943 Acc@5 87.585
+Epoch: [123][ 0/23]	Time 50.093 (50.093)	Data 50.005 (50.005)	Loss 7.4127e-01 (7.4127e-01)	Acc@1  71.09 ( 71.09)	Acc@2  92.19 ( 92.19)
+Epoch: [123][10/23]	Time  4.414 (14.265)	Data  4.347 (14.179)	Loss 7.5218e-01 (6.9689e-01)	Acc@1  66.41 ( 74.01)	Acc@2  84.38 ( 87.86)
+Epoch: [123][20/23]	Time 30.671 (13.794)	Data 30.607 (13.712)	Loss 5.7631e-01 (6.6496e-01)	Acc@1  77.34 ( 74.26)	Acc@2  90.62 ( 88.47)
+i: 0
+output[0]:  tensor([28.57136, 23.01309], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.036 (34.036)	Loss 1.6392e-01 (1.6392e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.90565, 20.90412], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.87484, 22.95090], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.45611, 19.37269], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.10280, 21.62746], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.18798, 20.28669], device='cuda:0')
+Moderate
+ * Acc@1 73.806 Acc@5 87.995
+Epoch: [124][ 0/23]	Time 58.467 (58.467)	Data 58.375 (58.375)	Loss 6.6061e-01 (6.6061e-01)	Acc@1  78.91 ( 78.91)	Acc@2  89.06 ( 89.06)
+Epoch: [124][10/23]	Time  0.223 (15.044)	Data  0.104 (14.959)	Loss 5.4297e-01 (6.5620e-01)	Acc@1  79.69 ( 75.85)	Acc@2  91.41 ( 88.42)
+Epoch: [124][20/23]	Time 33.072 (13.759)	Data 33.022 (13.677)	Loss 6.6061e-01 (6.5657e-01)	Acc@1  75.00 ( 75.11)	Acc@2  89.06 ( 89.03)
+i: 0
+output[0]:  tensor([28.80885, 23.21202], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.543 (33.543)	Loss 1.6395e-01 (1.6395e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.09474, 20.81888], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.26483, 23.09719], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.29362, 18.93689], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.14001, 21.53071], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.23028, 20.17357], device='cuda:0')
+Moderate
+ * Acc@1 73.670 Acc@5 87.858
+Epoch: [125][ 0/23]	Time 49.478 (49.478)	Data 49.364 (49.364)	Loss 6.7490e-01 (6.7490e-01)	Acc@1  75.00 ( 75.00)	Acc@2  86.72 ( 86.72)
+Epoch: [125][10/23]	Time 11.965 (14.836)	Data 11.878 (14.760)	Loss 6.0780e-01 (6.7520e-01)	Acc@1  78.12 ( 75.00)	Acc@2  91.41 ( 87.07)
+Epoch: [125][20/23]	Time 24.755 (13.604)	Data 24.700 (13.530)	Loss 6.3933e-01 (6.4345e-01)	Acc@1  76.56 ( 75.97)	Acc@2  88.28 ( 88.39)
+i: 0
+output[0]:  tensor([28.76936, 23.22820], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.259 (33.259)	Loss 1.6243e-01 (1.6243e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.56725, 21.15241], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.58004, 23.31449], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.74113, 19.44682], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.34218, 21.87290], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.42517, 20.43996], device='cuda:0')
+Moderate
+ * Acc@1 73.533 Acc@5 87.995
+Epoch: [126][ 0/23]	Time 46.963 (46.963)	Data 46.914 (46.914)	Loss 5.1108e-01 (5.1108e-01)	Acc@1  82.81 ( 82.81)	Acc@2  94.53 ( 94.53)
+Epoch: [126][10/23]	Time  5.674 (14.669)	Data  5.589 (14.585)	Loss 7.9446e-01 (6.8644e-01)	Acc@1  69.53 ( 73.79)	Acc@2  87.50 ( 88.78)
+Epoch: [126][20/23]	Time 27.248 (13.641)	Data 27.191 (13.564)	Loss 6.7452e-01 (6.6202e-01)	Acc@1  75.00 ( 74.55)	Acc@2  86.72 ( 89.36)
+i: 0
+output[0]:  tensor([28.50627, 23.04760], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.769 (33.769)	Loss 1.7583e-01 (1.7583e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.63504, 20.79586], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.62987, 22.99130], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.40140, 19.23075], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.13809, 21.86032], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.27242, 20.48621], device='cuda:0')
+Moderate
+ * Acc@1 74.216 Acc@5 88.131
+Epoch: [127][ 0/23]	Time 53.033 (53.033)	Data 52.942 (52.942)	Loss 7.0991e-01 (7.0991e-01)	Acc@1  67.19 ( 67.19)	Acc@2  89.84 ( 89.84)
+Epoch: [127][10/23]	Time  9.317 (14.718)	Data  9.268 (14.636)	Loss 7.3440e-01 (6.6170e-01)	Acc@1  75.78 ( 75.85)	Acc@2  85.94 ( 88.99)
+Epoch: [127][20/23]	Time 24.637 (13.680)	Data 24.590 (13.598)	Loss 7.0385e-01 (6.5713e-01)	Acc@1  71.09 ( 75.89)	Acc@2  84.38 ( 89.14)
+i: 0
+output[0]:  tensor([28.80050, 23.29923], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.367 (34.367)	Loss 1.7397e-01 (1.7397e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.60466, 21.24903], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.38535, 23.18244], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.37618, 19.24712], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.03829, 21.60606], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.14669, 20.18019], device='cuda:0')
+Moderate
+ * Acc@1 74.216 Acc@5 87.858
+Epoch: [128][ 0/23]	Time 50.610 (50.610)	Data 50.526 (50.526)	Loss 6.5201e-01 (6.5201e-01)	Acc@1  74.22 ( 74.22)	Acc@2  89.84 ( 89.84)
+Epoch: [128][10/23]	Time  0.198 (14.465)	Data  0.088 (14.380)	Loss 5.6585e-01 (6.6236e-01)	Acc@1  82.81 ( 73.30)	Acc@2  93.75 ( 88.49)
+Epoch: [128][20/23]	Time 29.821 (13.808)	Data 29.773 (13.729)	Loss 5.7265e-01 (6.6149e-01)	Acc@1  77.34 ( 74.07)	Acc@2  89.84 ( 88.62)
+i: 0
+output[0]:  tensor([28.58340, 23.03685], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.670 (34.670)	Loss 1.7020e-01 (1.7020e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.99374, 20.83811], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.02516, 22.97336], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.37004, 19.08230], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([13.96858, 21.51543], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.08429, 20.18409], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.585
+Epoch: [129][ 0/23]	Time 44.294 (44.294)	Data 44.218 (44.218)	Loss 6.2865e-01 (6.2865e-01)	Acc@1  76.56 ( 76.56)	Acc@2  86.72 ( 86.72)
+Epoch: [129][10/23]	Time  1.843 (14.179)	Data  1.786 (14.096)	Loss 7.5172e-01 (6.4529e-01)	Acc@1  75.00 ( 74.86)	Acc@2  85.16 ( 88.78)
+Epoch: [129][20/23]	Time 27.176 (13.753)	Data 27.127 (13.678)	Loss 7.5975e-01 (6.7293e-01)	Acc@1  72.66 ( 73.88)	Acc@2  84.38 ( 88.10)
+i: 0
+output[0]:  tensor([28.99546, 23.52864], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.468 (34.468)	Loss 1.7476e-01 (1.7476e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.85226, 20.93630], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.10466, 23.31817], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.59274, 19.44751], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.18460, 22.08471], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.41723, 20.69267], device='cuda:0')
+Moderate
+ * Acc@1 74.352 Acc@5 87.995
+Epoch: [130][ 0/23]	Time 54.694 (54.694)	Data 54.628 (54.628)	Loss 6.0533e-01 (6.0533e-01)	Acc@1  80.47 ( 80.47)	Acc@2  89.06 ( 89.06)
+Epoch: [130][10/23]	Time  5.715 (14.473)	Data  5.658 (14.393)	Loss 7.6135e-01 (6.4317e-01)	Acc@1  68.75 ( 75.21)	Acc@2  85.16 ( 88.28)
+Epoch: [130][20/23]	Time 24.895 (13.589)	Data 24.831 (13.508)	Loss 7.4452e-01 (6.5294e-01)	Acc@1  74.22 ( 75.07)	Acc@2  85.94 ( 88.88)
+i: 0
+output[0]:  tensor([29.05141, 23.49970], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.657 (33.657)	Loss 1.6844e-01 (1.6844e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.17247, 21.04960], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.27824, 23.31059], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.54637, 19.49672], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.22728, 21.92710], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.42783, 20.59645], device='cuda:0')
+Moderate
+ * Acc@1 74.216 Acc@5 87.722
+Epoch: [131][ 0/23]	Time 47.921 (47.921)	Data 47.842 (47.842)	Loss 4.9164e-01 (4.9164e-01)	Acc@1  82.03 ( 82.03)	Acc@2  92.97 ( 92.97)
+Epoch: [131][10/23]	Time  0.191 (14.046)	Data  0.069 (13.961)	Loss 5.8497e-01 (6.2756e-01)	Acc@1  75.78 ( 76.63)	Acc@2  93.75 ( 90.06)
+Epoch: [131][20/23]	Time 34.445 (13.817)	Data 34.399 (13.737)	Loss 6.6846e-01 (6.5176e-01)	Acc@1  76.56 ( 75.37)	Acc@2  88.28 ( 88.91)
+i: 0
+output[0]:  tensor([28.60215, 23.16541], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.293 (33.293)	Loss 1.7171e-01 (1.7171e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.74973, 20.77612], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.80983, 23.05407], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.42584, 19.08267], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.12156, 21.62794], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.30468, 20.34550], device='cuda:0')
+Moderate
+ * Acc@1 73.806 Acc@5 87.585
+Epoch: [132][ 0/23]	Time 54.486 (54.486)	Data 54.437 (54.437)	Loss 6.4931e-01 (6.4931e-01)	Acc@1  75.78 ( 75.78)	Acc@2  89.84 ( 89.84)
+Epoch: [132][10/23]	Time  0.365 (14.196)	Data  0.296 (14.115)	Loss 6.2725e-01 (6.4645e-01)	Acc@1  75.78 ( 75.28)	Acc@2  89.84 ( 89.35)
+Epoch: [132][20/23]	Time 33.065 (13.815)	Data 33.017 (13.641)	Loss 6.4211e-01 (6.4760e-01)	Acc@1  75.78 ( 75.41)	Acc@2  89.06 ( 88.99)
+i: 0
+output[0]:  tensor([28.86084, 23.32864], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.241 (33.241)	Loss 1.7197e-01 (1.7197e-01)	Acc@1  96.09 ( 96.09)	Acc@2  96.88 ( 96.88)
+i: 1
+output[0]:  tensor([30.95874, 20.87063], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.16739, 23.18748], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.36222, 19.03930], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.09221, 21.78451], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.27703, 20.36948], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.585
+Epoch: [133][ 0/23]	Time 54.503 (54.503)	Data 54.412 (54.412)	Loss 7.4130e-01 (7.4130e-01)	Acc@1  75.78 ( 75.78)	Acc@2  89.84 ( 89.84)
+Epoch: [133][10/23]	Time  5.931 (14.372)	Data  5.880 (14.292)	Loss 4.9870e-01 (6.5189e-01)	Acc@1  78.91 ( 75.14)	Acc@2  92.97 ( 89.63)
+Epoch: [133][20/23]	Time 28.942 (13.658)	Data 28.884 (13.579)	Loss 5.9790e-01 (6.5971e-01)	Acc@1  78.91 ( 75.37)	Acc@2  88.28 ( 89.47)
+i: 0
+output[0]:  tensor([28.81192, 23.30490], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.597 (33.597)	Loss 1.7235e-01 (1.7235e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.35496, 21.09436], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.44492, 23.27415], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.60713, 19.38027], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.24508, 21.88645], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.35994, 20.40231], device='cuda:0')
+Moderate
+ * Acc@1 73.806 Acc@5 87.995
+Epoch: [134][ 0/23]	Time 51.483 (51.483)	Data 51.383 (51.383)	Loss 6.6849e-01 (6.6849e-01)	Acc@1  74.22 ( 74.22)	Acc@2  89.06 ( 89.06)
+Epoch: [134][10/23]	Time  0.123 (13.947)	Data  0.061 (13.871)	Loss 5.9130e-01 (6.4262e-01)	Acc@1  75.00 ( 74.86)	Acc@2  91.41 ( 89.56)
+Epoch: [134][20/23]	Time 17.979 (13.696)	Data 17.916 (13.618)	Loss 6.6322e-01 (6.6028e-01)	Acc@1  73.44 ( 74.40)	Acc@2  83.59 ( 88.65)
+i: 0
+output[0]:  tensor([28.84440, 23.25657], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.526 (34.526)	Loss 1.6660e-01 (1.6660e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.49795, 21.18390], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.42506, 23.24383], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.52154, 19.26932], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.27408, 21.77733], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.29664, 20.30297], device='cuda:0')
+Moderate
+ * Acc@1 73.670 Acc@5 88.131
+Epoch: [135][ 0/23]	Time 53.732 (53.732)	Data 53.646 (53.646)	Loss 6.2685e-01 (6.2685e-01)	Acc@1  75.00 ( 75.00)	Acc@2  86.72 ( 86.72)
+Epoch: [135][10/23]	Time  0.167 (14.245)	Data  0.107 (14.158)	Loss 6.0665e-01 (6.2258e-01)	Acc@1  78.12 ( 75.71)	Acc@2  89.06 ( 89.49)
+Epoch: [135][20/23]	Time 33.489 (13.749)	Data 33.443 (13.670)	Loss 6.9104e-01 (6.4824e-01)	Acc@1  73.44 ( 74.93)	Acc@2  89.84 ( 88.65)
+i: 0
+output[0]:  tensor([29.07763, 23.54811], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.314 (34.314)	Loss 1.6266e-01 (1.6266e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.82019, 20.96111], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.92438, 23.18223], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.55664, 19.35626], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.32142, 21.73053], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.39485, 20.32081], device='cuda:0')
+Moderate
+ * Acc@1 74.216 Acc@5 87.449
+Epoch: [136][ 0/23]	Time 47.656 (47.656)	Data 47.595 (47.595)	Loss 6.6799e-01 (6.6799e-01)	Acc@1  75.00 ( 75.00)	Acc@2  88.28 ( 88.28)
+Epoch: [136][10/23]	Time  1.162 (14.332)	Data  1.107 (14.255)	Loss 5.3661e-01 (6.6146e-01)	Acc@1  78.91 ( 74.57)	Acc@2  89.06 ( 86.93)
+Epoch: [136][20/23]	Time 26.091 (13.512)	Data 26.034 (13.442)	Loss 6.4100e-01 (6.6739e-01)	Acc@1  78.12 ( 74.48)	Acc@2  91.41 ( 87.72)
+i: 0
+output[0]:  tensor([29.08722, 23.68819], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.498 (34.498)	Loss 1.7447e-01 (1.7447e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.93449, 21.11349], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.93775, 23.27220], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.60302, 19.50718], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.16754, 21.84564], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.36221, 20.42122], device='cuda:0')
+Moderate
+ * Acc@1 74.352 Acc@5 87.722
+Epoch: [137][ 0/23]	Time 53.360 (53.360)	Data 53.283 (53.283)	Loss 6.8699e-01 (6.8699e-01)	Acc@1  72.66 ( 72.66)	Acc@2  85.94 ( 85.94)
+Epoch: [137][10/23]	Time  0.185 (14.154)	Data  0.113 (14.077)	Loss 5.3800e-01 (6.4902e-01)	Acc@1  77.34 ( 75.21)	Acc@2  92.19 ( 88.42)
+Epoch: [137][20/23]	Time 29.460 (13.680)	Data 29.413 (13.603)	Loss 5.6828e-01 (6.4795e-01)	Acc@1  82.03 ( 75.26)	Acc@2  92.19 ( 89.43)
+i: 0
+output[0]:  tensor([28.35515, 22.98433], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.811 (33.811)	Loss 1.7405e-01 (1.7405e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.80764, 20.88457], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.50319, 22.77087], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.36116, 19.42912], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([13.78481, 21.34723], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.01363, 20.15191], device='cuda:0')
+Moderate
+ * Acc@1 74.352 Acc@5 87.995
+Epoch: [138][ 0/23]	Time 50.741 (50.741)	Data 50.652 (50.652)	Loss 6.2991e-01 (6.2991e-01)	Acc@1  78.91 ( 78.91)	Acc@2  91.41 ( 91.41)
+Epoch: [138][10/23]	Time  1.618 (14.030)	Data  1.564 (13.955)	Loss 6.2460e-01 (6.6979e-01)	Acc@1  78.91 ( 75.57)	Acc@2  90.62 ( 89.06)
+Epoch: [138][20/23]	Time 29.988 (13.662)	Data 29.942 (13.590)	Loss 6.7590e-01 (6.5730e-01)	Acc@1  73.44 ( 75.45)	Acc@2  85.94 ( 89.21)
+i: 0
+output[0]:  tensor([28.86726, 23.45213], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.113 (33.113)	Loss 1.6857e-01 (1.6857e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.46724, 21.19349], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.33916, 23.27123], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.67609, 19.11511], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.23851, 21.80505], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.34272, 20.28203], device='cuda:0')
+Moderate
+ * Acc@1 74.216 Acc@5 87.858
+Epoch: [139][ 0/23]	Time 48.593 (48.593)	Data 48.509 (48.509)	Loss 7.1569e-01 (7.1569e-01)	Acc@1  71.09 ( 71.09)	Acc@2  85.94 ( 85.94)
+Epoch: [139][10/23]	Time  0.198 (13.758)	Data  0.119 (13.678)	Loss 5.5247e-01 (6.4701e-01)	Acc@1  78.91 ( 74.15)	Acc@2  90.62 ( 88.64)
+Epoch: [139][20/23]	Time 35.860 (13.715)	Data 35.794 (13.640)	Loss 6.1558e-01 (6.4273e-01)	Acc@1  74.22 ( 75.11)	Acc@2  89.84 ( 89.36)
+i: 0
+output[0]:  tensor([28.79515, 23.27239], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.314 (33.314)	Loss 1.6358e-01 (1.6358e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.37090, 20.59876], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.69256, 23.04223], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.42952, 19.23340], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.18333, 21.65793], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.32796, 20.34692], device='cuda:0')
+Moderate
+ * Acc@1 73.943 Acc@5 87.722
+Epoch: [140][ 0/23]	Time 52.011 (52.011)	Data 51.935 (51.935)	Loss 6.4443e-01 (6.4443e-01)	Acc@1  69.53 ( 69.53)	Acc@2  89.06 ( 89.06)
+Epoch: [140][10/23]	Time  1.206 (13.881)	Data  1.120 (13.798)	Loss 6.6333e-01 (6.2619e-01)	Acc@1  73.44 ( 76.28)	Acc@2  88.28 ( 90.20)
+Epoch: [140][20/23]	Time 28.376 (13.624)	Data 28.329 (13.542)	Loss 7.1038e-01 (6.5178e-01)	Acc@1  75.00 ( 75.22)	Acc@2  85.16 ( 88.91)
+i: 0
+output[0]:  tensor([29.14033, 23.70384], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.283 (33.283)	Loss 1.6969e-01 (1.6969e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.97796, 21.14224], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.02238, 23.32993], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.68350, 19.38560], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.45731, 21.96104], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.42707, 20.41564], device='cuda:0')
+Moderate
+ * Acc@1 73.670 Acc@5 87.722
+Epoch: [141][ 0/23]	Time 51.523 (51.523)	Data 51.464 (51.464)	Loss 6.9139e-01 (6.9139e-01)	Acc@1  75.00 ( 75.00)	Acc@2  86.72 ( 86.72)
+Epoch: [141][10/23]	Time  0.190 (14.423)	Data  0.068 (14.340)	Loss 6.4630e-01 (6.3593e-01)	Acc@1  75.78 ( 75.50)	Acc@2  87.50 ( 89.06)
+Epoch: [141][20/23]	Time 30.023 (13.785)	Data 29.974 (13.703)	Loss 5.2993e-01 (6.4875e-01)	Acc@1  85.16 ( 76.04)	Acc@2  94.53 ( 88.76)
+i: 0
+output[0]:  tensor([28.41776, 22.91612], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.998 (33.998)	Loss 1.7150e-01 (1.7150e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.72201, 20.67355], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.81566, 22.86298], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.26635, 19.18401], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([13.89387, 21.45171], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.04461, 20.22061], device='cuda:0')
+Moderate
+ * Acc@1 74.352 Acc@5 87.722
+Epoch: [142][ 0/23]	Time 49.171 (49.171)	Data 49.101 (49.101)	Loss 6.0125e-01 (6.0125e-01)	Acc@1  78.12 ( 78.12)	Acc@2  89.84 ( 89.84)
+Epoch: [142][10/23]	Time  0.167 (14.180)	Data  0.056 (14.099)	Loss 5.8346e-01 (6.4520e-01)	Acc@1  82.81 ( 75.43)	Acc@2  92.19 ( 89.49)
+Epoch: [142][20/23]	Time 26.592 (13.826)	Data 26.520 (13.750)	Loss 7.5750e-01 (6.4552e-01)	Acc@1  68.75 ( 75.33)	Acc@2  85.94 ( 89.81)
+i: 0
+output[0]:  tensor([28.56956, 23.00724], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.525 (34.525)	Loss 1.6619e-01 (1.6619e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.63980, 20.57784], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.70903, 22.89160], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.09442, 19.08971], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.02390, 21.48181], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.18612, 20.33388], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.722
+Epoch: [143][ 0/23]	Time 45.550 (45.550)	Data 45.458 (45.458)	Loss 5.7393e-01 (5.7393e-01)	Acc@1  80.47 ( 80.47)	Acc@2  90.62 ( 90.62)
+Epoch: [143][10/23]	Time  0.171 (14.119)	Data  0.083 (14.033)	Loss 6.0941e-01 (6.8960e-01)	Acc@1  77.34 ( 74.50)	Acc@2  90.62 ( 88.07)
+Epoch: [143][20/23]	Time 29.460 (13.748)	Data 29.414 (13.669)	Loss 5.3487e-01 (6.5152e-01)	Acc@1  80.47 ( 75.74)	Acc@2  87.50 ( 88.73)
+i: 0
+output[0]:  tensor([28.83539, 23.32684], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.650 (34.650)	Loss 1.6344e-01 (1.6344e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.72688, 20.83792], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.82885, 23.08608], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.54038, 19.37055], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.23193, 21.72509], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.29310, 20.34948], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.995
+Epoch: [144][ 0/23]	Time 51.674 (51.674)	Data 51.605 (51.605)	Loss 6.0279e-01 (6.0279e-01)	Acc@1  73.44 ( 73.44)	Acc@2  87.50 ( 87.50)
+Epoch: [144][10/23]	Time  0.185 (13.990)	Data  0.087 (13.913)	Loss 6.2499e-01 (6.3258e-01)	Acc@1  72.66 ( 75.57)	Acc@2  88.28 ( 89.56)
+Epoch: [144][20/23]	Time 32.340 (13.703)	Data 32.280 (13.625)	Loss 6.9147e-01 (6.4748e-01)	Acc@1  71.09 ( 74.74)	Acc@2  86.72 ( 89.17)
+i: 0
+output[0]:  tensor([29.06867, 23.47876], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.469 (34.469)	Loss 1.5847e-01 (1.5847e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.50471, 21.25113], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.46470, 23.41248], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.86702, 19.45548], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.66680, 22.12130], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.59954, 20.56043], device='cuda:0')
+Moderate
+ * Acc@1 73.124 Acc@5 88.131
+Epoch: [145][ 0/23]	Time 52.972 (52.972)	Data 52.885 (52.885)	Loss 7.3706e-01 (7.3706e-01)	Acc@1  71.88 ( 71.88)	Acc@2  89.06 ( 89.06)
+Epoch: [145][10/23]	Time  0.228 (13.955)	Data  0.110 (13.865)	Loss 5.3237e-01 (6.5175e-01)	Acc@1  78.91 ( 75.21)	Acc@2  89.84 ( 89.56)
+Epoch: [145][20/23]	Time 32.441 (13.731)	Data 32.254 (13.640)	Loss 7.0738e-01 (6.4498e-01)	Acc@1  72.66 ( 75.52)	Acc@2  87.50 ( 89.32)
+i: 0
+output[0]:  tensor([28.73879, 23.09828], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.479 (33.479)	Loss 1.6449e-01 (1.6449e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([32.15145, 21.25608], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([33.06103, 23.33820], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.45983, 18.90850], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.22740, 21.66359], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.25933, 20.16212], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 88.131
+Epoch: [146][ 0/23]	Time 53.986 (53.986)	Data 53.938 (53.938)	Loss 6.7951e-01 (6.7951e-01)	Acc@1  75.00 ( 75.00)	Acc@2  85.94 ( 85.94)
+Epoch: [146][10/23]	Time  0.173 (14.514)	Data  0.056 (14.434)	Loss 5.8281e-01 (6.8147e-01)	Acc@1  78.12 ( 74.57)	Acc@2  89.84 ( 87.86)
+Epoch: [146][20/23]	Time 30.518 (13.738)	Data 30.470 (13.657)	Loss 7.0155e-01 (6.6937e-01)	Acc@1  70.31 ( 74.26)	Acc@2  84.38 ( 88.24)
+i: 0
+output[0]:  tensor([28.87908, 23.41865], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.226 (33.226)	Loss 1.7133e-01 (1.7133e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.33593, 21.20243], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.15638, 23.23313], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.62473, 19.38888], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.26453, 21.90659], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.35784, 20.43419], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.722
+Epoch: [147][ 0/23]	Time 49.781 (49.781)	Data 49.678 (49.678)	Loss 7.3034e-01 (7.3034e-01)	Acc@1  69.53 ( 69.53)	Acc@2  89.06 ( 89.06)
+Epoch: [147][10/23]	Time  0.202 (14.425)	Data  0.070 (14.336)	Loss 5.9102e-01 (6.5360e-01)	Acc@1  78.12 ( 74.36)	Acc@2  89.84 ( 89.35)
+Epoch: [147][20/23]	Time 34.738 (13.777)	Data 34.665 (13.691)	Loss 5.7970e-01 (6.5525e-01)	Acc@1  80.47 ( 74.40)	Acc@2  89.84 ( 88.69)
+i: 0
+output[0]:  tensor([28.88267, 23.37541], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.237 (33.237)	Loss 1.6912e-01 (1.6912e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.00137, 21.04440], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.08801, 23.22983], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.68846, 19.36548], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.24579, 21.91463], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.44031, 20.45177], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.722
+Epoch: [148][ 0/23]	Time 47.470 (47.470)	Data 47.383 (47.383)	Loss 6.4824e-01 (6.4824e-01)	Acc@1  73.44 ( 73.44)	Acc@2  89.84 ( 89.84)
+Epoch: [148][10/23]	Time  0.218 (14.196)	Data  0.113 (14.107)	Loss 6.0568e-01 (6.5856e-01)	Acc@1  76.56 ( 74.86)	Acc@2  90.62 ( 88.99)
+Epoch: [148][20/23]	Time 33.371 (13.771)	Data 33.323 (13.686)	Loss 6.2649e-01 (6.5953e-01)	Acc@1  74.22 ( 74.29)	Acc@2  89.84 ( 88.69)
+i: 0
+output[0]:  tensor([28.67117, 23.08360], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.024 (34.024)	Loss 1.6708e-01 (1.6708e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.75735, 20.68226], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.82848, 22.94318], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.12457, 18.95720], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.05822, 21.52271], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.19761, 20.24933], device='cuda:0')
+Moderate
+ * Acc@1 73.943 Acc@5 87.722
+Epoch: [149][ 0/23]	Time 50.387 (50.387)	Data 50.339 (50.339)	Loss 6.5277e-01 (6.5277e-01)	Acc@1  75.00 ( 75.00)	Acc@2  89.84 ( 89.84)
+Epoch: [149][10/23]	Time  0.817 (14.211)	Data  0.726 (14.119)	Loss 6.9779e-01 (6.2515e-01)	Acc@1  73.44 ( 77.41)	Acc@2  89.06 ( 90.70)
+Epoch: [149][20/23]	Time 32.290 (13.777)	Data 32.229 (13.696)	Loss 7.0420e-01 (6.2674e-01)	Acc@1  71.88 ( 76.34)	Acc@2  88.28 ( 90.33)
+i: 0
+output[0]:  tensor([29.00848, 23.40572], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.455 (34.455)	Loss 1.6657e-01 (1.6657e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.26389, 21.08525], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.10399, 23.19181], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.47793, 19.15235], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.39337, 21.81771], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.38085, 20.36804], device='cuda:0')
+Moderate
+ * Acc@1 73.670 Acc@5 88.131
+Epoch: [150][ 0/23]	Time 48.823 (48.823)	Data 48.739 (48.739)	Loss 7.1185e-01 (7.1185e-01)	Acc@1  74.22 ( 74.22)	Acc@2  89.06 ( 89.06)
+Epoch: [150][10/23]	Time  5.900 (14.194)	Data  5.830 (14.121)	Loss 6.8100e-01 (6.5345e-01)	Acc@1  71.09 ( 74.79)	Acc@2  92.19 ( 89.35)
+Epoch: [150][20/23]	Time 30.369 (13.786)	Data 30.320 (13.709)	Loss 6.5022e-01 (6.6423e-01)	Acc@1  72.66 ( 74.52)	Acc@2  88.28 ( 88.65)
+i: 0
+output[0]:  tensor([28.98364, 23.54062], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.522 (34.522)	Loss 1.7082e-01 (1.7082e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.97150, 20.98210], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.99785, 23.26324], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.59558, 19.17282], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.35301, 21.85320], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.40323, 20.42670], device='cuda:0')
+Moderate
+ * Acc@1 73.943 Acc@5 87.585
+Epoch: [151][ 0/23]	Time 49.783 (49.783)	Data 49.686 (49.686)	Loss 7.1290e-01 (7.1290e-01)	Acc@1  71.88 ( 71.88)	Acc@2  88.28 ( 88.28)
+Epoch: [151][10/23]	Time  0.201 (14.334)	Data  0.109 (14.243)	Loss 7.0428e-01 (6.5434e-01)	Acc@1  71.88 ( 74.01)	Acc@2  89.06 ( 88.78)
+Epoch: [151][20/23]	Time 30.468 (13.714)	Data 30.409 (13.632)	Loss 6.8116e-01 (6.7085e-01)	Acc@1  67.97 ( 73.74)	Acc@2  89.84 ( 88.43)
+i: 0
+output[0]:  tensor([28.67418, 23.23173], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.482 (34.482)	Loss 1.6875e-01 (1.6875e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.02577, 21.11465], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.88428, 23.07819], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.66456, 19.38388], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.16866, 21.83565], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.23267, 20.30230], device='cuda:0')
+Moderate
+ * Acc@1 73.943 Acc@5 87.722
+Epoch: [152][ 0/23]	Time 50.614 (50.614)	Data 50.553 (50.553)	Loss 7.1447e-01 (7.1447e-01)	Acc@1  75.00 ( 75.00)	Acc@2  89.06 ( 89.06)
+Epoch: [152][10/23]	Time  4.133 (13.796)	Data  4.038 (13.711)	Loss 6.6864e-01 (6.5291e-01)	Acc@1  75.00 ( 75.43)	Acc@2  85.16 ( 88.92)
+Epoch: [152][20/23]	Time 32.354 (13.779)	Data 32.292 (13.697)	Loss 6.9692e-01 (6.4734e-01)	Acc@1  71.88 ( 75.37)	Acc@2  82.03 ( 88.73)
+i: 0
+output[0]:  tensor([29.13278, 23.42717], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.521 (33.521)	Loss 1.6704e-01 (1.6704e-01)	Acc@1  96.09 ( 96.09)	Acc@2  96.88 ( 96.88)
+i: 1
+output[0]:  tensor([32.05920, 21.45382], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.87147, 23.47984], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.62074, 19.29855], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.51366, 22.01538], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.53903, 20.49793], device='cuda:0')
+Moderate
+ * Acc@1 73.533 Acc@5 87.858
+Epoch: [153][ 0/23]	Time 47.470 (47.470)	Data 47.370 (47.370)	Loss 6.5383e-01 (6.5383e-01)	Acc@1  75.00 ( 75.00)	Acc@2  88.28 ( 88.28)
+Epoch: [153][10/23]	Time  6.097 (14.546)	Data  6.019 (14.470)	Loss 6.7948e-01 (6.7814e-01)	Acc@1  76.56 ( 74.08)	Acc@2  89.06 ( 88.35)
+Epoch: [153][20/23]	Time 35.632 (13.801)	Data 35.583 (13.719)	Loss 6.9218e-01 (6.6189e-01)	Acc@1  75.00 ( 74.85)	Acc@2  93.75 ( 89.29)
+i: 0
+output[0]:  tensor([29.09284, 23.44205], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.243 (33.243)	Loss 1.6513e-01 (1.6513e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.28131, 21.05699], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.48617, 23.37104], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.55730, 19.36663], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.35022, 21.91862], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.49037, 20.53697], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.585
+Epoch: [154][ 0/23]	Time 55.816 (55.816)	Data 55.714 (55.714)	Loss 7.0110e-01 (7.0110e-01)	Acc@1  68.75 ( 68.75)	Acc@2  84.38 ( 84.38)
+Epoch: [154][10/23]	Time  0.122 (14.231)	Data  0.059 (14.135)	Loss 7.3712e-01 (6.8449e-01)	Acc@1  68.75 ( 73.72)	Acc@2  89.06 ( 88.14)
+Epoch: [154][20/23]	Time 26.730 (13.762)	Data 26.683 (13.679)	Loss 6.8177e-01 (6.6421e-01)	Acc@1  76.56 ( 74.78)	Acc@2  86.72 ( 88.28)
+i: 0
+output[0]:  tensor([29.00945, 23.48078], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.203 (33.203)	Loss 1.6387e-01 (1.6387e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.17631, 21.07864], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.22409, 23.25747], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.54372, 19.12826], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.37339, 21.85850], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.41010, 20.31805], device='cuda:0')
+Moderate
+ * Acc@1 73.806 Acc@5 87.858
+Epoch: [155][ 0/23]	Time 56.041 (56.041)	Data 55.962 (55.962)	Loss 6.7638e-01 (6.7638e-01)	Acc@1  72.66 ( 72.66)	Acc@2  89.06 ( 89.06)
+Epoch: [155][10/23]	Time  0.178 (14.460)	Data  0.082 (14.367)	Loss 6.3714e-01 (6.5401e-01)	Acc@1  77.34 ( 75.14)	Acc@2  91.41 ( 89.56)
+Epoch: [155][20/23]	Time 30.704 (13.760)	Data 30.656 (13.671)	Loss 5.3335e-01 (6.5199e-01)	Acc@1  78.91 ( 75.04)	Acc@2  92.19 ( 89.32)
+i: 0
+output[0]:  tensor([28.86233, 23.29769], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.212 (34.212)	Loss 1.6728e-01 (1.6728e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.99691, 20.99010], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.04576, 23.10895], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.42624, 19.19207], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.10194, 21.66243], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.28504, 20.21961], device='cuda:0')
+Moderate
+ * Acc@1 74.216 Acc@5 87.995
+Epoch: [156][ 0/23]	Time 48.858 (48.858)	Data 48.787 (48.787)	Loss 6.9523e-01 (6.9523e-01)	Acc@1  74.22 ( 74.22)	Acc@2  88.28 ( 88.28)
+Epoch: [156][10/23]	Time  0.207 (14.321)	Data  0.097 (14.239)	Loss 5.4307e-01 (6.5812e-01)	Acc@1  77.34 ( 75.71)	Acc@2  91.41 ( 88.00)
+Epoch: [156][20/23]	Time 21.339 (13.425)	Data 21.283 (13.342)	Loss 6.1082e-01 (6.6802e-01)	Acc@1  78.91 ( 74.55)	Acc@2  89.84 ( 88.39)
+i: 0
+output[0]:  tensor([28.96739, 23.39693], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.215 (34.215)	Loss 1.6087e-01 (1.6087e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.28872, 21.20685], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.32583, 23.29959], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.67642, 19.43997], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.45745, 21.97414], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.44541, 20.42392], device='cuda:0')
+Moderate
+ * Acc@1 73.670 Acc@5 87.995
+Epoch: [157][ 0/23]	Time 50.249 (50.249)	Data 50.151 (50.151)	Loss 5.1796e-01 (5.1796e-01)	Acc@1  82.03 ( 82.03)	Acc@2  91.41 ( 91.41)
+Epoch: [157][10/23]	Time  1.329 (14.266)	Data  1.251 (14.184)	Loss 7.2215e-01 (6.6150e-01)	Acc@1  70.31 ( 74.72)	Acc@2  88.28 ( 88.57)
+Epoch: [157][20/23]	Time 31.683 (13.771)	Data 31.635 (13.693)	Loss 6.3290e-01 (6.5260e-01)	Acc@1  72.66 ( 75.11)	Acc@2  90.62 ( 89.06)
+i: 0
+output[0]:  tensor([28.66338, 23.19712], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.444 (34.444)	Loss 1.7176e-01 (1.7176e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.96788, 20.86122], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.04655, 23.15314], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.58233, 19.40847], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.19157, 21.74710], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.31199, 20.44888], device='cuda:0')
+Moderate
+ * Acc@1 74.216 Acc@5 87.722
+Epoch: [158][ 0/23]	Time 54.958 (54.958)	Data 54.909 (54.909)	Loss 8.6549e-01 (8.6549e-01)	Acc@1  70.31 ( 70.31)	Acc@2  87.50 ( 87.50)
+Epoch: [158][10/23]	Time  0.194 (14.274)	Data  0.118 (14.197)	Loss 5.8732e-01 (6.5712e-01)	Acc@1  78.91 ( 75.14)	Acc@2  90.62 ( 89.20)
+Epoch: [158][20/23]	Time 30.503 (13.753)	Data 30.455 (13.668)	Loss 6.1953e-01 (6.6064e-01)	Acc@1  78.91 ( 75.00)	Acc@2  92.19 ( 89.10)
+i: 0
+output[0]:  tensor([28.81153, 23.42523], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.543 (34.543)	Loss 1.7067e-01 (1.7067e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.80038, 21.01538], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.66088, 23.13309], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.54894, 19.45593], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.15752, 21.74839], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.35245, 20.39510], device='cuda:0')
+Moderate
+ * Acc@1 74.352 Acc@5 87.858
+Epoch: [159][ 0/23]	Time 54.777 (54.777)	Data 54.727 (54.727)	Loss 6.8112e-01 (6.8112e-01)	Acc@1  74.22 ( 74.22)	Acc@2  89.06 ( 89.06)
+Epoch: [159][10/23]	Time  2.218 (14.066)	Data  2.129 (13.977)	Loss 6.8217e-01 (6.7664e-01)	Acc@1  71.88 ( 75.36)	Acc@2  87.50 ( 88.92)
+Epoch: [159][20/23]	Time 34.953 (13.767)	Data 34.904 (13.676)	Loss 6.8468e-01 (6.6683e-01)	Acc@1  75.00 ( 75.22)	Acc@2  88.28 ( 88.58)
+i: 0
+output[0]:  tensor([28.90528, 23.36756], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.052 (34.052)	Loss 1.6205e-01 (1.6205e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.26921, 21.17623], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.99109, 23.14944], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.42969, 19.15631], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.20924, 21.67431], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.24697, 20.22318], device='cuda:0')
+Moderate
+ * Acc@1 73.943 Acc@5 88.131
+Epoch: [160][ 0/23]	Time 45.431 (45.431)	Data 45.357 (45.357)	Loss 6.1665e-01 (6.1665e-01)	Acc@1  77.34 ( 77.34)	Acc@2  89.06 ( 89.06)
+Epoch: [160][10/23]	Time  8.996 (14.835)	Data  8.908 (14.760)	Loss 7.8624e-01 (6.6977e-01)	Acc@1  71.88 ( 74.79)	Acc@2  83.59 ( 88.00)
+Epoch: [160][20/23]	Time 27.313 (13.708)	Data 27.255 (13.635)	Loss 6.1401e-01 (6.5759e-01)	Acc@1  75.78 ( 74.85)	Acc@2  88.28 ( 88.50)
+i: 0
+output[0]:  tensor([28.75487, 23.19424], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.218 (33.218)	Loss 1.7371e-01 (1.7371e-01)	Acc@1  96.09 ( 96.09)	Acc@2  96.88 ( 96.88)
+i: 1
+output[0]:  tensor([31.06623, 20.81568], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.14092, 23.10585], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.22383, 19.06952], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.02254, 21.60458], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.22630, 20.33277], device='cuda:0')
+Moderate
+ * Acc@1 73.806 Acc@5 87.995
+Epoch: [161][ 0/23]	Time 45.239 (45.239)	Data 45.146 (45.146)	Loss 6.2401e-01 (6.2401e-01)	Acc@1  75.00 ( 75.00)	Acc@2  89.84 ( 89.84)
+Epoch: [161][10/23]	Time  0.224 (14.401)	Data  0.110 (14.315)	Loss 6.4762e-01 (6.5914e-01)	Acc@1  78.12 ( 75.71)	Acc@2  89.84 ( 89.35)
+Epoch: [161][20/23]	Time 20.880 (13.388)	Data 20.826 (13.181)	Loss 6.4499e-01 (6.5272e-01)	Acc@1  72.66 ( 75.45)	Acc@2  86.72 ( 88.73)
+i: 0
+output[0]:  tensor([29.01515, 23.46020], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.189 (33.189)	Loss 1.6921e-01 (1.6921e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.03667, 21.04493], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.03248, 23.25362], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.38666, 19.26505], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.33224, 21.83054], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.42501, 20.41469], device='cuda:0')
+Moderate
+ * Acc@1 74.216 Acc@5 87.995
+Epoch: [162][ 0/23]	Time 53.507 (53.507)	Data 53.424 (53.424)	Loss 6.4985e-01 (6.4985e-01)	Acc@1  78.12 ( 78.12)	Acc@2  90.62 ( 90.62)
+Epoch: [162][10/23]	Time  0.210 (14.553)	Data  0.073 (14.460)	Loss 6.7792e-01 (6.2653e-01)	Acc@1  74.22 ( 76.35)	Acc@2  86.72 ( 89.20)
+Epoch: [162][20/23]	Time 32.165 (13.797)	Data 32.119 (13.713)	Loss 5.9105e-01 (6.5039e-01)	Acc@1  78.91 ( 75.37)	Acc@2  89.84 ( 88.84)
+i: 0
+output[0]:  tensor([28.98232, 23.41747], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.540 (33.540)	Loss 1.7231e-01 (1.7231e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([32.08641, 21.43178], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.79352, 23.40664], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.48051, 19.22618], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.16683, 21.73202], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.35031, 20.28902], device='cuda:0')
+Moderate
+ * Acc@1 74.216 Acc@5 87.858
+Epoch: [163][ 0/23]	Time 53.307 (53.307)	Data 53.258 (53.258)	Loss 6.5755e-01 (6.5755e-01)	Acc@1  74.22 ( 74.22)	Acc@2  89.84 ( 89.84)
+Epoch: [163][10/23]	Time  0.139 (14.108)	Data  0.049 (14.032)	Loss 6.0097e-01 (6.6757e-01)	Acc@1  78.12 ( 73.72)	Acc@2  89.06 ( 88.64)
+Epoch: [163][20/23]	Time 32.795 (13.811)	Data 32.747 (13.734)	Loss 7.7575e-01 (6.5867e-01)	Acc@1  70.31 ( 74.29)	Acc@2  87.50 ( 89.21)
+i: 0
+output[0]:  tensor([28.82343, 23.20663], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.695 (34.695)	Loss 1.6480e-01 (1.6480e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.60505, 21.19703], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.28208, 23.16775], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.35109, 19.05227], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.23344, 21.63931], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.24665, 20.18037], device='cuda:0')
+Moderate
+ * Acc@1 73.533 Acc@5 88.131
+Epoch: [164][ 0/23]	Time 51.006 (51.006)	Data 50.920 (50.920)	Loss 7.3745e-01 (7.3745e-01)	Acc@1  71.88 ( 71.88)	Acc@2  86.72 ( 86.72)
+Epoch: [164][10/23]	Time  1.906 (13.957)	Data  1.849 (13.877)	Loss 5.9706e-01 (6.3689e-01)	Acc@1  78.91 ( 76.63)	Acc@2  89.84 ( 88.71)
+Epoch: [164][20/23]	Time 33.660 (13.791)	Data 33.611 (13.715)	Loss 7.4247e-01 (6.5499e-01)	Acc@1  70.31 ( 75.04)	Acc@2  86.72 ( 88.76)
+i: 0
+output[0]:  tensor([28.41533, 22.90631], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.578 (34.578)	Loss 1.7155e-01 (1.7155e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.89769, 20.80510], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.87900, 22.92048], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.34554, 19.16426], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([13.93120, 21.49629], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.08704, 20.17971], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.995
+Epoch: [165][ 0/23]	Time 50.639 (50.639)	Data 50.552 (50.552)	Loss 7.3272e-01 (7.3272e-01)	Acc@1  71.09 ( 71.09)	Acc@2  84.38 ( 84.38)
+Epoch: [165][10/23]	Time  3.918 (14.419)	Data  3.861 (14.353)	Loss 6.1832e-01 (6.7240e-01)	Acc@1  77.34 ( 74.29)	Acc@2  92.19 ( 89.35)
+Epoch: [165][20/23]	Time 31.222 (13.743)	Data 31.164 (13.673)	Loss 5.6361e-01 (6.6539e-01)	Acc@1  78.91 ( 74.78)	Acc@2  89.84 ( 89.17)
+i: 0
+output[0]:  tensor([28.57827, 23.09091], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.410 (34.410)	Loss 1.6513e-01 (1.6513e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.10241, 21.06172], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.87705, 22.97679], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.40751, 19.26595], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.10188, 21.53124], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.16341, 20.10375], device='cuda:0')
+Moderate
+ * Acc@1 73.943 Acc@5 87.858
+Epoch: [166][ 0/23]	Time 50.509 (50.509)	Data 50.406 (50.406)	Loss 6.3132e-01 (6.3132e-01)	Acc@1  74.22 ( 74.22)	Acc@2  90.62 ( 90.62)
+Epoch: [166][10/23]	Time  0.182 (14.358)	Data  0.112 (14.287)	Loss 5.0789e-01 (6.4058e-01)	Acc@1  82.81 ( 76.14)	Acc@2  93.75 ( 89.13)
+Epoch: [166][20/23]	Time 28.970 (13.692)	Data 28.921 (13.626)	Loss 6.5430e-01 (6.4833e-01)	Acc@1  73.44 ( 75.15)	Acc@2  86.72 ( 88.88)
+i: 0
+output[0]:  tensor([29.03708, 23.55219], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.052 (34.052)	Loss 1.6929e-01 (1.6929e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.82223, 20.86163], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.02346, 23.28102], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.58417, 19.50851], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.31766, 21.86954], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.45116, 20.56182], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.995
+Epoch: [167][ 0/23]	Time 56.473 (56.473)	Data 56.404 (56.404)	Loss 7.0079e-01 (7.0079e-01)	Acc@1  70.31 ( 70.31)	Acc@2  86.72 ( 86.72)
+Epoch: [167][10/23]	Time  0.129 (14.222)	Data  0.057 (14.140)	Loss 6.6599e-01 (6.7034e-01)	Acc@1  74.22 ( 74.01)	Acc@2  90.62 ( 88.57)
+Epoch: [167][20/23]	Time 31.442 (13.817)	Data 31.395 (13.733)	Loss 5.9389e-01 (6.6550e-01)	Acc@1  78.91 ( 74.44)	Acc@2  89.84 ( 89.03)
+i: 0
+output[0]:  tensor([28.75735, 23.23656], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.108 (33.108)	Loss 1.6830e-01 (1.6830e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.00979, 20.96095], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.00504, 23.10026], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.50093, 19.28618], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.14635, 21.82857], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.28875, 20.37995], device='cuda:0')
+Moderate
+ * Acc@1 73.943 Acc@5 88.131
+Epoch: [168][ 0/23]	Time 52.149 (52.149)	Data 52.094 (52.094)	Loss 6.3652e-01 (6.3652e-01)	Acc@1  75.00 ( 75.00)	Acc@2  88.28 ( 88.28)
+Epoch: [168][10/23]	Time  1.993 (14.175)	Data  1.936 (14.095)	Loss 5.6954e-01 (6.3565e-01)	Acc@1  78.91 ( 75.78)	Acc@2  92.19 ( 88.99)
+Epoch: [168][20/23]	Time 29.557 (13.676)	Data 29.493 (13.597)	Loss 6.2692e-01 (6.6229e-01)	Acc@1  78.91 ( 74.78)	Acc@2  90.62 ( 88.80)
+i: 0
+output[0]:  tensor([28.95747, 23.45278], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.829 (33.829)	Loss 1.6459e-01 (1.6459e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.00875, 20.99070], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.15729, 23.30647], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.62089, 19.21220], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.39759, 21.98667], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.48106, 20.46080], device='cuda:0')
+Moderate
+ * Acc@1 73.397 Acc@5 87.722
+Epoch: [169][ 0/23]	Time 53.564 (53.564)	Data 53.471 (53.471)	Loss 6.4505e-01 (6.4505e-01)	Acc@1  73.44 ( 73.44)	Acc@2  86.72 ( 86.72)
+Epoch: [169][10/23]	Time  0.170 (14.387)	Data  0.095 (14.304)	Loss 6.3711e-01 (6.3937e-01)	Acc@1  74.22 ( 74.86)	Acc@2  92.97 ( 88.71)
+Epoch: [169][20/23]	Time 33.784 (13.791)	Data 33.736 (13.715)	Loss 6.3973e-01 (6.5154e-01)	Acc@1  78.91 ( 74.67)	Acc@2  91.41 ( 88.73)
+i: 0
+output[0]:  tensor([28.81041, 23.31337], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.427 (33.427)	Loss 1.7099e-01 (1.7099e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.34954, 21.16803], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.20032, 23.24351], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.60217, 19.23449], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.22704, 21.90285], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.40356, 20.42013], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.858
+Epoch: [170][ 0/23]	Time 52.256 (52.256)	Data 52.156 (52.156)	Loss 6.0114e-01 (6.0114e-01)	Acc@1  75.78 ( 75.78)	Acc@2  92.97 ( 92.97)
+Epoch: [170][10/23]	Time  0.181 (14.320)	Data  0.068 (14.227)	Loss 6.9603e-01 (6.7596e-01)	Acc@1  70.31 ( 73.15)	Acc@2  87.50 ( 88.92)
+Epoch: [170][20/23]	Time 26.625 (13.868)	Data 26.577 (13.783)	Loss 5.4592e-01 (6.4727e-01)	Acc@1  79.69 ( 74.55)	Acc@2  90.62 ( 89.29)
+i: 0
+output[0]:  tensor([29.15985, 23.63204], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.587 (34.587)	Loss 1.7114e-01 (1.7114e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.66499, 21.42713], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.61045, 23.47741], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.68123, 19.42120], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.36456, 22.04652], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.45444, 20.46253], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.722
+Epoch: [171][ 0/23]	Time 52.287 (52.287)	Data 52.237 (52.237)	Loss 7.3421e-01 (7.3421e-01)	Acc@1  70.31 ( 70.31)	Acc@2  87.50 ( 87.50)
+Epoch: [171][10/23]	Time  0.233 (14.505)	Data  0.113 (14.422)	Loss 6.0435e-01 (6.5530e-01)	Acc@1  79.69 ( 74.79)	Acc@2  90.62 ( 88.42)
+Epoch: [171][20/23]	Time 34.647 (13.850)	Data 34.599 (13.769)	Loss 7.6570e-01 (6.5268e-01)	Acc@1  71.09 ( 75.11)	Acc@2  85.16 ( 88.88)
+i: 0
+output[0]:  tensor([29.06694, 23.49539], device='cuda:0')
+No DR
+Test: [0/6]	Time 35.077 (35.077)	Loss 1.6702e-01 (1.6702e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.80621, 21.31000], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.82813, 23.49282], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.67020, 19.16461], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.45141, 21.99449], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.40550, 20.40401], device='cuda:0')
+Moderate
+ * Acc@1 73.806 Acc@5 87.722
+Epoch: [172][ 0/23]	Time 52.230 (52.230)	Data 52.138 (52.138)	Loss 6.3070e-01 (6.3070e-01)	Acc@1  73.44 ( 73.44)	Acc@2  89.06 ( 89.06)
+Epoch: [172][10/23]	Time  0.231 (15.008)	Data  0.096 (14.904)	Loss 5.0981e-01 (6.5789e-01)	Acc@1  83.59 ( 75.50)	Acc@2  89.84 ( 89.28)
+Epoch: [172][20/23]	Time 25.640 (13.732)	Data 25.592 (13.639)	Loss 6.3707e-01 (6.6110e-01)	Acc@1  76.56 ( 74.81)	Acc@2  88.28 ( 88.91)
+i: 0
+output[0]:  tensor([28.71201, 23.33588], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.577 (34.577)	Loss 1.7347e-01 (1.7347e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.68706, 20.85201], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.82937, 23.09012], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.64409, 19.36146], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.13936, 21.78580], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.27135, 20.37146], device='cuda:0')
+Moderate
+ * Acc@1 73.943 Acc@5 87.858
+Epoch: [173][ 0/23]	Time 48.106 (48.106)	Data 48.045 (48.045)	Loss 5.6113e-01 (5.6113e-01)	Acc@1  82.03 ( 82.03)	Acc@2  93.75 ( 93.75)
+Epoch: [173][10/23]	Time 11.565 (14.385)	Data 11.472 (14.242)	Loss 6.5538e-01 (6.5158e-01)	Acc@1  78.91 ( 76.07)	Acc@2  91.41 ( 89.77)
+Epoch: [173][20/23]	Time 32.238 (13.801)	Data 32.189 (13.687)	Loss 6.7820e-01 (6.5632e-01)	Acc@1  70.31 ( 75.19)	Acc@2  89.84 ( 89.21)
+i: 0
+output[0]:  tensor([28.92420, 23.40312], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.699 (33.699)	Loss 1.6812e-01 (1.6812e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.85181, 20.86412], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.95575, 23.16986], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.37307, 19.03026], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.36177, 21.70943], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.36093, 20.29950], device='cuda:0')
+Moderate
+ * Acc@1 73.670 Acc@5 87.585
+Epoch: [174][ 0/23]	Time 54.551 (54.551)	Data 54.460 (54.460)	Loss 6.9162e-01 (6.9162e-01)	Acc@1  74.22 ( 74.22)	Acc@2  87.50 ( 87.50)
+Epoch: [174][10/23]	Time  3.493 (14.183)	Data  3.421 (14.102)	Loss 6.2532e-01 (6.6092e-01)	Acc@1  78.91 ( 75.00)	Acc@2  92.19 ( 89.06)
+Epoch: [174][20/23]	Time 28.057 (13.463)	Data 27.451 (13.358)	Loss 7.2169e-01 (6.5529e-01)	Acc@1  72.66 ( 75.19)	Acc@2  85.16 ( 88.88)
+i: 0
+output[0]:  tensor([28.77789, 23.27048], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.445 (33.445)	Loss 1.6643e-01 (1.6643e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.32935, 21.02786], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.30978, 23.19633], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.51442, 19.10147], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.20440, 21.64835], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.27606, 20.26494], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.722
+Epoch: [175][ 0/23]	Time 47.333 (47.333)	Data 47.246 (47.246)	Loss 6.5487e-01 (6.5487e-01)	Acc@1  71.88 ( 71.88)	Acc@2  89.06 ( 89.06)
+Epoch: [175][10/23]	Time  0.219 (15.310)	Data  0.108 (15.219)	Loss 6.6686e-01 (6.5727e-01)	Acc@1  72.66 ( 75.00)	Acc@2  86.72 ( 89.20)
+Epoch: [175][20/23]	Time  8.786 (13.480)	Data  8.730 (13.398)	Loss 6.2055e-01 (6.5457e-01)	Acc@1  75.00 ( 74.96)	Acc@2  89.06 ( 88.76)
+i: 0
+output[0]:  tensor([28.94595, 23.40079], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.404 (33.404)	Loss 1.7417e-01 (1.7417e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.89139, 20.91834], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.11744, 23.27605], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.66823, 19.47955], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.31068, 21.95777], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.40441, 20.58566], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.858
+Epoch: [176][ 0/23]	Time 53.875 (53.875)	Data 53.796 (53.796)	Loss 6.0291e-01 (6.0291e-01)	Acc@1  80.47 ( 80.47)	Acc@2  90.62 ( 90.62)
+Epoch: [176][10/23]	Time  0.162 (14.700)	Data  0.091 (14.608)	Loss 6.9148e-01 (6.5259e-01)	Acc@1  71.09 ( 74.64)	Acc@2  89.84 ( 88.71)
+Epoch: [176][20/23]	Time 27.888 (13.851)	Data 27.841 (13.760)	Loss 8.1393e-01 (6.5573e-01)	Acc@1  71.88 ( 74.74)	Acc@2  89.84 ( 89.21)
+i: 0
+output[0]:  tensor([28.64838, 23.10583], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.369 (34.369)	Loss 1.6382e-01 (1.6382e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.81537, 20.81250], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.88654, 22.96784], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.42888, 19.12494], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.11260, 21.59461], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.17563, 20.18623], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.995
+Epoch: [177][ 0/23]	Time 49.286 (49.286)	Data 49.190 (49.190)	Loss 6.1510e-01 (6.1510e-01)	Acc@1  78.12 ( 78.12)	Acc@2  87.50 ( 87.50)
+Epoch: [177][10/23]	Time  0.123 (14.594)	Data  0.064 (14.508)	Loss 6.7532e-01 (6.4713e-01)	Acc@1  75.78 ( 75.50)	Acc@2  89.06 ( 88.49)
+Epoch: [177][20/23]	Time 30.916 (13.771)	Data 30.843 (13.623)	Loss 5.9053e-01 (6.5410e-01)	Acc@1  78.91 ( 75.00)	Acc@2  88.28 ( 88.36)
+i: 0
+output[0]:  tensor([29.08951, 23.49082], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.431 (34.431)	Loss 1.6400e-01 (1.6400e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.82453, 21.41314], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.80693, 23.52811], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.67214, 19.45993], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.53278, 21.96994], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.48622, 20.46383], device='cuda:0')
+Moderate
+ * Acc@1 73.533 Acc@5 87.858
+Epoch: [178][ 0/23]	Time 52.717 (52.717)	Data 52.621 (52.621)	Loss 7.8358e-01 (7.8358e-01)	Acc@1  70.31 ( 70.31)	Acc@2  85.16 ( 85.16)
+Epoch: [178][10/23]	Time  0.206 (14.451)	Data  0.103 (14.354)	Loss 6.4282e-01 (6.7774e-01)	Acc@1  73.44 ( 74.01)	Acc@2  88.28 ( 88.49)
+Epoch: [178][20/23]	Time 21.576 (13.629)	Data 21.530 (13.545)	Loss 6.3866e-01 (6.5179e-01)	Acc@1  76.56 ( 75.07)	Acc@2  93.75 ( 89.40)
+i: 0
+output[0]:  tensor([28.75889, 23.20131], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.557 (34.557)	Loss 1.6743e-01 (1.6743e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.19196, 20.96803], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.28299, 23.14421], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.64052, 19.24517], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.22478, 21.77177], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.34786, 20.30021], device='cuda:0')
+Moderate
+ * Acc@1 73.943 Acc@5 87.995
+Epoch: [179][ 0/23]	Time 48.791 (48.791)	Data 48.731 (48.731)	Loss 5.8740e-01 (5.8740e-01)	Acc@1  75.78 ( 75.78)	Acc@2  90.62 ( 90.62)
+Epoch: [179][10/23]	Time  8.852 (13.807)	Data  8.754 (13.745)	Loss 8.8402e-01 (6.5350e-01)	Acc@1  68.75 ( 75.71)	Acc@2  87.50 ( 88.78)
+Epoch: [179][20/23]	Time 23.097 (13.725)	Data 23.036 (13.657)	Loss 6.7599e-01 (6.5721e-01)	Acc@1  71.88 ( 74.93)	Acc@2  88.28 ( 88.76)
+i: 0
+output[0]:  tensor([28.80138, 23.28032], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.319 (34.319)	Loss 1.6912e-01 (1.6912e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.69976, 20.91899], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.65212, 23.04946], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.48291, 19.11225], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.29419, 21.96108], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.37950, 20.40003], device='cuda:0')
+Moderate
+ * Acc@1 73.670 Acc@5 87.858
+Epoch: [180][ 0/23]	Time 49.810 (49.810)	Data 49.718 (49.718)	Loss 6.4376e-01 (6.4376e-01)	Acc@1  74.22 ( 74.22)	Acc@2  88.28 ( 88.28)
+Epoch: [180][10/23]	Time  0.181 (14.023)	Data  0.110 (13.944)	Loss 7.2804e-01 (6.5408e-01)	Acc@1  69.53 ( 75.36)	Acc@2  86.72 ( 89.28)
+Epoch: [180][20/23]	Time 31.673 (13.779)	Data 31.614 (13.696)	Loss 5.2445e-01 (6.4424e-01)	Acc@1  82.81 ( 75.86)	Acc@2  92.19 ( 89.40)
+i: 0
+output[0]:  tensor([28.72944, 23.24114], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.193 (33.193)	Loss 1.7016e-01 (1.7016e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.18246, 21.06821], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.19483, 23.25864], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.68462, 19.46318], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.34602, 22.01343], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.50145, 20.54205], device='cuda:0')
+Moderate
+ * Acc@1 73.943 Acc@5 87.995
+Epoch: [181][ 0/23]	Time 52.376 (52.376)	Data 52.276 (52.276)	Loss 6.3708e-01 (6.3708e-01)	Acc@1  73.44 ( 73.44)	Acc@2  88.28 ( 88.28)
+Epoch: [181][10/23]	Time  4.084 (14.233)	Data  4.032 (14.149)	Loss 6.6570e-01 (6.3691e-01)	Acc@1  75.78 ( 75.71)	Acc@2  85.94 ( 89.63)
+Epoch: [181][20/23]	Time 28.782 (13.739)	Data 28.723 (13.664)	Loss 5.3012e-01 (6.4826e-01)	Acc@1  78.12 ( 74.63)	Acc@2  92.19 ( 88.88)
+i: 0
+output[0]:  tensor([28.59290, 23.08905], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.364 (33.364)	Loss 1.7731e-01 (1.7731e-01)	Acc@1  96.09 ( 96.09)	Acc@2  96.88 ( 96.88)
+i: 1
+output[0]:  tensor([30.78702, 20.76438], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.84566, 22.97716], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.30132, 19.20720], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([13.99680, 21.66321], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.24682, 20.34942], device='cuda:0')
+Moderate
+ * Acc@1 74.216 Acc@5 87.449
+Epoch: [182][ 0/23]	Time 49.463 (49.463)	Data 49.393 (49.393)	Loss 5.4734e-01 (5.4734e-01)	Acc@1  80.47 ( 80.47)	Acc@2  92.97 ( 92.97)
+Epoch: [182][10/23]	Time  0.181 (14.366)	Data  0.100 (14.288)	Loss 6.7548e-01 (6.7594e-01)	Acc@1  75.78 ( 73.72)	Acc@2  85.16 ( 88.35)
+Epoch: [182][20/23]	Time 29.560 (13.674)	Data 29.502 (13.600)	Loss 6.7512e-01 (6.5112e-01)	Acc@1  77.34 ( 74.85)	Acc@2  89.84 ( 88.73)
+i: 0
+output[0]:  tensor([28.77662, 23.28130], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.294 (33.294)	Loss 1.7480e-01 (1.7480e-01)	Acc@1  96.09 ( 96.09)	Acc@2  96.88 ( 96.88)
+i: 1
+output[0]:  tensor([31.18843, 21.20411], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.94747, 23.18663], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.40131, 19.40962], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.19790, 21.90075], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.42261, 20.49757], device='cuda:0')
+Moderate
+ * Acc@1 74.216 Acc@5 87.449
+Epoch: [183][ 0/23]	Time 49.451 (49.451)	Data 49.357 (49.357)	Loss 5.3682e-01 (5.3682e-01)	Acc@1  80.47 ( 80.47)	Acc@2  92.19 ( 92.19)
+Epoch: [183][10/23]	Time  6.530 (14.320)	Data  6.473 (14.252)	Loss 6.7121e-01 (6.4206e-01)	Acc@1  75.78 ( 75.85)	Acc@2  89.84 ( 90.20)
+Epoch: [183][20/23]	Time 32.371 (13.779)	Data 32.323 (13.702)	Loss 6.6483e-01 (6.4408e-01)	Acc@1  73.44 ( 75.52)	Acc@2  88.28 ( 89.55)
+i: 0
+output[0]:  tensor([29.05819, 23.54996], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.380 (34.380)	Loss 1.6450e-01 (1.6450e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.25168, 21.27147], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.11103, 23.29361], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.79733, 19.64047], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.43812, 21.93375], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.47535, 20.43111], device='cuda:0')
+Moderate
+ * Acc@1 73.943 Acc@5 87.722
+Epoch: [184][ 0/23]	Time 52.922 (52.922)	Data 52.805 (52.805)	Loss 6.1298e-01 (6.1298e-01)	Acc@1  76.56 ( 76.56)	Acc@2  89.84 ( 89.84)
+Epoch: [184][10/23]	Time  0.235 (14.039)	Data  0.109 (13.958)	Loss 7.5381e-01 (6.5370e-01)	Acc@1  71.88 ( 75.85)	Acc@2  89.06 ( 88.92)
+Epoch: [184][20/23]	Time 35.027 (13.771)	Data 34.978 (13.687)	Loss 6.7065e-01 (6.6043e-01)	Acc@1  72.66 ( 75.04)	Acc@2  87.50 ( 88.95)
+i: 0
+output[0]:  tensor([28.90578, 23.48359], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.177 (34.177)	Loss 1.6357e-01 (1.6357e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.97460, 21.02959], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.85021, 23.17917], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.51835, 19.25186], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.31647, 21.76656], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.34217, 20.33361], device='cuda:0')
+Moderate
+ * Acc@1 73.806 Acc@5 87.995
+Epoch: [185][ 0/23]	Time 48.240 (48.240)	Data 48.164 (48.164)	Loss 6.0204e-01 (6.0204e-01)	Acc@1  78.12 ( 78.12)	Acc@2  90.62 ( 90.62)
+Epoch: [185][10/23]	Time  0.202 (14.054)	Data  0.102 (13.970)	Loss 6.3984e-01 (6.1953e-01)	Acc@1  76.56 ( 76.42)	Acc@2  89.84 ( 89.77)
+Epoch: [185][20/23]	Time 26.834 (13.824)	Data 26.786 (13.746)	Loss 6.7359e-01 (6.6050e-01)	Acc@1  68.75 ( 74.40)	Acc@2  89.84 ( 88.95)
+i: 0
+output[0]:  tensor([28.43009, 23.05014], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.608 (34.608)	Loss 1.6873e-01 (1.6873e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.32486, 20.70999], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.27289, 22.74564], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.33870, 19.14626], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([13.85984, 21.43264], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.03030, 20.09086], device='cuda:0')
+Moderate
+ * Acc@1 74.352 Acc@5 87.722
+Epoch: [186][ 0/23]	Time 48.655 (48.655)	Data 48.559 (48.559)	Loss 7.8464e-01 (7.8464e-01)	Acc@1  69.53 ( 69.53)	Acc@2  84.38 ( 84.38)
+Epoch: [186][10/23]	Time  2.547 (14.529)	Data  2.492 (14.444)	Loss 8.5898e-01 (6.7470e-01)	Acc@1  66.41 ( 74.01)	Acc@2  83.59 ( 88.85)
+Epoch: [186][20/23]	Time 32.297 (13.764)	Data 32.249 (13.679)	Loss 6.3970e-01 (6.6642e-01)	Acc@1  75.78 ( 74.67)	Acc@2  87.50 ( 88.73)
+i: 0
+output[0]:  tensor([28.84361, 23.29541], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.668 (34.668)	Loss 1.6716e-01 (1.6716e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.25426, 21.05156], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.25971, 23.21979], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.62609, 19.44471], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.27678, 21.89551], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.29032, 20.50181], device='cuda:0')
+Moderate
+ * Acc@1 73.533 Acc@5 87.995
+Epoch: [187][ 0/23]	Time 47.176 (47.176)	Data 47.084 (47.084)	Loss 7.1549e-01 (7.1549e-01)	Acc@1  74.22 ( 74.22)	Acc@2  85.94 ( 85.94)
+Epoch: [187][10/23]	Time  0.165 (13.971)	Data  0.061 (13.885)	Loss 6.3774e-01 (6.8673e-01)	Acc@1  79.69 ( 74.93)	Acc@2  92.19 ( 87.43)
+Epoch: [187][20/23]	Time 33.335 (13.734)	Data 33.277 (13.652)	Loss 6.3362e-01 (6.6197e-01)	Acc@1  79.69 ( 75.15)	Acc@2  87.50 ( 88.43)
+i: 0
+output[0]:  tensor([28.52662, 23.04895], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.425 (33.425)	Loss 1.7104e-01 (1.7104e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.04508, 21.01391], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.79173, 22.97616], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.55783, 19.08285], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.19967, 21.63592], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.25272, 20.13708], device='cuda:0')
+Moderate
+ * Acc@1 73.670 Acc@5 88.131
+Epoch: [188][ 0/23]	Time 49.029 (49.029)	Data 48.960 (48.960)	Loss 6.4897e-01 (6.4897e-01)	Acc@1  76.56 ( 76.56)	Acc@2  87.50 ( 87.50)
+Epoch: [188][10/23]	Time  0.182 (13.846)	Data  0.113 (13.765)	Loss 5.9406e-01 (6.5612e-01)	Acc@1  78.12 ( 75.07)	Acc@2  90.62 ( 89.13)
+Epoch: [188][20/23]	Time 28.533 (13.669)	Data 28.465 (13.591)	Loss 7.2799e-01 (6.6165e-01)	Acc@1  70.31 ( 74.52)	Acc@2  85.16 ( 89.06)
+i: 0
+output[0]:  tensor([29.12046, 23.60065], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.170 (33.170)	Loss 1.6332e-01 (1.6332e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.12097, 21.04896], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.12911, 23.30155], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.59059, 19.22933], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.39830, 21.83553], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.39254, 20.40635], device='cuda:0')
+Moderate
+ * Acc@1 73.670 Acc@5 87.858
+Epoch: [189][ 0/23]	Time 56.668 (56.668)	Data 56.584 (56.584)	Loss 7.4867e-01 (7.4867e-01)	Acc@1  69.53 ( 69.53)	Acc@2  89.06 ( 89.06)
+Epoch: [189][10/23]	Time  0.159 (14.359)	Data  0.057 (14.272)	Loss 6.3862e-01 (6.4914e-01)	Acc@1  75.78 ( 74.57)	Acc@2  87.50 ( 89.56)
+Epoch: [189][20/23]	Time 27.895 (13.573)	Data 27.840 (13.490)	Loss 5.0606e-01 (6.4817e-01)	Acc@1  82.81 ( 74.78)	Acc@2  92.97 ( 89.58)
+i: 0
+output[0]:  tensor([28.49882, 23.12779], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.165 (33.165)	Loss 1.6829e-01 (1.6829e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.27715, 20.65272], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.26502, 22.83171], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.36106, 19.03561], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.06037, 21.50489], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.14542, 20.11499], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.722
+Epoch: [190][ 0/23]	Time 54.165 (54.165)	Data 54.069 (54.069)	Loss 7.5995e-01 (7.5995e-01)	Acc@1  71.09 ( 71.09)	Acc@2  88.28 ( 88.28)
+Epoch: [190][10/23]	Time  0.194 (14.633)	Data  0.076 (14.556)	Loss 6.2373e-01 (6.8170e-01)	Acc@1  77.34 ( 72.80)	Acc@2  90.62 ( 88.64)
+Epoch: [190][20/23]	Time 31.195 (13.753)	Data 31.146 (13.630)	Loss 5.8418e-01 (6.6330e-01)	Acc@1  80.47 ( 74.33)	Acc@2  87.50 ( 88.80)
+i: 0
+output[0]:  tensor([28.79793, 23.33292], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.661 (34.661)	Loss 1.7415e-01 (1.7415e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.18941, 21.08295], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.09529, 23.17426], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.60662, 19.63339], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.05638, 21.67613], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.25377, 20.39699], device='cuda:0')
+Moderate
+ * Acc@1 74.216 Acc@5 87.858
+Epoch: [191][ 0/23]	Time 49.631 (49.631)	Data 49.553 (49.553)	Loss 6.7623e-01 (6.7623e-01)	Acc@1  71.09 ( 71.09)	Acc@2  93.75 ( 93.75)
+Epoch: [191][10/23]	Time 11.973 (14.765)	Data 11.870 (14.692)	Loss 6.2856e-01 (6.7522e-01)	Acc@1  76.56 ( 74.36)	Acc@2  89.06 ( 88.92)
+Epoch: [191][20/23]	Time 28.062 (13.809)	Data 28.013 (13.731)	Loss 6.9464e-01 (6.5637e-01)	Acc@1  74.22 ( 75.45)	Acc@2  82.81 ( 88.80)
+i: 0
+output[0]:  tensor([28.85408, 23.28608], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.407 (34.407)	Loss 1.7182e-01 (1.7182e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.23528, 21.03665], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.26316, 23.25016], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.45159, 19.43552], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.22181, 21.84184], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.43593, 20.52063], device='cuda:0')
+Moderate
+ * Acc@1 74.352 Acc@5 87.858
+Epoch: [192][ 0/23]	Time 54.673 (54.673)	Data 54.533 (54.533)	Loss 6.1672e-01 (6.1672e-01)	Acc@1  76.56 ( 76.56)	Acc@2  92.19 ( 92.19)
+Epoch: [192][10/23]	Time  0.201 (14.437)	Data  0.110 (14.345)	Loss 7.3502e-01 (6.5163e-01)	Acc@1  70.31 ( 74.86)	Acc@2  87.50 ( 89.06)
+Epoch: [192][20/23]	Time 32.851 (13.676)	Data 32.805 (13.589)	Loss 6.5855e-01 (6.4443e-01)	Acc@1  77.34 ( 75.41)	Acc@2  88.28 ( 88.91)
+i: 0
+output[0]:  tensor([28.76610, 23.29449], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.263 (34.263)	Loss 1.7540e-01 (1.7540e-01)	Acc@1  96.09 ( 96.09)	Acc@2  96.88 ( 96.88)
+i: 1
+output[0]:  tensor([30.78983, 20.89005], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.84612, 23.12821], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.44819, 19.36983], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.06470, 21.81971], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.27773, 20.46043], device='cuda:0')
+Moderate
+ * Acc@1 74.216 Acc@5 87.585
+Epoch: [193][ 0/23]	Time 49.606 (49.606)	Data 49.503 (49.503)	Loss 6.7666e-01 (6.7666e-01)	Acc@1  71.09 ( 71.09)	Acc@2  90.62 ( 90.62)
+Epoch: [193][10/23]	Time  0.157 (13.629)	Data  0.069 (13.535)	Loss 5.8583e-01 (6.2375e-01)	Acc@1  78.91 ( 76.92)	Acc@2  89.84 ( 89.77)
+Epoch: [193][20/23]	Time 30.840 (13.719)	Data 30.792 (13.633)	Loss 8.1501e-01 (6.5411e-01)	Acc@1  69.53 ( 75.15)	Acc@2  85.94 ( 88.99)
+i: 0
+output[0]:  tensor([28.67684, 23.17216], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.491 (34.491)	Loss 1.7007e-01 (1.7007e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.86771, 20.78850], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.83010, 23.00492], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.28512, 19.04407], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.05584, 21.49505], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.14660, 20.21490], device='cuda:0')
+Moderate
+ * Acc@1 74.216 Acc@5 87.858
+Epoch: [194][ 0/23]	Time 52.911 (52.911)	Data 52.784 (52.784)	Loss 6.3547e-01 (6.3547e-01)	Acc@1  73.44 ( 73.44)	Acc@2  87.50 ( 87.50)
+Epoch: [194][10/23]	Time  0.186 (14.014)	Data  0.114 (13.927)	Loss 7.8728e-01 (6.6564e-01)	Acc@1  73.44 ( 75.57)	Acc@2  87.50 ( 89.70)
+Epoch: [194][20/23]	Time 33.942 (13.871)	Data 33.894 (13.789)	Loss 5.4131e-01 (6.5389e-01)	Acc@1  79.69 ( 75.41)	Acc@2  92.19 ( 89.47)
+i: 0
+output[0]:  tensor([28.80000, 23.39644], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.343 (33.343)	Loss 1.7189e-01 (1.7189e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.19125, 21.22059], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.15511, 23.33398], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.82699, 19.56990], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.31550, 22.03434], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.52994, 20.52026], device='cuda:0')
+Moderate
+ * Acc@1 74.488 Acc@5 87.858
+Epoch: [195][ 0/23]	Time 54.963 (54.963)	Data 54.865 (54.865)	Loss 6.6312e-01 (6.6312e-01)	Acc@1  77.34 ( 77.34)	Acc@2  92.19 ( 92.19)
+Epoch: [195][10/23]	Time  0.186 (14.816)	Data  0.118 (14.727)	Loss 6.3332e-01 (6.4392e-01)	Acc@1  74.22 ( 75.50)	Acc@2  89.84 ( 89.84)
+Epoch: [195][20/23]	Time 26.656 (13.798)	Data 26.608 (13.712)	Loss 6.3945e-01 (6.4913e-01)	Acc@1  77.34 ( 75.56)	Acc@2  89.84 ( 90.03)
+i: 0
+output[0]:  tensor([28.53135, 22.99704], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.087 (33.087)	Loss 1.6465e-01 (1.6465e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.27606, 21.01132], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.17830, 23.10112], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.59869, 19.22704], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.30592, 21.68457], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.36585, 20.29028], device='cuda:0')
+Moderate
+ * Acc@1 73.397 Acc@5 87.858
+Epoch: [196][ 0/23]	Time 54.283 (54.283)	Data 54.190 (54.190)	Loss 6.4406e-01 (6.4406e-01)	Acc@1  74.22 ( 74.22)	Acc@2  89.84 ( 89.84)
+Epoch: [196][10/23]	Time  0.173 (14.291)	Data  0.097 (14.208)	Loss 6.6695e-01 (6.4558e-01)	Acc@1  71.09 ( 74.57)	Acc@2  92.19 ( 88.78)
+Epoch: [196][20/23]	Time 34.388 (13.821)	Data 34.327 (13.738)	Loss 6.8710e-01 (6.4827e-01)	Acc@1  71.09 ( 74.59)	Acc@2  88.28 ( 89.10)
+i: 0
+output[0]:  tensor([28.50971, 23.15054], device='cuda:0')
+No DR
+Test: [0/6]	Time 33.371 (33.371)	Loss 1.7250e-01 (1.7250e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.68728, 21.03829], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([31.48772, 23.00430], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.47968, 19.33111], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.12693, 21.66522], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.28630, 20.24955], device='cuda:0')
+Moderate
+ * Acc@1 74.079 Acc@5 87.995
+Epoch: [197][ 0/23]	Time 48.262 (48.262)	Data 48.156 (48.156)	Loss 6.1266e-01 (6.1266e-01)	Acc@1  78.12 ( 78.12)	Acc@2  90.62 ( 90.62)
+Epoch: [197][10/23]	Time  8.551 (14.507)	Data  8.504 (14.428)	Loss 7.5807e-01 (6.5923e-01)	Acc@1  71.88 ( 74.22)	Acc@2  86.72 ( 89.70)
+Epoch: [197][20/23]	Time 34.269 (13.820)	Data 34.220 (13.738)	Loss 7.3370e-01 (6.6421e-01)	Acc@1  72.66 ( 74.55)	Acc@2  86.72 ( 88.88)
+i: 0
+output[0]:  tensor([28.71721, 23.30912], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.368 (34.368)	Loss 1.7558e-01 (1.7558e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([30.92371, 20.82963], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.04222, 23.18200], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.39943, 19.05712], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.09557, 21.84840], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.26130, 20.39779], device='cuda:0')
+Moderate
+ * Acc@1 73.670 Acc@5 87.722
+Epoch: [198][ 0/23]	Time 51.118 (51.118)	Data 51.069 (51.069)	Loss 5.9255e-01 (5.9255e-01)	Acc@1  74.22 ( 74.22)	Acc@2  89.84 ( 89.84)
+Epoch: [198][10/23]	Time  0.307 (14.321)	Data  0.206 (14.237)	Loss 6.8188e-01 (6.3920e-01)	Acc@1  75.78 ( 75.21)	Acc@2  86.72 ( 89.77)
+Epoch: [198][20/23]	Time 27.237 (13.777)	Data 27.179 (13.697)	Loss 6.6238e-01 (6.6209e-01)	Acc@1  74.22 ( 74.22)	Acc@2  85.94 ( 88.91)
+i: 0
+output[0]:  tensor([28.86483, 23.44281], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.781 (34.781)	Loss 1.7840e-01 (1.7840e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.47589, 21.12242], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.39849, 23.31127], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.40391, 19.25032], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.01852, 21.69361], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.25774, 20.38610], device='cuda:0')
+Moderate
+ * Acc@1 74.216 Acc@5 87.722
+Epoch: [199][ 0/23]	Time 53.922 (53.922)	Data 53.825 (53.825)	Loss 5.9903e-01 (5.9903e-01)	Acc@1  75.00 ( 75.00)	Acc@2  90.62 ( 90.62)
+Epoch: [199][10/23]	Time  0.191 (13.945)	Data  0.110 (13.869)	Loss 7.5580e-01 (6.3278e-01)	Acc@1  71.09 ( 75.50)	Acc@2  82.81 ( 89.91)
+Epoch: [199][20/23]	Time 30.593 (13.672)	Data 30.534 (13.597)	Loss 6.2689e-01 (6.3735e-01)	Acc@1  75.78 ( 75.82)	Acc@2  87.50 ( 89.17)
+i: 0
+output[0]:  tensor([28.74877, 23.20758], device='cuda:0')
+No DR
+Test: [0/6]	Time 34.824 (34.824)	Loss 1.6568e-01 (1.6568e-01)	Acc@1  96.09 ( 96.09)	Acc@2  97.66 ( 97.66)
+i: 1
+output[0]:  tensor([31.40584, 21.13628], device='cuda:0')
+No DR
+i: 2
+output[0]:  tensor([32.26129, 23.16329], device='cuda:0')
+No DR
+i: 3
+output[0]:  tensor([14.56392, 19.27952], device='cuda:0')
+Mild
+i: 4
+output[0]:  tensor([14.21938, 21.74475], device='cuda:0')
+Moderate
+i: 5
+output[0]:  tensor([13.36246, 20.28529], device='cuda:0')
+Moderate
+ * Acc@1 73.806 Acc@5 88.267
