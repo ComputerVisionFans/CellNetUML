@@ -196,7 +196,7 @@ After further finetuning, basically using best weight trained so far + new subse
     <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Non-ceribriform.jpg">
 </center>
 
-This is the comparison between Cellnet and  ResNet18 on the Non-cerebriform dataset, with/without finetuning. As illustrated, our net has comparable Acc. even some higher on some folder.
+This is the comparison between Cellnet and  ResNet18 on the Non-cerebriform dataset with finetuning. As illustrated, our net has comparable Acc. even some higher on some folder.
 
 
 
