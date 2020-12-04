@@ -28,7 +28,7 @@ CIFAR-10  dataset  consists of 60,000 32 × 32 color images in 10 classes, with 
 
 <p align="center">
   
-  <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Cifar-12-06-2020.png" width="700" alt="Comparison  of  state-of-art  methods  on  CIFAR10  Dataset">
+  <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Cifar-12-06-2020.png" width="500" alt="Comparison  of  state-of-art  methods  on  CIFAR10  Dataset">
   
 </p>
 
@@ -46,7 +46,7 @@ On  benchmark  pneumonia  dataset,  the  Pneumonia/Normal classification val acc
  
 
 <p align="center">
-  <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Pneumonia_TimeSeries-1.png" width="700" alt="Comparison  of  state-of-the-art  methods  for  training  onPneumonia Dataset">
+  <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Pneumonia_TimeSeries-1.png" width="500" alt="Comparison  of  state-of-the-art  methods  for  training  onPneumonia Dataset">
 </p>
 
 
@@ -75,7 +75,7 @@ ResNet18  [17]  and  ShuffleNetv2  [25]  were  verified  so  far the most repres
 - This is Time Series Plot of Shufflenet V, ResNet18 Val, GhostNet18 V, on Sezary syndrome with cellyolo
 
 <p align="center">
-  <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Sesary_TimeSeries-12-06-2020.png" width="700" alt="Sezary Syndrome-Dataset.">
+  <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Sesary_TimeSeries-12-06-2020.png" width="500" alt="Sezary Syndrome-Dataset.">
 </p>
 
 
