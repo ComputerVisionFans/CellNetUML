@@ -52,7 +52,7 @@ On  benchmark  pneumonia  dataset,  the  Pneumonia/Normal classification val acc
 
 ### Evaluate performance on [Sezary Syndrome Dataset](https://github.com/Johnny-liqiang/CellNetUML/tree/master/HDSS)
 
-ResNet18  [17]  and  shuffleNetv2  [25]  were  verified  so  farthe most representative best performance on Sezary SyndromeDataset. But Our* Net can achieve higher classification perfor-mance  (e.g.  95.638%  top-1  accuracy  )  than  ResNet  18  [17],ShuffleNet V2 [25] and GhostNet [16], while less weights andcomputational cost.
+ResNet18  [17]  and  ShuffleNetv2  [25]  were  verified  so  far the most representative best performance on Sezary Syndrome Dataset. But Our* Net can achieve higher classification perfor-mance  (e.g.  95.638%  top-1  accuracy  )  than  ResNet  18  [17], ShuffleNet V2 [25] and GhostNet [16], while less weights and computational cost.
 
 
 |<sub>Model</sub>|<sub>Weights(million)</sub>|<sub>Top-1 Val Acc.(%)</sub>|<sub>FLops(million)</sub>|   
@@ -82,7 +82,7 @@ ResNet18  [17]  and  shuffleNetv2  [25]  were  verified  so  farthe most represe
 
 ### Evaluate performance on [COVID-19 Dataset](https://github.com/Johnny-liqiang/CellNetUML/tree/master/COVID19)
 
-In order to help the medical scientists, we made this COVID-19 CT dataset. Based on initial [COVID-19  Image  Data  Collection](https://arxiv.org/abs/2003.11597),  which  contains  only  123  frontal  view  X-rays.  We  additionally  collected  data  from  newest  publications  on  European  Journal  ofRadiology,  and  collected  nearly  1583  healthy  Lung  CT/xray images  as  comparative  data  from  recently  available  resources and publications.
+In order to help the medical scientists, we made this COVID-19 CT dataset. Based on the initial [COVID-19  Image  Data  Collection](https://arxiv.org/abs/2003.11597), which contains only 123 frontal view X-rays. We also collected data from the newest publications on the European Journal of Radiology and collected nearly 1583 healthy Lung CT/Xray images as comparative data from recently available resources and publications.
 
 |<sub>Model</sub>|<sub>Weights(million)</sub>|<sub>Top-1 Val Acc.(%)</sub>|<sub>FLops(million)</sub>|   
 | :---: | :---: | :---: | :---: |
@@ -105,7 +105,7 @@ In order to help the medical scientists, we made this COVID-19 CT dataset. Based
   <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/COVID-19_TimeSeries-1.png" width="700" alt=" COVID-19  Dataset">
 </p>
 
-Comparison   of   state-of-art   methods   for   training   on   COVID-19Dataset.   The  weights  of  our  models  is  2.91  million,  comparing  toDenseNet121 7.98 millions of weights,  MobileNet V2 3.4 millions ofweights and 301 millions of FLOPs.  Considering the fact of the highercomplexity  and  parameter  amount  of  other  SOTA  Nets,  our  Net  isvery competitive on classification tasks for the biomedical dataset.
+Comparison of  state-of-art methods for training on   COVID-19 Dataset.   Our models' weights are 2.91  million,  comparing  toDenseNet121 7.98 million of weights,  MobileNet V2 3.4 million of weights, and 301 million of FLOPs; considering the higher complexity and parameter amount of other  SOTA  Nets,  our  Net is very competitive on classification tasks for the biomedical dataset.
 
 
 
@@ -181,31 +181,31 @@ To better visualize the performance of the cellyolo and demonstrate the necessit
 | Original pic: ss2_8 (468).png | After Cellyolo segmentation | Ournet with cellyolo | Ournet without cellyolo | Res18 with cellyolo | Res18 without cellyolo | Vgg16 with cellyolo |
 
 ## The generalization  performance with our best weight(with/without finetuning)
-### Non-ceribriform dataset
+### Non-cerebriform dataset
 
 #### CellNet before finetuning
-Prediction with our CellNet best weight trained so far on Non-ceribriform dataset, As shown in the figure, the TP and TN achived general highest score on HD/SS with larger image amount. And average accuracy up to 99.53%-96.51% among HD image, and average accuracy achieved 92.19%-98.78% among SS image, but there are some small folder obtain 38.29%-37.48% on SS1 and SS2, 40.17% in SS6_B folder as well.
+Prediction with our CellNet best weight trained so far on Non-cerebriform dataset, As shown in the figure, the TP and TN achieved the general highest score on HD/SS with more considerable image amount. Moreover, average accuracy up to 99.53%-96.51% among HD image, and average accuracy achieved 92.19%-98.78% among SS image, but there is some small folder obtain 38.29%-37.48% on SS1 and SS2, 40.17% in SS6_B folder as well.
 <center>
     <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/trainsfer%20learning%20on%20Non-ceribriform/before%20finetuning.JPG">
 </center>
 
 #### CellNet after finetuning
-After further finetuning, basically using bestweight trained so far + new subset of Non-ceribriform, and set mini batch=679, trained around 100 epochs. We test again the performance. As you seen, the accuracy is imporved with SS1 and SS2 and SS6_B folder surprisingly up to 64.34%, 82.64% and 96.91%.
+After further finetuning, basically using best weight trained so far + new subset of Non-cerebriform, and set mini batch=679, trained around 100 epochs. We test the performance again. As shown, the accuracy is improved with SS1 and SS2 and SS6_B folder surprisingly up to 64.34%, 82.64%, and 96.91%.
 
 <center>
     <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Non-ceribriform.jpg">
 </center>
 
 
-This is the comparison between cellNet and  ResNet18 on  Non-ceribriform dataset, with/without finetuning. As it illustrated,our net has comparable Acc. even some higher on some folder.
+This is the comparison between Cellnet and  ResNet18 on the Non-cerebriform dataset, with/without finetuning. As illustrated, our net has comparable Acc. even some higher on some folder.
 
 <center>
     <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/trainsfer%20learning%20on%20Non-ceribriform/acccomparison.jpg">
 </center>
 
 
-### Ceribriform dataset
-Prediction with our CellNet best weight trained so far on ceribriform dataset, As shown in the figure, the TP and TN achived comparable accuracy(in %) with resnet18.
+### cerebriform dataset
+Prediction with our CellNet best weight trained so far on the cerebriform dataset, As shown in the figure, the TP and TN achieved comparable accuracy(in %) with resnet18.
 
 <center>
     <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Ceribriform.jpg">
