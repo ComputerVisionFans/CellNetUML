@@ -28,7 +28,7 @@ CIFAR-10  dataset  consists of 60,000 32 × 32 color images in 10 classes, with 
 
 <p align="center">
   
-  <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Cifar-12-06-2020.png" width="800" alt="Comparison  of  state-of-art  methods  on  CIFAR10  Dataset">
+  <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Cifar-12-06-2020.png" width="500" alt="Comparison  of  state-of-art  methods  on  CIFAR10  Dataset">
   
 </p>
 
