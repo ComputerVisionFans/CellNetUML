@@ -101,15 +101,13 @@ In order to help the medical scientists, we made this COVID-19 CT dataset. Based
 - Performance are tested without Cellyolo preprocessing.
 - This is I Chart of ournet, resnet 18, shufflenet without Cellyolo- Summary Report
 
-<center>
-    <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/ournetoncovid%20-%20Copy.png">
-</center>
-
-Our net belongs to the top list basedon the Val accuracy. Consider the fact of the higher complexity and parameters amount of other SOTA Net, our net is very competitive on classification task.
-
 <p align="center">
   <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/COVID-19_TimeSeries-1.png" width="700" alt=" COVID-19  Dataset">
 </p>
+
+Our net belongs to the top list basedon the Val accuracy. Consider the fact of the higher complexity and parameters amount of other SOTA Net, our net is very competitive on classification task.
+
+
 
 
 ### Evaluate Cellyolo performance on [Sezary Syndrome Dataset](https://github.com/Johnny-liqiang/CellNetUML/tree/master/HDSS) with Saliency Map
