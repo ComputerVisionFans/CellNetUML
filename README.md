@@ -45,7 +45,10 @@ On  benchmark  pneumonia  dataset,  the  Pneumonia/Normal classification val acc
 | <sub>[OurNet](https://github.com/Johnny-liqiang/CellNetUML)</sub> | <sub>2.91</sub> | <sub>91.78</sub> | <sub>41.7</sub> |
  
 
-![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/Time%20Series%20Plot%20of%20ghost%20net%20on%2C%20resnet18%20on%20%2C%20our%20net%20on%20pneumonia%20dataset%20without%20cellyolo.png)
+<p align="center">
+  <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Pneumonia_TimeSeries-1.png" width="700" alt="Comparison  of  state-of-the-art  methods  for  training  onPneumonia Dataset">
+</p>
+
 
 ### Evaluate performance on [Sezary Syndrome Dataset](https://github.com/Johnny-liqiang/CellNetUML/tree/master/HDSS)
 
