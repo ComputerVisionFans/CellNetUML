@@ -215,9 +215,9 @@ Now our software upload on nash cloud as well, and support pretrained_weight fur
 
 
 ## How to train with your data
-You want to have it try by your own dataset with our cellnet. No problem! These are all the [commands](https://www.chuangxin.com/index.php/home/aboutus/news_detail/id/412.html)
+You want to have it try by your own dataset with our cellnet. No problem! These are all the [commands](https://github.com/Johnny-liqiang/CellNetUML/blob/master/The%20%20commond%20so%20far%20to%20runing%20the%20project.docx)
 
-## Take a look at our CellNet software framwork and Our CellNet won Top AI Camp [Deecamp2020](https://github.com/Johnny-liqiang/CellNetUML/blob/master/The%20%20commond%20so%20far%20to%20runing%20the%20project.docx) Medical Track 2nd place
+## Take a look at our CellNet software framwork and Our CellNet won Top AI Camp [Deecamp2020](https://www.chuangxin.com/index.php/home/aboutus/news_detail/id/412.html) Medical Track 2nd place
 With the help of the power of Qt and the high efficiency of Python, using PyQt/PySide for desktop development will be a wonderful plus for demonstrating our excellent software. The current Qt/PyQt/PySide based GUI development common development methods are list follow:  QWidget + QSS, QtWebkit+ HTML + CSS + js and Qt Quick.  All these three technologies can efficiently and quickly  develop  the  crossplatform  desktop  software.   Qt’s  formal  development  method  is  Qt  Quick,  which  uses  the  JSON  like  language  qml  for  rapid development.  It is easy to learn, expansible, and wildly used in Ubuntu, LinuxDeepin, and other Linux desktop application development.  It enables the developer for a rapid development framework and putting more effort into amplifying the  corresponding  business  logic  and  easy  to  build  the  framework  prototypes quickly.  
 
 <center>
