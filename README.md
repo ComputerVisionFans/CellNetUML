@@ -29,7 +29,7 @@ CIFAR-10  dataset  consists of 60,000 32 × 32 color images in 10 classes, with 
 
 <p align="center">
   
-  <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Cifar-12-06-2020.png" width="400" alt="cifar10">
+  <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Cifar-12-06-2020.png" width="600" alt="cifar10">
   
 </p>
 
@@ -50,7 +50,7 @@ On  benchmark  pneumonia  dataset,  the  Pneumonia/Normal classification val acc
 
 <p align="center">
   
-  <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Pneumonia_TimeSeries-1.png" width="400" alt="Pneumonia Dataset">
+  <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Pneumonia_TimeSeries-1.png" width="600" alt="Pneumonia Dataset">
   
 </p>
 
@@ -80,7 +80,7 @@ ResNet18  [17]  and  shuffleNetv2  [25]  were  verified  so  farthe most represe
 
 <p align="center">
   
-  <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Sesary_TimeSeries-12-06-2020.png" width="400" alt="Sezary Syndrome-Dataset">
+  <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Sesary_TimeSeries-12-06-2020.png" width="600" alt="Sezary Syndrome-Dataset">
   
 </p>
 
@@ -112,12 +112,11 @@ In order to help the medical scientists, we made this COVID-19 CT dataset. Based
 
 Our net belongs to the top list basedon the Val accuracy. Consider the fact of the higher complexity and parameters amount of other SOTA Net, our net is very competitive on classification task.
 
-![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/ournetoncovid.png)
 
 
 <p align="center">
   
-  <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Sesary_TimeSeries-12-06-2020.png" width="400" alt="Sezary Syndrome-Dataset">
+  <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/COVID-19_TimeSeries-1.png" width="400" alt=" COVID-19  Dataset">
   
 </p>
 
