@@ -191,13 +191,11 @@ Prediction with our CellNet best weight trained so far on Non-ceribriform datase
 
 #### CellNet after finetuning
 After further finetuning, basically using bestweight trained so far + new subset of Non-ceribriform, and set mini batch=679, trained around 100 epochs. We test again the performance. As you seen, the accuracy is imporved with SS1 and SS2 and SS6_B folder surprisingly up to 64.34%, 82.64% and 96.91%.
-<center>
-    <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/trainsfer%20learning%20on%20Non-ceribriform/after%20%20finetuning/afterfinetuning.JPG">
-</center>
 
 <center>
-    <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/trainsfer%20learning%20on%20Non-ceribriform/after%20%20finetuning/cellnetafterfinetuningnonceri.png">
+    <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Non-ceribriform.jpg">
 </center>
+
 
 This is the comparison between cellNet and  ResNet18 on  Non-ceribriform dataset, with/without finetuning. As it illustrated,our net has comparable Acc. even some higher on some folder.
 
@@ -208,16 +206,12 @@ This is the comparison between cellNet and  ResNet18 on  Non-ceribriform dataset
 
 ### Ceribriform dataset
 Prediction with our CellNet best weight trained so far on ceribriform dataset, As shown in the figure, the TP and TN achived comparable accuracy(in %) with resnet18.
-<center>
-    <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/trainsfer%20learning%20on%20Non-ceribriform/after%20%20finetuning/cellnetafterfinetuningceri.jpg">
-</center>
 
 <center>
-    <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/trainsfer%20learning%20on%20Non-ceribriform/res18beforefinetuningceri.jpg">
+    <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Ceribriform.jpg">
 </center>
-<center>
-    <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/trainsfer%20learning%20on%20Non-ceribriform/after%20%20finetuning/res18afterfinetuningceri.png">
-</center>
+
+
 
 Now our software upload on nash cloud as well, and support pretrained_weight further training, and all the prediction lsg files you can check here: [lsg file for you to check](https://github.com/Johnny-liqiang/CellNetUML/tree/master/trainsfer%20learning%20on%20Non-ceribriform)
 
