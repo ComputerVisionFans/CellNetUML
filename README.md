@@ -112,7 +112,7 @@ Comparison   of   state-of-art   methods   for   training   on   COVID-19Dataset
 
 ### Evaluate Cellyolo performance on [Sezary Syndrome Dataset](https://github.com/Johnny-liqiang/CellNetUML/tree/master/HDSS) with Saliency Map
 
-In order to better visualizetheperformance of the cellyolo and demonstrate the necnecessity of cellyolo, we wrote saliency script to generated attention map. ResNet18 puts more attention on outside of ROI, while VGG and our Net more focus on ROI. Cellyolo playing a important role in eliminating the artifacts, enforcing the models more focus on the cell itself.
+To better visualize the performance of the cellyolo and demonstrate the necessity of cellyolo, we wrote a saliency script to generate an attention map. ResNet18 puts more attention on the outside of ROI, while VGG and our Net focus more on ROI. Cellyolo is playing a vital role in eliminating the artifacts, enforcing the models more focus on the cell itself.
 
 **Note:** 
 - For more attention maps see [saliencymap folder](https://github.com/Johnny-liqiang/CellNetUML/tree/master/saliencymap).
