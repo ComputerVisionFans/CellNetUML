@@ -196,12 +196,8 @@ After further finetuning, basically using best weight trained so far + new subse
     <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Non-ceribriform.jpg">
 </center>
 
-
 This is the comparison between Cellnet and  ResNet18 on the Non-cerebriform dataset, with/without finetuning. As illustrated, our net has comparable Acc. even some higher on some folder.
 
-<center>
-    <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/trainsfer%20learning%20on%20Non-ceribriform/acccomparison.jpg">
-</center>
 
 
 ### cerebriform dataset
@@ -212,7 +208,6 @@ Prediction with our CellNet best weight trained so far on the cerebriform datase
 </center>
 
 
-
 Now our software upload on nash cloud as well, and support pretrained_weight further training, and all the prediction lsg files you can check here: [lsg file for you to check](https://github.com/Johnny-liqiang/CellNetUML/tree/master/trainsfer%20learning%20on%20Non-ceribriform)
 
 ### [Table results of  Ceribriform dataset /Ceribriform dataset ](https://github.com/Johnny-liqiang/CellNetUML/blob/master/master%20thesis%20related%20graph%20data%20%20%20(updated%20until%2005072020).xlsx)
@@ -221,6 +216,20 @@ Now our software upload on nash cloud as well, and support pretrained_weight fur
 
 ## How to train with your data
 You want to have it try by your own dataset with our cellnet. No problem! These are all the [commands](https://github.com/Johnny-liqiang/CellNetUML/blob/master/The%20%20commond%20so%20far%20to%20runing%20the%20project.docx)
+
+## Take a look at our CellNet software framwork and outlook
+With the help of the power of Qt and the high development efficiency of Python,using PyQt/PySide for desktop development will be a wonderful plus for demon-strating our excellent software. The current Qt/PyQt/PySide based GUI develop-ment common development methods are list follow:  QWidget + QSS, QtWebkit+ HTML + CSS + js and Qt Quick.  All these three technologies can efficiently,and  quickly  develop  the  cross-platform  desktop  software.   Qt’s  formal  develop-ment  method  is  Qt  Quick,  which  uses  the  JSON  like  language  qml  for  rapiddevelopment.  It is easy to learn, expansible, and wildly used in Ubuntu, LinuxDeepin, and other Linux desktop application development.  It enables the devel-oper for a rapid development framework and putting more effort into amplifyingthe  corresponding  business  logic  and  easy  to  build  the  framework  Prototypesquickly.  Therefore, we have developed software based on PyQt5 QFramer
+
+<center>
+    <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/2020DeeCamp_ppt_tcy%20(1).pdf">
+</center>
+
+The Proposed software structure diagram. To better demonstrate our model’s diagnostic performance, we selected the classic medical bench-mark datasets from competitions on Kaggle, such as the melanoma dataset, the diabetic retinopathy dataset, the actinic keratosis, vascular lesion dataset dermatofibroma dataset, squamous cell carcinoma dataset. Meanwhile, we selected nearly 11representative classification networks, enable users to choose the di-agnostic network that fits their customer dataset. Besides, we inherit the computer vision classification network and the classic classification network of NLP. We develop desktop applications and open APIs to facilitate a better user experience, and ETH Leonhard and Megengine jointly provide our computing power.
+
+<center>
+    <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Ceribriform.jpg">
+</center>
+
 
 ## License
 All copy right licensed by QiangLi
