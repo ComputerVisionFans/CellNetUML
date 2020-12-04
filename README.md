@@ -105,7 +105,7 @@ In order to help the medical scientists, we made this COVID-19 CT dataset. Based
   <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/COVID-19_TimeSeries-1.png" width="700" alt=" COVID-19  Dataset">
 </p>
 
-Our net belongs to the top list basedon the Val accuracy. Consider the fact of the higher complexity and parameters amount of other SOTA Net, our net is very competitive on classification task.
+Comparison   of   state-of-art   methods   for   training   on   COVID-19Dataset.   The  weights  of  our  models  is  2.91  million,  comparing  toDenseNet121 7.98 millions of weights,  MobileNet V2 3.4 millions ofweights and 301 millions of FLOPs.  Considering the fact of the highercomplexity  and  parameter  amount  of  other  SOTA  Nets,  our  Net  isvery competitive on classification tasks for the biomedical dataset.
 
 
 
