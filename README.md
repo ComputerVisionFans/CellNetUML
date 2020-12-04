@@ -28,7 +28,7 @@ CIFAR-10  dataset  consists of 60,000 32 × 32 color images in 10 classes, with 
 
 <p align="center">
   
-  <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Cifar-12-06-2020.png" width="500" alt="Comparison  of  state-of-art  methods  on  CIFAR10  Dataset">
+  <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Cifar-12-06-2020.png" width="700" alt="Comparison  of  state-of-art  methods  on  CIFAR10  Dataset">
   
 </p>
 
@@ -76,6 +76,13 @@ ResNet18  [17]  and  shuffleNetv2  [25]  were  verified  so  farthe most represe
 
 ![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/Time%20Series%20Plot%20of%20Shufflenet%20V%2C%20ResNet18%20Val%2C%20GhostNet18%20V%2C%20on%20Sezary%20with%20cellyolo.png)
 
+
+<p align="center">
+  <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Sesary_TimeSeries-12-06-2020.png" width="700" alt="Sezary Syndrome-Dataset.">
+</p>
+
+
+
 ### Evaluate performance on [COVID-19 Dataset](https://github.com/Johnny-liqiang/CellNetUML/tree/master/COVID19)
 
 In order to help the medical scientists, we made this COVID-19 CT dataset. Based on initial [COVID-19  Image  Data  Collection](https://arxiv.org/abs/2003.11597),  which  contains  only  123  frontal  view  X-rays.  We  additionally  collected  data  from  newest  publications  on  European  Journal  ofRadiology,  and  collected  nearly  1583  healthy  Lung  CT/xray images  as  comparative  data  from  recently  available  resources and publications.
@@ -102,7 +109,9 @@ In order to help the medical scientists, we made this COVID-19 CT dataset. Based
 
 Our net belongs to the top list basedon the Val accuracy. Consider the fact of the higher complexity and parameters amount of other SOTA Net, our net is very competitive on classification task.
 
-![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/ournetoncovid.png)
+<p align="center">
+  <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/COVID-19_TimeSeries-1.png" width="700" alt=" COVID-19  Dataset">
+</p>
 
 
 ### Evaluate Cellyolo performance on [Sezary Syndrome Dataset](https://github.com/Johnny-liqiang/CellNetUML/tree/master/HDSS) with Saliency Map
