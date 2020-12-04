@@ -26,9 +26,12 @@ CIFAR-10  dataset  consists of 60,000 32 × 32 color images in 10 classes, with 
 - Speed are tested on a ETH Zurich Leonhard Cluster. 
 - You will see Cellyolo and ghostresNet in several places, please donot be frustrated, Cellyolo = AttentionNet in the paper, and ghostresNet = CellNet in the paper, just nickname:)!. 
 
-<center>
-    <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Cifar-12-06-2020.png">
-</center>
+<p align="center">
+  
+  <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Cifar-12-06-2020.png" width="800" alt="Comparison  of  state-of-art  methods  on  CIFAR10  Dataset">
+  
+</p>
+
 
 ### Evaluate performance on [Pneumonia Dataset](https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5?code=cell-site)
 
