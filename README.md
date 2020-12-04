@@ -74,9 +74,6 @@ ResNet18  [17]  and  shuffleNetv2  [25]  were  verified  so  farthe most represe
 
 - This is Time Series Plot of Shufflenet V, ResNet18 Val, GhostNet18 V, on Sezary syndrome with cellyolo
 
-![描述](https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/plot/Time%20Series%20Plot%20of%20Shufflenet%20V%2C%20ResNet18%20Val%2C%20GhostNet18%20V%2C%20on%20Sezary%20with%20cellyolo.png)
-
-
 <p align="center">
   <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Sesary_TimeSeries-12-06-2020.png" width="700" alt="Sezary Syndrome-Dataset.">
 </p>
@@ -103,6 +100,7 @@ In order to help the medical scientists, we made this COVID-19 CT dataset. Based
 - Speed are tested on a ETH Zurich Leonhard Cluster. 
 - Performance are tested without Cellyolo preprocessing.
 - This is I Chart of ournet, resnet 18, shufflenet without Cellyolo- Summary Report
+
 <center>
     <img src="https://github.com/Johnny-liqiang/CellNetUML/blob/master/paperimage/ournetoncovid%20-%20Copy.png">
 </center>
