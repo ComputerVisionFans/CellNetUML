@@ -221,21 +221,21 @@ You want to have it try by your own dataset with our cellnet. No problem! These 
 With the help of the power of Qt and the high efficiency of Python, using PyQt/PySide for desktop development will be a wonderful plus for demonstrating our excellent software. The current Qt/PyQt/PySide based GUI development common development methods are list follow:  QWidget + QSS, QtWebkit+ HTML + CSS + js and Qt Quick.  All these three technologies can efficiently and quickly  develop  the  crossplatform  desktop  software.   Qt’s  formal  development  method  is  Qt  Quick,  which  uses  the  JSON  like  language  qml  for  rapid development.  It is easy to learn, expansible, and wildly used in Ubuntu, LinuxDeepin, and other Linux desktop application development.  It enables the developer for a rapid development framework and putting more effort into amplifying the  corresponding  business  logic  and  easy  to  build  the  framework  prototypes quickly.  
 
 <center>
-    <img src="">
+    <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Capture.PNG">
 </center>
 
 The Proposed software structure diagram. To better demonstrate our model’s diagnostic performance, we selected the classic medical bench-mark datasets from competitions on Kaggle, such as the melanoma dataset, the diabetic retinopathy dataset, the actinic keratosis, vascular lesion dataset dermatofibroma dataset, squamous cell carcinoma dataset. Meanwhile, we selected nearly 11 representative classification networks, enable users to choose the di-agnostic network that fits their customer dataset. Besides, we inherit the computer vision classification network and the classic classification network of NLP. We develop desktop applications and open APIs to facilitate a better user experience, and ETH Leonhard and Megengine jointly provide our computing power.
 
 <center>
-    <img src="">
+    <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Pages%20from%20Qiang%20Li%20Application%20certificate%20documents_1.jpg">
 </center>
 
 <center>
-    <img src="">
+    <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Pages%20from%20Qiang%20Li%20Application%20certificate%20documents_2.jpg">
 </center>
 
 <center>
-    <img src="">
+    <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Pages%20from%20Qiang%20Li%20Application%20certificate%20documents_3.jpg">
 </center>
 
 ## License
