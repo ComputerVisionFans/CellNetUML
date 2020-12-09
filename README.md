@@ -1,9 +1,9 @@
 # CellNet and CellNet Software
-This is the official implementation with *training* code for Cell Morphology Based Diagnosis of Cancer usingConvolutional Neural Networks: CellNet. For technical details, please refer to:
+This is the official implementation with *training* code for Thesis: Cell Morphology Based Diagnosis of Cancer usingConvolutional Neural Networks: CellNet. For technical details, please refer to:
 
 **Cell Morphology Based Diagnosis of Cancer usingConvolutional Neural Networks: CellNet** <br />
 [Qiang Li](https://www.linkedin.com/in/qiang-li-166362143/)\*, [Otesteanu Corin](https://biol.ethz.ch/en/the-department/people/person-detail.MTkyNzk5.TGlzdC80NjAsOTIzMDMxMjIy.html)\* [Manfred Claassen](https://imsb.ethz.ch/research/claassen/people/manfredclaassen.html)\*<br />
-**Paper In preparation for ICPR2020** <br />
+**Paper In preparation** <br />
 **[[Software Report](https://drive.google.com/file/d/1fznzulJ-K8Fj7SNC3g89RFZLNUl39vL0/view?usp=sharing)] [[CellNetSoftware Video](https://drive.google.com/file/d/1wCXke7iyolk2AkwOOM3Fu1uONrznqUEs/view?usp=sharing)] [[Research Grant Page](https://ethz.ch/en/studies/non-degree-courses/exchange-and-visiting-studies/programmes/exchange-programmes/idea-league.html)]** <br />
 
 ## Results
