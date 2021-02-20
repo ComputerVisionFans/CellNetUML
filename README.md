@@ -10,7 +10,7 @@ This is the official implementation with *training* code for Thesis: Cell Morpho
 These are the reproduction results from this repository. All the training/testing lsg log file on ETH Zurich leonhard cluster can be downloaded from our [lsf file](https://github.com/Johnny-liqiang/CellNetUML/tree/master/training%20log%20file%20for%20verification) and all original data for generating those data analyse graph can be downloaded from [all data file](https://github.com/Johnny-liqiang/CellNetUML/blob/master/master%20thesis%20related%20graph%20data%20%20%20(updated%20until%2025052020).xlsx)
 
 ### Evaluate performance on [CiFar10](https://www.cs.toronto.edu/~kriz/cifar.html)
-This is the Boxplot of resnet18, Ournet, ghostnet on cifar without Cellyolo. Due to the fact that every image from this dataset is 32*32 pixel image, it's getting hard to train a well segmentor by cellyolo to filter out the other artifacts in the image. As it illustrated that, even without Cellyolo preprocessing, our net already achieved the best performance. 
+This is the Boxplot of resnet18, Ournet, ghostnet on cifar without AttentionNet. Due to the fact that every image from this dataset is 32*32 pixel image, it's getting hard to train a well segmentor by AttentionNet to filter out the other artifacts in the image. As it illustrated that, even without AttentionNet preprocessing, our net already achieved the best performance. 
 
 |<sub>Model</sub>|<sub>Weights(million)</sub>|<sub>Top-1 Val Acc.(%)</sub>|<sub>FLops(million)</sub>|   
 | :---: | :---: | :---: | :---: |
@@ -24,7 +24,7 @@ CIFAR-10  dataset  consists of 60,000 32 × 32 color images in 10 classes, with 
 
 **Note:** 
 - Speed are tested on a ETH Zurich Leonhard Cluster. 
-- You will see Cellyolo and ghostresNet in several places, please donot be frustrated, Cellyolo = AttentionNet in the paper, and ghostresNet = CellNet in the paper, just nickname:)!. 
+- You will see AttentionNet and ghostresNet in several places, please do not be frustrated in the paper, and ghostresNet = CellNet in the paper, just nickname:)!. 
 
 <p align="center">
   
