@@ -6,6 +6,12 @@ This is the official implementation with *training* code for Thesis: Cell Morpho
 **Paper In preparation** <br />
 **[[Software Report](https://drive.google.com/file/d/1fznzulJ-K8Fj7SNC3g89RFZLNUl39vL0/view?usp=sharing)] [[CellNetSoftware Video](https://drive.google.com/file/d/1wCXke7iyolk2AkwOOM3Fu1uONrznqUEs/view?usp=sharing)] [[Research Grant Page](https://ethz.ch/en/studies/non-degree-courses/exchange-and-visiting-studies/programmes/exchange-programmes/idea-league.html)]** <br />
 
+<p align="center">
+  
+  <img src="/images/cellnet.png" width="500" alt="Project work flow">
+  
+</p>
+
 ## Results
 These are the reproduction results from this repository. All the training/testing lsg log file on ETH Zurich leonhard cluster can be downloaded from our [lsf file](https://github.com/Johnny-liqiang/CellNetUML/tree/master/training%20log%20file%20for%20verification) and all original data for generating those data analyse graph can be downloaded from [all data file](https://github.com/Johnny-liqiang/CellNetUML/blob/master/master%20thesis%20related%20graph%20data%20%20%20(updated%20until%2025052020).xlsx)
 
