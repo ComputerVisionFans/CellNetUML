@@ -8,7 +8,7 @@ This is the official implementation with *training* code for Thesis: Cell Morpho
 
 <p align="center">
   
-  <img src="/images/cellnet.png" width="500" alt="Project work flow">
+  <img src="/paperimage/cellnet.png" width="500" alt="Project work flow">
   
 </p>
 
