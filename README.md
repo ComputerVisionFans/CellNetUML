@@ -12,6 +12,12 @@ This is the official implementation with *training* code for Thesis: Cell Morpho
   
 </p>
 
+<img src="paperimage/1.gif" width="50%"><img src="paperimage/2.gif" width="50%">
+<img src="paperimage/3.gif" width="50%"><img src="paperimage/4.gif" width="50%">
+<img src="paperimage/5.gif" width="50%"><img src="paperimage/6.gif" width="50%">
+<img src="paperimage/7.gif" width="50%"><img src="paperimage/8.gif" width="50%">
+
+
 ## Results
 These are the reproduction results from this repository. All the training/testing lsg log file on ETH Zurich leonhard cluster can be downloaded from our [lsf file](https://github.com/Johnny-liqiang/CellNetUML/tree/master/training%20log%20file%20for%20verification) and all original data for generating those data analyse graph can be downloaded from [all data file](https://github.com/Johnny-liqiang/CellNetUML/blob/master/master%20thesis%20related%20graph%20data%20%20%20(updated%20until%2025052020).xlsx)
 
