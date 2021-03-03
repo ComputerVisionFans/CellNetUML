@@ -12,8 +12,9 @@ This is the official implementation with *training* code for Thesis: Cell Morpho
   
 </p>
 
-<img src="paperimage/1.gif" width="25%"><img src="paperimage/2.gif" width="25%"><img src="paperimage/3.gif" width="25%"><img src="paperimage/4.gif" width="25%">
-<img src="paperimage/5.gif" width="25%"><img src="paperimage/6.gif" width="25%"><img src="paperimage/7.gif" width="25%"><img src="paperimage/8.gif" width="25%">
+<img src="paperimage/1.gif" width="50%"><img src="paperimage/2.gif" width="50%">
+<img src="paperimage/3.gif" width="33.3%"><img src="paperimage/4.gif" width="33.3%"><img src="paperimage/5.gif" width="33.3%">
+<img src="paperimage/6.gif" width="33.3%"><img src="paperimage/7.gif" width="33.3%"><img src="paperimage/8.gif" width="33.3%">
 
 
 ## Results
