@@ -9,7 +9,7 @@ This is the official implementation with *training* code for Thesis: Cell Morpho
 <p align="center">
   
   <img src="/paperimage/cellnet.png" width="1000" alt="Project work flow">
-  
+General Workflow of Proposed Project.  After Image Flow Cy-tometry (Morphological identification of tumor T-cells in the blood),those  generated  images  can  be  categorized  into  six  typical  classes:lighting artifacts, out of focus cell, debris, contaminated cell, outsideFOV cells and multiple cells concatenated together.  Using Attention-Net as an automatic detector and segment-or, we can filter out mostartifacts in the images and only keep the morphological characteris-tics of the cell for CellNet classification. 
 </p>
 
 <img src="paperimage/1.gif" width="50%"><img src="paperimage/2.gif" width="50%">
