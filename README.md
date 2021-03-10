@@ -9,10 +9,9 @@ This is the official implementation with *training* code for Thesis: Cell Morpho
 <p align="center">  
   <img src="/paperimage/cellnet.png" width="1000" alt="Project work flow"> 
 </p>
-General Workflow of Proposed Project.  After Image Flow Cy-tometry (Morphological identification of tumor T-cells in the blood),those  generated  images  can  be  categorized  into  six  typical  classes:lighting artifacts, out of focus cell, debris, contaminated cell, outsideFOV cells and multiple cells concatenated together.  Using Attention-Net as an automatic detector and segment-or, we can filter out mostartifacts in the images and only keep the morphological characteris-tics of the cell for CellNet classification.
+General Workflow of Proposed Project.  After Image Flow Cytometry (Morphological identification of tumor T-cells in the blood), those generated images can  be  categorized  into  six  typical  classes: lighting artifacts, out of focus cell, debris, contaminated cell, outside FOV cells and multiple cells concatenated together.  Using AttentionNet as an automatic detector and segment-or, we can filter out most artifacts in the images and only keep the morphological characteristics of the cell for CellNet classification.
 
 <img src="paperimage/1.gif" width="50%"><img src="paperimage/2.gif" width="50%">
-
 
 
 ## Results
@@ -20,7 +19,7 @@ These are the reproduction results from this repository. All the training/testin
 
 ### Evaluate AttentionNet performance on Sezary Syndrome Dataset
 
-Comparison in terms of detection/segmentation accuracy with Yolo-based methods in(Redmon & Farhadi, 2018) (He et al., 2019). Here we selected 850 representative images for training from the sezary syndrome dataset, consist of noise images and typical cell images (manually labeled HD cell image and SS cell image). In the evaluation stage, we utilized 723 images ( 308 HD cell images, 306 SS cell images, and 109 noises images). We tried to simulate the actual cell data distribution, as noise image less than cell image in the real sezary dataset. It is worth noting that by applying AttentionNet*, we mean adopting a bunch of algorithms mentioned above together, including GBCIOU segmentation, KMean++ Clustering in pro-processing, and 13 × 13, 26 × 26 output Yolo layers, compared to original Yolo widely used in only detection or object localization scenario without segmentation. TP means cell detected as cell, FP implicit stands for noise detected as cell, and TN refers to noise image correctly labeled. mAP here refers mean Average Precision.
+Comparison in terms of detection/segmentation accuracy with Yolo-based methods in (Redmon & Farhadi, 2018) (He et al., 2019). Here we selected 850 representative images for training from the sezary syndrome dataset, consist of noise images and typical cell images (manually labeled HD cell image and SS cell image). In the evaluation stage, we utilized 723 images ( 308 HD cell images, 306 SS cell images, and 109 noises images). We tried to simulate the actual cell data distribution, as noise image less than cell image in the real sezary dataset. It is worth noting that by applying AttentionNet*, we mean adopting a bunch of algorithms mentioned above together, including GBCIOU segmentation, KMean++ Clustering in pro-processing, and 13 × 13, 26 × 26 output Yolo layers, compared to original Yolo widely used in only detection or object localization scenario without segmentation. TP means cell detected as cell, FP implicit stands for noise detected as cell, and TN refers to noise image correctly labeled. mAP here refers mean Average Precision.
 
 |<sub>Model</sub>|<sub>TP (cell detected as cell)</sub>|<sub>FP (noise detected as cell)</sub>|<sub>TN (noise detected as noise)</sub>|<sub> No detection</sub>|<sub>mAP</sub>|     
 | :---: | :---: | :---: | :---: |:---: |:---: |
