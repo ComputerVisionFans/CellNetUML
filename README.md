@@ -6,20 +6,24 @@ This is the official implementation with *training* code for Thesis: Cell Morpho
 **Paper In preparation** <br />
 **[[Software Report](https://drive.google.com/file/d/1fznzulJ-K8Fj7SNC3g89RFZLNUl39vL0/view?usp=sharing)] [[CellNetSoftware Video](https://drive.google.com/file/d/1wCXke7iyolk2AkwOOM3Fu1uONrznqUEs/view?usp=sharing)] [[Research Grant Page](https://ethz.ch/en/studies/non-degree-courses/exchange-and-visiting-studies/programmes/exchange-programmes/idea-league.html)]** <br />
 
-<p align="center">
-  
-  <img src="/paperimage/cellnet.png" width="1000" alt="Project work flow">
-General Workflow of Proposed Project.  After Image Flow Cy-tometry (Morphological identification of tumor T-cells in the blood),those  generated  images  can  be  categorized  into  six  typical  classes:lighting artifacts, out of focus cell, debris, contaminated cell, outsideFOV cells and multiple cells concatenated together.  Using Attention-Net as an automatic detector and segment-or, we can filter out mostartifacts in the images and only keep the morphological characteris-tics of the cell for CellNet classification. 
+<p align="center">  
+  <img src="/paperimage/cellnet.png" width="1000" alt="Project work flow"> 
 </p>
+General Workflow of Proposed Project.  After Image Flow Cy-tometry (Morphological identification of tumor T-cells in the blood),those  generated  images  can  be  categorized  into  six  typical  classes:lighting artifacts, out of focus cell, debris, contaminated cell, outsideFOV cells and multiple cells concatenated together.  Using Attention-Net as an automatic detector and segment-or, we can filter out mostartifacts in the images and only keep the morphological characteris-tics of the cell for CellNet classification.
 
 <img src="paperimage/1.gif" width="50%"><img src="paperimage/2.gif" width="50%">
+
+
+
+
+
 
 
 
 ## Results
 These are the reproduction results from this repository. All the training/testing lsg log file on ETH Zurich leonhard cluster can be downloaded from our [lsf file](https://github.com/Johnny-liqiang/CellNetUML/tree/master/training%20log%20file%20for%20verification) and all original data for generating those data analyse graph can be downloaded from [all data file](https://github.com/Johnny-liqiang/CellNetUML/blob/master/master%20thesis%20related%20graph%20data%20%20%20(updated%20until%2025052020).xlsx)
 
-### Evaluate performance on [CiFar10](https://www.cs.toronto.edu/~kriz/cifar.html)
+### Evaluate CellNet performance on [CiFar10](https://www.cs.toronto.edu/~kriz/cifar.html)
 This is the Boxplot of resnet18, Ournet, ghostnet on cifar without AttentionNet. Due to the fact that every image from this dataset is 32*32 pixel image, it's getting hard to train a well segmentor by AttentionNet to filter out the other artifacts in the image. As it illustrated that, even without AttentionNet preprocessing, our net already achieved the best performance. 
 
 |<sub>Model</sub>|<sub>Weights(million)</sub>|<sub>Top-1 Val Acc.(%)</sub>|<sub>FLops(million)</sub>|   
@@ -43,9 +47,9 @@ CIFAR-10  dataset  consists of 60,000 32 × 32 color images in 10 classes, with 
 </p>
 
 
-### Evaluate performance on [Pneumonia Dataset](https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5?code=cell-site)
+### Evaluate CellNet performance on [Pneumonia Dataset](https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5?code=cell-site)
 
-On  benchmark  pneumonia  dataset,  the  Pneumonia/Normal classification val accuracy of our Net converges into nearly 91.785% better than Ghost Net and ResNet18, In addition, after around 80 epochs the accuracy of our Net converged, comparing to  [Inception  V3](https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5?code=cell-site)  after 7000 epochs reaches 88.0%.
+On  benchmark  pneumonia  dataset,  the Pneumonia/Normal classification val accuracy of our Net converges into nearly 91.785% better than Ghost Net and ResNet18, In addition, after around 80 epochs the accuracy of our Net converged, comparing to  [Inception  V3](https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5?code=cell-site)  after 7000 epochs reaches 88.0%.
 
 |<sub>Model</sub>|<sub>Weights(million)</sub>|<sub>Top-1 Val Acc.(%)</sub>|<sub>FLops(million)</sub>|   
 | :---: | :---: | :---: | :---: |
@@ -60,7 +64,7 @@ On  benchmark  pneumonia  dataset,  the  Pneumonia/Normal classification val acc
 </p>
 
 
-### Evaluate performance on [Sezary Syndrome Dataset](https://github.com/Johnny-liqiang/CellNetUML/tree/master/HDSS)
+### Evaluate CellNet performance on [Sezary Syndrome Dataset](https://github.com/Johnny-liqiang/CellNetUML/tree/master/HDSS)
 
 ResNet18  [17]  and  ShuffleNetv2  [25]  were  verified  so  far the most representative best performance on Sezary Syndrome Dataset. But Our* Net can achieve higher classification perfor-mance  (e.g.  95.638%  top-1  accuracy  )  than  ResNet  18  [17], ShuffleNet V2 [25] and GhostNet [16], while less weights and computational cost.
 
@@ -90,7 +94,7 @@ ResNet18  [17]  and  ShuffleNetv2  [25]  were  verified  so  far the most repres
 
 
 
-### Evaluate performance on [COVID-19 Dataset](https://github.com/Johnny-liqiang/CellNetUML/tree/master/COVID19)
+### Evaluate CellNet performance on [COVID-19 Dataset](https://github.com/Johnny-liqiang/CellNetUML/tree/master/COVID19)
 
 In order to help the medical scientists, we made this COVID-19 CT dataset. Based on the initial [COVID-19  Image  Data  Collection](https://arxiv.org/abs/2003.11597), which contains only 123 frontal view X-rays. We also collected data from the newest publications on the European Journal of Radiology and collected nearly 1583 healthy Lung CT/Xray images as comparative data from recently available resources and publications.
 
@@ -116,7 +120,6 @@ In order to help the medical scientists, we made this COVID-19 CT dataset. Based
 </p>
 
 Comparison of  state-of-art methods for training on   COVID-19 Dataset.   Our models' weights are 2.91  million,  comparing  toDenseNet121 7.98 million of weights,  MobileNet V2 3.4 million of weights, and 301 million of FLOPs; considering the higher complexity and parameter amount of other  SOTA  Nets,  our  Net is very competitive on classification tasks for the biomedical dataset.
-
 
 
 
