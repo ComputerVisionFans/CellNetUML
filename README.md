@@ -1,4 +1,4 @@
-# CellNet and CellNet Software
+# AttentionNet and CellNet Software
 This is the official implementation with *training* code for Thesis: Cell Morphology Based Diagnosis of Cancer using Convolutional Neural Networks: CellNet. For technical details, please refer to:
 
 **Cell Morphology Based Diagnosis of Cancer using Convolutional Neural Networks: CellNet** <br />
@@ -15,13 +15,20 @@ General Workflow of Proposed Project.  After Image Flow Cy-tometry (Morphologica
 
 
 
-
-
-
-
-
 ## Results
 These are the reproduction results from this repository. All the training/testing lsg log file on ETH Zurich leonhard cluster can be downloaded from our [lsf file](https://github.com/Johnny-liqiang/CellNetUML/tree/master/training%20log%20file%20for%20verification) and all original data for generating those data analyse graph can be downloaded from [all data file](https://github.com/Johnny-liqiang/CellNetUML/blob/master/master%20thesis%20related%20graph%20data%20%20%20(updated%20until%2025052020).xlsx)
+
+### Evaluate AttentionNet performance on Sezary Syndrome Dataset
+
+Comparison in terms of detection/segmentation accuracy with Yolo-based methods in(Redmon & Farhadi, 2018) (He et al., 2019). Here we selected 850 representative images for training from the sezary syndrome dataset, consist of noise images and typical cell images (manually labeled HD cell image and SS cell image). In the evaluation stage, we utilized 723 images ( 308 HD cell images, 306 SS cell images, and 109 noises images). We tried to simulate the actual cell data distribution, as noise image less than cell image in the real sezary dataset. It is worth noting that by applying AttentionNet*, we mean adopting a bunch of algorithms mentioned above together, including GBCIOU segmentation, KMean++ Clustering in pro-processing, and 13 × 13, 26 × 26 output Yolo layers, compared to original Yolo widely used in only detection or object localization scenario without segmentation. TP means cell detected as cell, FP implicit stands for noise detected as cell, and TN refers to noise image correctly labeled. mAP here refers mean Average Precision.
+
+|<sub>Model</sub>|<sub>TP(cell detected as cell)</sub>|<sub>FP(noise detected as cell)</sub>|<sub>TN(cell detected as cell)</sub>|<sub> No detection</sub>|<sub>mAP</sub>|     
+| :---: | :---: | :---: | :---: |:---: |:---: |
+| <sub>[YOLOV3-tiny](https://arxiv.org/abs/1804.02767)</sub> | <sub>63.19%</sub> | <sub>0.91%</sub> | <sub>87.16%</sub>| <sub>33.05%</sub>|<sub>0.55</sub>|       
+| <sub>[AttentionNet* Solution]</sub> | <sub>96.25%</sub> | <sub>11%</sub> | <sub>80.73%</sub> |<sub>1.93%</sub> |<sub>0.88</sub> | 
+| <sub>[TF-Yolo with Kmean++ Clustering](https://www.mdpi.com/2076-3417/9/16/3225)</sub> | <sub>91.20%</sub> | <sub>9.17%</sub> | <sub>66.05%</sub> | <sub>11.20%</sub> | <sub>0.73</sub> | 
+
+
 
 ### Evaluate CellNet performance on [CiFar10](https://www.cs.toronto.edu/~kriz/cifar.html)
 This is the Boxplot of resnet18, Ournet, ghostnet on cifar without AttentionNet. Due to the fact that every image from this dataset is 32*32 pixel image, it's getting hard to train a well segmentor by AttentionNet to filter out the other artifacts in the image. As it illustrated that, even without AttentionNet preprocessing, our net already achieved the best performance. 
