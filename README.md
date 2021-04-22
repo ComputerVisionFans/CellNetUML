@@ -254,4 +254,9 @@ The Proposed software structure diagram. To better demonstrate our model’s dia
 
 ## License
 All Software copy right licensed by QiangLi
-
+@inproceedings{Qiang21ICLRW,
+ author = {Qiang Li and Lily Xu and Corin	Otesteanu},
+ title = {All you need is Cell Attention: A Cell Annotation Tool for Single-Cell Morphology Data},
+ booktitle = {AI4PH Workshop on ICLR},
+ year = {2021}
+}
