@@ -46,11 +46,19 @@ CIFAR-10  dataset  consists of 60,000 32 × 32 color images in 10 classes, with 
 - Speed are tested on a ETH Zurich Leonhard Cluster. 
 - You will see AttentionNet and ghostresNet in several places, please do not be frustrated in the paper, and ghostresNet = CellNet in the paper, just nickname:)!. 
 
+
+
+
+
+
+
+
 <p align="center">
   
   <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Cifar-12-06-2020.png" width="500" alt="Comparison  of  state-of-art  methods  on  CIFAR10  Dataset">
   
 </p>
+
 
 
 ### Evaluate CellNet performance on [Pneumonia Dataset](https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5?code=cell-site)
@@ -66,7 +74,9 @@ On  benchmark  pneumonia  dataset,  the Pneumonia/Normal classification val accu
  
 
 <p align="center">
-  <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Pneumonia_TimeSeries-1.png" width="500" alt="Comparison  of  state-of-the-art  methods  for  training  onPneumonia Dataset">
+  
+  <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Pneumonia_TimeSeries-1.png" width="400" alt="Pneumonia Dataset">
+  
 </p>
 
 
@@ -92,11 +102,16 @@ ResNet18  [17]  and  ShuffleNetv2  [25]  were  verified  so  far the most repres
 </center>
 
 
-- This is Time Series Plot of Shufflenet V, ResNet18 Val, GhostNet18 V, on Sezary syndrome with AttentionNet
+
+- This is Time Series Plot of Shufflenet V, ResNet18 Val, GhostNet18 V, on Sezary syndrome with AttentionNet Preprocessing
 
 <p align="center">
-  <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Sesary_TimeSeries-12-06-2020.png" width="500" alt="Sezary Syndrome-Dataset.">
+  
+  <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Sesary_TimeSeries-12-06-2020.png" width="400" alt="Sezary Syndrome-Dataset">
+  
 </p>
+
+
 
 
 
@@ -129,7 +144,19 @@ Comparison of  state-of-art methods for training on   COVID-19 Dataset.   Our mo
 
 
 
+
+<p align="center">
+  
+  <img src="https://github.com/Johnny-liqiang/thesis-template-master_rwth/blob/master/thesis-template-master/images/Sesary_TimeSeries-12-06-2020.png" width="400" alt="Sezary Syndrome-Dataset">
+  
+</p>
+
+
+
+
+
 ### Evaluate AttentionNet performance on [Sezary Syndrome Dataset](https://github.com/Johnny-liqiang/CellNetUML/tree/master/HDSS) with Saliency Map
+
 
 To better visualize the performance of the AttentionNet and demonstrate the necessity of AttentionNet, we wrote a saliency script to generate an attention map. ResNet18 puts more attention on the outside of ROI, while VGG and our Net focus more on ROI. AttentionNet is playing a vital role in eliminating the artifacts, enforcing the models more focus on the cell itself.
 
